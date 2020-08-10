@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on c4cs</title>
-    <link>https://blichtlealt.github.io/blog/zh-tw/tags/</link>
+    <link>https://blichtlealt.github.io/hugo/zh-tw/tags/</link>
     <description>Recent content in Tags on c4cs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
     
-	<atom:link href="https://blichtlealt.github.io/blog/zh-tw/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blichtlealt.github.io/hugo/zh-tw/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

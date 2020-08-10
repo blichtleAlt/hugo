@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on Hugo Future Imperfect Slim en français</title>
-    <link>https://blichtlealt.github.io/blog/fr/blog/</link>
+    <link>https://blichtlealt.github.io/hugo/fr/blog/</link>
     <description>Recent content in Blog on Hugo Future Imperfect Slim en français</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
     <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://blichtlealt.github.io/blog/fr/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blichtlealt.github.io/hugo/fr/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Guide de syntaxe de Markdown</title>
-      <link>https://blichtlealt.github.io/blog/fr/blog/markdown-syntax/</link>
+      <link>https://blichtlealt.github.io/hugo/fr/blog/markdown-syntax/</link>
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://blichtlealt.github.io/blog/fr/blog/markdown-syntax/</guid>
+      <guid>https://blichtlealt.github.io/hugo/fr/blog/markdown-syntax/</guid>
       <description>&lt;p&gt;Cet article propose un exemple de syntaxe de base de Markdown pouvant être utilisée dans les fichiers de contenu Hugo. Il indique également si les éléments HTML de base sont décorés avec CSS dans un thème Hugo.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Contenu riche</title>
-      <link>https://blichtlealt.github.io/blog/fr/blog/rich-content/</link>
+      <link>https://blichtlealt.github.io/hugo/fr/blog/rich-content/</link>
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://blichtlealt.github.io/blog/fr/blog/rich-content/</guid>
+      <guid>https://blichtlealt.github.io/hugo/fr/blog/rich-content/</guid>
       <description>&lt;p&gt;Hugo est livré avec plusieurs [Shortcodes intégrés] (&lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;&gt;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&lt;/a&gt;) pour un contenu riche, ainsi qu&amp;rsquo;une [Privacy Config] ( &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;https://gohugo.io/about/hugo-and-gdpr/&lt;/a&gt;) et un ensemble de codes courts simples qui permettent des versions statiques et sans JS de diverses intégrations de médias sociaux.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Emoji Support</title>
-      <link>https://blichtlealt.github.io/blog/fr/blog/emoji-support/</link>
+      <link>https://blichtlealt.github.io/hugo/fr/blog/emoji-support/</link>
       <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://blichtlealt.github.io/blog/fr/blog/emoji-support/</guid>
+      <guid>https://blichtlealt.github.io/hugo/fr/blog/emoji-support/</guid>
       <description>Emoji peut être activé dans un projet Hugo de plusieurs manières.
  La fonction [emojify] (https://gohugo.io/functions/emojify/) peut être appelée directement dans les modèles ou [Inline Shortcodes] (https://gohugo.io/templates/shortcode-templates/#inline- codes courts).
 Pour activer globalement emoji, définissez enableEmoji sur true dans la [configuration] de votre site (https://gohugo.io/getting-started/configuration/), puis vous pourrez taper des codes abrégés emoji directement dans les fichiers de contenu; par exemple.
