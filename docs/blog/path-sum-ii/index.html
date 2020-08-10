@@ -11,11 +11,11 @@
 Note: A leaf is a node with no children.">
 <meta itemprop="datePublished" content="2020-08-10T00:55:08-04:00" />
 <meta itemprop="dateModified" content="2020-08-10T00:55:08-04:00" />
-<meta itemprop="wordCount" content="28">
+<meta itemprop="wordCount" content="408">
 
 
 
-<meta itemprop="keywords" content="tree,resursion," />
+<meta itemprop="keywords" content="tree,recursion," />
 <meta property="og:title" content="113. Path Sum II" />
 <meta property="og:description" content="Given a binary tree and a sum, find all root-to-leaf paths where each path&rsquo;s sum equals the given sum.
 Note: A leaf is a node with no children." />
@@ -143,12 +143,12 @@ Note: A leaf is a node with no children."/>
 
     <div id="wrapper">
       <section id="site-intro" >
-  <a href="/"><img src="https://blichtlealt.github.io/hugo/img/main/logo.jpg" class="circle" width="500%" alt="Hugo Future Imperfect Slim" /></a>
+  <a href="/"><img src="https://blichtlealt.github.io/hugo/img/main/logo.jpg" class="circle" width="100%" alt="Logo" /></a>
   <header>
     <h1>Brendan's Blog</h1>
   </header>
   <main>
-    <p>Come for computer science and tech related blog posts.</p>
+    <p>Come for computer science and tech related blog posts. </p>
   </main>
   
     <footer>
@@ -215,7 +215,7 @@ Note: A leaf is a node with no children."/>
   <div class="meta">
     <time datetime="2020-08-10 00:55:08 -0400 EDT">August 10, 2020</time>
     <p>Brendan Lichtler </p>
-    <p>1-Minute Read</p>
+    <p>2-Minute Read</p>
   </div>
 </header>
 
@@ -229,20 +229,61 @@ Note: A leaf is a node with no children."/>
     </div>
     <div class="content">
       
-      <h2 id="heading"></h2>
-<p>Given a binary tree and a sum, find all root-to-leaf paths where each path&rsquo;s sum equals the given sum.</p>
+      <p>Given a binary tree and a sum, find all root-to-leaf paths where each path&rsquo;s sum equals the given sum.</p>
 <p>Note: A leaf is a node with no children.</p>
-
+<h3>Example:</h3>
+<p>Given the below binary tree and sum = 22,</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">      <span style="color:#ae81ff">5</span>
+     <span style="color:#f92672">/</span> \
+    <span style="color:#ae81ff">4</span>   <span style="color:#ae81ff">8</span>
+   <span style="color:#f92672">/</span>   <span style="color:#f92672">/</span> \
+  <span style="color:#ae81ff">11</span>  <span style="color:#ae81ff">13</span>  <span style="color:#ae81ff">4</span>
+ <span style="color:#f92672">/</span>  \    <span style="color:#f92672">/</span> \
+<span style="color:#ae81ff">7</span>    <span style="color:#ae81ff">2</span>  <span style="color:#ae81ff">5</span>   <span style="color:#ae81ff">1</span>
+</code></pre></div><p>Return:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">[
+   [<span style="color:#ae81ff">5</span>,<span style="color:#ae81ff">4</span>,<span style="color:#ae81ff">11</span>,<span style="color:#ae81ff">2</span>],
+   [<span style="color:#ae81ff">5</span>,<span style="color:#ae81ff">8</span>,<span style="color:#ae81ff">4</span>,<span style="color:#ae81ff">5</span>]
+]
+</code></pre></div><h3>Idea:</h3>
+<p>We can solve this using a recursive depth first search approach. The key idea is here, we want to keep a list
+of all the values that we have seen so far, and what the remaining sum is. So for any given node, if we find its a leaf and its value is equal to the remainingSum</p>
+<h3>Solution:</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-C++" data-lang="C++">    <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
+    <span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
+        vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&gt;</span> pathSum(TreeNode<span style="color:#f92672">*</span> root, <span style="color:#66d9ef">int</span> sum) {
+            vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> <span style="color:#f92672">&gt;</span> paths;
+            vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> path;
+            findPaths(root, sum, path, paths);
+            <span style="color:#66d9ef">return</span> paths;  
+        }
+    <span style="color:#66d9ef">private</span><span style="color:#f92672">:</span>
+        <span style="color:#66d9ef">void</span> findPaths(TreeNode<span style="color:#f92672">*</span> node, <span style="color:#66d9ef">int</span> sum, vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> path, vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> <span style="color:#f92672">&gt;&amp;</span> paths) {
+            <span style="color:#66d9ef">if</span> (<span style="color:#f92672">!</span>node) <span style="color:#66d9ef">return</span>;
+            path.push_back(node <span style="color:#f92672">-&gt;</span> val);
+            <span style="color:#66d9ef">if</span> (<span style="color:#f92672">!</span>(node <span style="color:#f92672">-&gt;</span> left) <span style="color:#f92672">&amp;&amp;</span> <span style="color:#f92672">!</span>(node <span style="color:#f92672">-&gt;</span> right) <span style="color:#f92672">&amp;&amp;</span> sum <span style="color:#f92672">==</span> node <span style="color:#f92672">-&gt;</span> val)
+                paths.push_back(path);
+            findPaths(node <span style="color:#f92672">-&gt;</span> left, sum <span style="color:#f92672">-</span> node <span style="color:#f92672">-&gt;</span> val, path, paths);
+            findPaths(node <span style="color:#f92672">-&gt;</span> right, sum <span style="color:#f92672">-</span> node <span style="color:#f92672">-&gt;</span> val, path, paths);
+            path.pop_back();
+        }
+    };
+</code></pre></div><h3>Complexity Analysis:</h3>
+<p>Time Complexity: O(N^2)O(N
+2
+) where NN are the number of nodes in a tree. In the worst case, we could have a complete binary tree and if that is the case, then there would be N/2N/2 leafs. For every leaf, we perform a potential O(N)O(N) operation of copying over the pathNodes nodes to a new list to be added to the final pathsList. Hence, the complexity in the worst case could be O(N^2)O(N
+2
+).</p>
+<p>Space Complexity: O(N)O(N). The space complexity, like many other problems is debatable here. I personally choose not to consider the space occupied by the output in the space complexity. So, all the new lists that we create for the paths are actually a part of the output and hence, don&rsquo;t count towards the final space complexity. The only additional space that we use is the pathNodes list to keep track of nodes along a branch.</p>
+<p>We could include the space occupied by the new lists (and hence the output) in the space complexity and in that case the space would be O(N^2)O(N
+2
+). There&rsquo;s a great answer on Stack Overflow about whether to consider input and output space in the space complexity or not. I prefer not to include them.</p>
     </div>
     <footer>
       <div class="stats">
   
     <ul class="categories">
-      
-        
-          <li><a class="article-terms-link" href="categories/data-structures/algorithms/">data-structures/algorithms</a></li>
-        
-      
+      <li>None</li>
     </ul>
   
   
@@ -251,7 +292,7 @@ Note: A leaf is a node with no children."/>
         
           <li><a class="article-terms-link" href="tags/tree/">tree</a></li>
         
-          <li><a class="article-terms-link" href="tags/resursion/">resursion</a></li>
+          <li><a class="article-terms-link" href="tags/recursion/">recursion</a></li>
         
       
     </ul>
@@ -388,9 +429,6 @@ Note: A leaf is a node with no children."/>
         </header>
         <ul>
           
-          
-          <li>
-              <a href="categories/data-structures/algorithms/">data-structures/algorithms<span class="count">2</span></a>
           
           <li>
               <a href="categories/syntax/">syntax<span class="count">1</span></a>

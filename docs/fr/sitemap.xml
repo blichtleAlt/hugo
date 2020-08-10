@@ -409,16 +409,6 @@
   
   <url>
     <loc>https://blichtlealt.github.io/hugo/fr/categories/data-structures/algorithms/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blichtlealt.github.io/hugo/categories/data-structures/algorithms/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://blichtlealt.github.io/hugo/fr/categories/data-structures/algorithms/"
-                />
   </url>
   
 </urlset>

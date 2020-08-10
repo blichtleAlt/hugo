@@ -51,7 +51,7 @@ publishDir = "docs"
 
   [params.intro]
     header                = "Brendan's Blog"
-    paragraph             = "Come for computer science and tech related blog posts."
+    paragraph             = "Come for computer science and tech related blog posts. "
     rssIntro              = true
     socialIntro           = true
     hideWhenSingleColumn  = false
@@ -60,8 +60,8 @@ publishDir = "docs"
     [params.intro.pic]
       src                 = "img/main/logo.jpg"
       shape               = "circle"
-      width               = "500%"
-      alt                 = "Hugo Future Imperfect Slim"
+      width               = "100%"
+      alt                 = "Logo"
 
   [params.sidebar]
     about               = "Blog designed for tech and computer science content."

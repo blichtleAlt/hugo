@@ -26,8 +26,8 @@
       <pubDate>Mon, 10 Aug 2020 00:55:08 -0400</pubDate>
       
       <guid>https://blichtlealt.github.io/hugo/blog/path-sum-ii/</guid>
-      <description>Given a binary tree and a sum, find all root-to-leaf paths where each path&amp;rsquo;s sum equals the given sum.
-Note: A leaf is a node with no children.</description>
+      <description>&lt;p&gt;Given a binary tree and a sum, find all root-to-leaf paths where each path&amp;rsquo;s sum equals the given sum.&lt;/p&gt;
+&lt;p&gt;Note: A leaf is a node with no children.&lt;/p&gt;</description>
     </item>
     
     <item>

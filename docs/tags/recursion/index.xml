@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>tree on c4cs</title>
-    <link>https://blichtlealt.github.io/hugo/tags/tree/</link>
-    <description>Recent content in tree on c4cs</description>
+    <title>recursion on c4cs</title>
+    <link>https://blichtlealt.github.io/hugo/tags/recursion/</link>
+    <description>Recent content in recursion on c4cs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Aug 2020 01:55:08 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2020 00:55:08 -0400</lastBuildDate>
     
-	<atom:link href="https://blichtlealt.github.io/hugo/tags/tree/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blichtlealt.github.io/hugo/tags/recursion/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>100. Same Tree</title>
-      <link>https://blichtlealt.github.io/hugo/blog/same-tree/</link>
-      <pubDate>Mon, 10 Aug 2020 01:55:08 -0400</pubDate>
-      
-      <guid>https://blichtlealt.github.io/hugo/blog/same-tree/</guid>
-      <description> </description>
-    </item>
     
     <item>
       <title>113. Path Sum II</title>
