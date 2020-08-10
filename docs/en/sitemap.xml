@@ -228,6 +228,16 @@
   </url>
   
   <url>
+    <loc>https://blichtlealt.github.io/hugo/tags/emoji/</loc>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blichtlealt.github.io/hugo/blog/emoji-support/</loc>
+    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blichtlealt.github.io/hugo/contact/</loc>
     <xhtml:link
                 rel="alternate"

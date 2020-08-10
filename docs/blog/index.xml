@@ -43,5 +43,14 @@ Example 1:
 &lt;p&gt;Note: A leaf is a node with no children.&lt;/p&gt;</description>
     </item>
     
+    <item>
+      <title>Emoji Support</title>
+      <link>https://blichtlealt.github.io/hugo/blog/emoji-support/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/blog/emoji-support/</guid>
+      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>

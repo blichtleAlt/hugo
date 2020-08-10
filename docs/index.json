@@ -2,7 +2,7 @@
     "title": "814. Binary Tree Pruning",
     "date": "",
     "description": "",
-    "body": "We are given the head node root of a binary tree, where additionally every node\u0026rsquo;s value is either a 0 or a 1.\nReturn the same tree where every subtree (of the given tree) not containing a 1 has been removed.\n(Recall that the subtree of a node X is X, plus every node that is a descendant of X.)\nExample 1:\n1 \\ 0 / \\ 0 1 Return:\n1 \\ 0 \\ 1 Exmaple 2:\n1 / \\ 0 1 / \\ / \\ 0 0 0 1 Return:\n``` python 1 \\ 1 \\ 1 ",
+    "body": "We are given the head node root of a binary tree, where additionally every node\u0026rsquo;s value is either a 0 or a 1.\nReturn the same tree where every subtree (of the given tree) not containing a 1 has been removed.\n(Recall that the subtree of a node X is X, plus every node that is a descendant of X.)\nExample 1:\n1 \\ 0 / \\ 0 1 Return:\n1 \\ 0 \\ 1 Exmaple 2:\n1 / \\ 0 1 / \\ / \\ 0 0 0 1 Return:\n1 \\ 1 \\ 1 ",
     "ref": "/hugo/blog/binary-tree-pruning/"
   },{
     "title": "100. Same Tree",
@@ -22,6 +22,12 @@
     "description": "",
     "body": "Todo\n",
     "ref": "/hugo/about/"
+  },{
+    "title": "Emoji Support",
+    "date": "",
+    "description": "Guide to emoji usage in Hugo",
+    "body": "Emoji can be enabled in a Hugo project in a number of ways.\nThe emojify function can be called directly in templates or Inline Shortcodes.\nTo enable emoji globally, set enableEmoji to true in your site’s configuration and then you can type emoji shorthand codes directly in content files; e.g.\n🙈 :see_no_evil: 🙉 :hear_no_evil: 🙊 :speak_no_evil:\nThe Emoji cheat sheet is a useful reference for emoji shorthand codes.\n N.B. The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.\n.emoji { font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,Android Emoji,EmojiSymbols; }",
+    "ref": "/hugo/blog/emoji-support/"
   },{
     "title": "Contact",
     "date": "",
