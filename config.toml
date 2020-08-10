@@ -31,7 +31,6 @@ publishDir = "docs"
   readingTime           = true
   imageStretch          = ""
   removeBlur            = false
-  socialShare           = ["linkedin", "pinterest", "email", "github"]
   hideEmptyStats        = false
 
   [params.meta]

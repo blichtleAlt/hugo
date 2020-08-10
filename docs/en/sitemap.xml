@@ -4,7 +4,7 @@
   
   <url>
     <loc>https://blichtlealt.github.io/hugo/blog/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-10T00:55:08-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -19,7 +19,7 @@
   
   <url>
     <loc>https://blichtlealt.github.io/hugo/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <lastmod>2020-08-10T00:55:08-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -70,6 +70,11 @@
                 hreflang="en"
                 href="https://blichtlealt.github.io/hugo/"
                 />
+  </url>
+  
+  <url>
+    <loc>https://blichtlealt.github.io/hugo/blog/path-sum-ii/</loc>
+    <lastmod>2020-08-10T00:55:08-04:00</lastmod>
   </url>
   
   <url>
