@@ -73,7 +73,82 @@
   </url>
   
   <url>
+    <loc>https://blichtlealt.github.io/hugo/tags/markdown/</loc>
+    <lastmod>2020-08-10T00:55:08-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://blichtlealt.github.io/hugo/fr/tags/markdown/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blichtlealt.github.io/hugo/tags/markdown/"
+                />
+  </url>
+  
+  <url>
     <loc>https://blichtlealt.github.io/hugo/blog/path-sum-ii/</loc>
+    <lastmod>2020-08-10T00:55:08-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blichtlealt.github.io/hugo/tags/</loc>
+    <lastmod>2020-08-10T00:55:08-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://blichtlealt.github.io/hugo/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://blichtlealt.github.io/hugo/pl/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://blichtlealt.github.io/hugo/pt/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://blichtlealt.github.io/hugo/de/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://blichtlealt.github.io/hugo/es/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://blichtlealt.github.io/hugo/zh-cn/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://blichtlealt.github.io/hugo/zh-tw/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://blichtlealt.github.io/hugo/ja/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="https://blichtlealt.github.io/hugo/nl/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blichtlealt.github.io/hugo/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://blichtlealt.github.io/hugo/tags/text/</loc>
     <lastmod>2020-08-10T00:55:08-04:00</lastmod>
   </url>
   
@@ -163,21 +238,6 @@
   </url>
   
   <url>
-    <loc>https://blichtlealt.github.io/hugo/tags/markdown/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://blichtlealt.github.io/hugo/fr/tags/markdown/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blichtlealt.github.io/hugo/tags/markdown/"
-                />
-  </url>
-  
-  <url>
     <loc>https://blichtlealt.github.io/hugo/blog/markdown-syntax/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -204,61 +264,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="https://blichtlealt.github.io/hugo/categories/syntax/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://blichtlealt.github.io/hugo/tags/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://blichtlealt.github.io/hugo/fr/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pl"
-                href="https://blichtlealt.github.io/hugo/pl/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://blichtlealt.github.io/hugo/pt/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://blichtlealt.github.io/hugo/de/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://blichtlealt.github.io/hugo/es/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://blichtlealt.github.io/hugo/zh-cn/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://blichtlealt.github.io/hugo/zh-tw/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://blichtlealt.github.io/hugo/ja/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="nl"
-                href="https://blichtlealt.github.io/hugo/nl/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blichtlealt.github.io/hugo/tags/"
                 />
   </url>
   
@@ -339,11 +344,6 @@
   
   <url>
     <loc>https://blichtlealt.github.io/hugo/blog/placeholder-text/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blichtlealt.github.io/hugo/tags/text/</loc>
     <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url>
   

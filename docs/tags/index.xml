@@ -6,10 +6,28 @@
     <description>Recent content in Tags on c4cs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2020 00:55:08 -0400</lastBuildDate>
     
 	<atom:link href="https://blichtlealt.github.io/hugo/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>markdown</title>
+      <link>https://blichtlealt.github.io/hugo/tags/markdown/</link>
+      <pubDate>Mon, 10 Aug 2020 00:55:08 -0400</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>text</title>
+      <link>https://blichtlealt.github.io/hugo/tags/text/</link>
+      <pubDate>Mon, 10 Aug 2020 00:55:08 -0400</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/tags/text/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>css</title>
@@ -26,15 +44,6 @@
       <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://blichtlealt.github.io/hugo/tags/html/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>markdown</title>
-      <link>https://blichtlealt.github.io/hugo/tags/markdown/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://blichtlealt.github.io/hugo/tags/markdown/</guid>
       <description></description>
     </item>
     
@@ -62,15 +71,6 @@
       <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://blichtlealt.github.io/hugo/tags/shortcodes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>text</title>
-      <link>https://blichtlealt.github.io/hugo/tags/text/</link>
-      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://blichtlealt.github.io/hugo/tags/text/</guid>
       <description></description>
     </item>
     
