@@ -122,6 +122,13 @@ publishDir = "docs"
     pre               = "<i class='far fa-envelope'></i>"
     weight            = 6
 
+  [[menu.main]]
+    name              = "Tags"
+    identifier        = "tags"
+    url               = "/tags/"
+    pre               = "<i class='fa fa-home'></i>"
+    weight            = 7
+
 [Languages]
 
   [Languages.en]
