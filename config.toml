@@ -10,6 +10,9 @@ googleAnalytics         = ""
 pluralizeListTitles     = false
 disableLanguages        = []
 
+publishDir = "docs"
+
+
 [markup.goldmark.renderer]
   unsafe                = true
 
