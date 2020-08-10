@@ -6,91 +6,9 @@
     <description>Recent content in Tags on Hugo Future Imperfect Slim en français</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr</language>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://blichtlealt.github.io/hugo/fr/tags/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>css</title>
-      <link>https://blichtlealt.github.io/hugo/fr/tags/css/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://blichtlealt.github.io/hugo/fr/tags/css/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>html</title>
-      <link>https://blichtlealt.github.io/hugo/fr/tags/html/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://blichtlealt.github.io/hugo/fr/tags/html/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>linked-list</title>
-      <link>https://blichtlealt.github.io/hugo/fr/tags/linked-list/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://blichtlealt.github.io/hugo/fr/tags/linked-list/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>markdown</title>
-      <link>https://blichtlealt.github.io/hugo/fr/tags/markdown/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://blichtlealt.github.io/hugo/fr/tags/markdown/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>themes</title>
-      <link>https://blichtlealt.github.io/hugo/fr/tags/themes/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://blichtlealt.github.io/hugo/fr/tags/themes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tree</title>
-      <link>https://blichtlealt.github.io/hugo/fr/tags/tree/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://blichtlealt.github.io/hugo/fr/tags/tree/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>privacy</title>
-      <link>https://blichtlealt.github.io/hugo/fr/tags/privacy/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://blichtlealt.github.io/hugo/fr/tags/privacy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>shortcodes</title>
-      <link>https://blichtlealt.github.io/hugo/fr/tags/shortcodes/</link>
-      <pubDate>Sun, 10 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://blichtlealt.github.io/hugo/fr/tags/shortcodes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>emoji</title>
-      <link>https://blichtlealt.github.io/hugo/fr/tags/emoji/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://blichtlealt.github.io/hugo/fr/tags/emoji/</guid>
-      <description></description>
-    </item>
     
   </channel>
 </rss>

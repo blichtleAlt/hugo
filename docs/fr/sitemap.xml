@@ -3,23 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://blichtlealt.github.io/hugo/fr/blog/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <loc>https://blichtlealt.github.io/hugo/fr/about/</loc>
+    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://blichtlealt.github.io/hugo/blog/"
+                href="https://blichtlealt.github.io/hugo/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://blichtlealt.github.io/hugo/pl/about/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://blichtlealt.github.io/hugo/pt/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="https://blichtlealt.github.io/hugo/fr/blog/"
+                href="https://blichtlealt.github.io/hugo/fr/about/"
                 />
   </url>
   
   <url>
     <loc>https://blichtlealt.github.io/hugo/fr/categories/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -73,53 +82,7 @@
   </url>
   
   <url>
-    <loc>https://blichtlealt.github.io/hugo/fr/tags/css/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blichtlealt.github.io/hugo/tags/css/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://blichtlealt.github.io/hugo/fr/tags/css/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://blichtlealt.github.io/hugo/fr/blog/markdown-syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blichtlealt.github.io/hugo/blog/markdown-syntax/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://blichtlealt.github.io/hugo/fr/blog/markdown-syntax/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://blichtlealt.github.io/hugo/fr/tags/html/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blichtlealt.github.io/hugo/tags/html/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://blichtlealt.github.io/hugo/fr/tags/html/"
-                />
-  </url>
-  
-  <url>
     <loc>https://blichtlealt.github.io/hugo/fr/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -173,43 +136,7 @@
   </url>
   
   <url>
-    <loc>https://blichtlealt.github.io/hugo/fr/tags/linked-list/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blichtlealt.github.io/hugo/fr/tags/markdown/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blichtlealt.github.io/hugo/tags/markdown/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://blichtlealt.github.io/hugo/fr/tags/markdown/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://blichtlealt.github.io/hugo/fr/categories/syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blichtlealt.github.io/hugo/categories/syntax/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://blichtlealt.github.io/hugo/fr/categories/syntax/"
-                />
-  </url>
-  
-  <url>
     <loc>https://blichtlealt.github.io/hugo/fr/tags/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -260,155 +187,6 @@
                 hreflang="fr"
                 href="https://blichtlealt.github.io/hugo/fr/tags/"
                 />
-  </url>
-  
-  <url>
-    <loc>https://blichtlealt.github.io/hugo/fr/tags/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blichtlealt.github.io/hugo/tags/themes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://blichtlealt.github.io/hugo/fr/tags/themes/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://blichtlealt.github.io/hugo/fr/categories/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blichtlealt.github.io/hugo/categories/themes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://blichtlealt.github.io/hugo/fr/categories/themes/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://blichtlealt.github.io/hugo/fr/tags/tree/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blichtlealt.github.io/hugo/tags/tree/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://blichtlealt.github.io/hugo/fr/tags/tree/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://blichtlealt.github.io/hugo/fr/blog/rich-content/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blichtlealt.github.io/hugo/blog/rich-content/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://blichtlealt.github.io/hugo/fr/blog/rich-content/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://blichtlealt.github.io/hugo/fr/tags/privacy/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blichtlealt.github.io/hugo/tags/privacy/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://blichtlealt.github.io/hugo/fr/tags/privacy/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://blichtlealt.github.io/hugo/fr/tags/shortcodes/</loc>
-    <lastmod>2019-03-10T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blichtlealt.github.io/hugo/tags/shortcodes/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://blichtlealt.github.io/hugo/fr/tags/shortcodes/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://blichtlealt.github.io/hugo/fr/tags/emoji/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blichtlealt.github.io/hugo/tags/emoji/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://blichtlealt.github.io/hugo/fr/tags/emoji/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://blichtlealt.github.io/hugo/fr/blog/emoji-support/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blichtlealt.github.io/hugo/blog/emoji-support/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://blichtlealt.github.io/hugo/fr/blog/emoji-support/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://blichtlealt.github.io/hugo/fr/about/</loc>
-    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blichtlealt.github.io/hugo/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pl"
-                href="https://blichtlealt.github.io/hugo/pl/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://blichtlealt.github.io/hugo/pt/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://blichtlealt.github.io/hugo/fr/about/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://blichtlealt.github.io/hugo/fr/categories/data-structures/algorithms/</loc>
   </url>
   
 </urlset>

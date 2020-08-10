@@ -1,31 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on c4cs</title>
+    <title>Categories on blog</title>
     <link>https://blichtlealt.github.io/hugo/categories/</link>
-    <description>Recent content in Categories on c4cs</description>
+    <description>Recent content in Categories on blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2020 00:55:08 -0400</lastBuildDate>
     
 	<atom:link href="https://blichtlealt.github.io/hugo/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>syntax</title>
-      <link>https://blichtlealt.github.io/hugo/categories/syntax/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+      <title>algorithms</title>
+      <link>https://blichtlealt.github.io/hugo/categories/algorithms/</link>
+      <pubDate>Mon, 10 Aug 2020 00:55:08 -0400</pubDate>
       
-      <guid>https://blichtlealt.github.io/hugo/categories/syntax/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>themes</title>
-      <link>https://blichtlealt.github.io/hugo/categories/themes/</link>
-      <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://blichtlealt.github.io/hugo/categories/themes/</guid>
+      <guid>https://blichtlealt.github.io/hugo/categories/algorithms/</guid>
       <description></description>
     </item>
     

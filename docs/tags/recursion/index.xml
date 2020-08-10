@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>recursion on c4cs</title>
+    <title>recursion on blog</title>
     <link>https://blichtlealt.github.io/hugo/tags/recursion/</link>
-    <description>Recent content in recursion on c4cs</description>
+    <description>Recent content in recursion on blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 10 Aug 2020 00:55:08 -0400</lastBuildDate>
