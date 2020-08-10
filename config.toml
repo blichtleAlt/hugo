@@ -17,6 +17,7 @@ publishDir = "docs"
 [markup.goldmark.renderer]
   unsafe                = true
 
+
 [outputs]
   home                  = ["html", "json"]
 
