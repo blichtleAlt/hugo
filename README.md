@@ -1,3 +1,5 @@
-## Blog made using Hugo open soruce static page generator. - [Hugo framework](https://gohugo.io/)
+## This repo holds a blog website made using the Hugo. -
+
+### Hosted on Github Pages @ (https://blichtlealt.github.io/hugo)
 
 
