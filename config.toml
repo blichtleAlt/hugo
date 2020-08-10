@@ -1,17 +1,18 @@
 # For a description of these parameters, please visit the theme wiki.
 # https://github.com/pacollins/hugo-future-imperfect-slim/wiki/config.toml
 baseurl                 = "https://blichtlealt.github.io/blog"
+
+
 DefaultContentLanguage  = "en"
-title                   = "Hugo Future Imperfect Slim"
+title                   = "c4cs"
 theme                   = "hugo-future-imperfect-slim"
-paginate                = 3
+paginate                = 6
 disqusShortname         = ""
 googleAnalytics         = ""
 pluralizeListTitles     = false
 disableLanguages        = []
 
 publishDir = "docs"
-
 
 [markup.goldmark.renderer]
   unsafe                = true
@@ -30,7 +31,7 @@ publishDir = "docs"
   readingTime           = true
   imageStretch          = ""
   removeBlur            = false
-  socialShare           = ["twitter", "facebook", "reddit", "linkedin", "pinterest", "email"]
+  socialShare           = ["linkedin", "pinterest", "email", "github"]
   hideEmptyStats        = false
 
   [params.meta]
@@ -43,15 +44,15 @@ publishDir = "docs"
     iOSColor            = "#ffffff"
 
   [params.header]
-    navbarTitle         = "Future Imperfect"
+    navbarTitle         = "Home"
     dynamicTitles       = true
     searchMenu          = true
     shareMenu           = true
     languageMenu        = true
 
   [params.intro]
-    header                = "Hugo Future Imperfect Slim"
-    paragraph             = "Another fine, responsive site template by <a href='http://html5up.net'>HTML5 UP</a>."
+    header                = "Brendan's Blog"
+    paragraph             = "Come for computer science and tech related blog posts."
     rssIntro              = true
     socialIntro           = true
     hideWhenSingleColumn  = false
@@ -64,7 +65,7 @@ publishDir = "docs"
       alt                 = "Hugo Future Imperfect Slim"
 
   [params.sidebar]
-    about               = "This theme was developed for Hugo static site generator."
+    about               = "Blog designed for tech and computer science content."
     postAmount          = 5
     categories          = true
     categoriesByCount   = true
@@ -322,30 +323,30 @@ publishDir = "docs"
 
 [social]
   # Coding Communities
-  github                = "pacollins/hugo-future-imperfect-slim"
+  github                = "blichtleAlt"
   gitlab                = ""
-  stackoverflow         = "" # User Number
+  stackoverflow         = "" 
   bitbucket             = ""
   jsfiddle              = ""
   codepen               = ""
   # Visual Art Communities
   deviantart            = ""
-  flickr                = "example"
+  flickr                = ""
   behance               = ""
   dribbble              = ""
   # Publishing Communities
   wordpress             = ""
   medium                = ""
   # Professional/Business Oriented Communities
-  linkedin              = "example"
-  linkedin_company      = "examplebusiness"
+  linkedin              = "blichtle"
+  linkedin_company      = ""
   foursquare            = ""
   xing                  = ""
   slideshare            = ""
   # Social Networks
-  facebook              = "example"
+  facebook              = ""
   googleplus            = ""
-  reddit                = "example"
+  reddit                = ""
   quora                 = ""
   youtube               = ""
   vimeo                 = ""
@@ -353,19 +354,19 @@ publishDir = "docs"
     # WeChat and QQ need testing.
     wechat              = ""
     qq                  = "" # User ID Number
-  instagram             = "example"
+  instagram             = ""
   tumblr                = ""
-  twitter               = "example"
+  twitter               = ""
   strava                = ""
   skype                 = ""
   snapchat              = ""
-  pinterest             = "example"
-  telegram              = "example"
+  pinterest             = ""
+  telegram              = ""
   vine                  = ""
   googlescholar         = ""
   orcid                 = ""
-  researchgate          = "example"
-  keybase               = "example"
-  mastodon              = "example.com/@example"
+  researchgate          = ""
+  keybase               = ""
+  mastodon              = ""
   # Email
-  email                 = "example"
+  email                 = "blichtle@umich.edu"
