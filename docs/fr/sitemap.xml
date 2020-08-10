@@ -173,6 +173,11 @@
   </url>
   
   <url>
+    <loc>https://blichtlealt.github.io/hugo/fr/tags/linked-list/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blichtlealt.github.io/hugo/fr/tags/markdown/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -288,6 +293,21 @@
   </url>
   
   <url>
+    <loc>https://blichtlealt.github.io/hugo/fr/tags/tree/</loc>
+    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blichtlealt.github.io/hugo/tags/tree/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://blichtlealt.github.io/hugo/fr/tags/tree/"
+                />
+  </url>
+  
+  <url>
     <loc>https://blichtlealt.github.io/hugo/fr/blog/rich-content/</loc>
     <lastmod>2019-03-10T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -384,6 +404,20 @@
                 rel="alternate"
                 hreflang="fr"
                 href="https://blichtlealt.github.io/hugo/fr/about/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://blichtlealt.github.io/hugo/fr/categories/data-structures/algorithms/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blichtlealt.github.io/hugo/categories/data-structures/algorithms/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://blichtlealt.github.io/hugo/fr/categories/data-structures/algorithms/"
                 />
   </url>
   

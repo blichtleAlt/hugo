@@ -6,18 +6,28 @@
     <description>Recent content in Blog on c4cs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Aug 2020 00:55:08 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2020 01:55:08 -0400</lastBuildDate>
     
 	<atom:link href="https://blichtlealt.github.io/hugo/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Path Sum II</title>
+      <title>100. Same Tree</title>
+      <link>https://blichtlealt.github.io/hugo/blog/same-tree/</link>
+      <pubDate>Mon, 10 Aug 2020 01:55:08 -0400</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/blog/same-tree/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>113. Path Sum II</title>
       <link>https://blichtlealt.github.io/hugo/blog/path-sum-ii/</link>
       <pubDate>Mon, 10 Aug 2020 00:55:08 -0400</pubDate>
       
       <guid>https://blichtlealt.github.io/hugo/blog/path-sum-ii/</guid>
-      <description></description>
+      <description>Given a binary tree and a sum, find all root-to-leaf paths where each path&amp;rsquo;s sum equals the given sum.
+Note: A leaf is a node with no children.</description>
     </item>
     
     <item>

@@ -60,7 +60,7 @@ publishDir = "docs"
     [params.intro.pic]
       src                 = "img/main/logo.jpg"
       shape               = "circle"
-      width               = ""
+      width               = "500%"
       alt                 = "Hugo Future Imperfect Slim"
 
   [params.sidebar]
