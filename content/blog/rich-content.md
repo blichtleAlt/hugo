@@ -5,7 +5,7 @@ author = "Hugo Authors"
 date = "2019-03-10"
 tags = ["shortcodes", "privacy"]
 [[images]]
-  src = "img/main/logo.jpg"
+  src = "img/main/logo2.jpg"
   alt = "Fox"
   stretch = "Vertical"
 +++
