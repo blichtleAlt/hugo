@@ -1,4 +1,10 @@
 [{
+    "title": "814. Binary Tree Pruning",
+    "date": "",
+    "description": "",
+    "body": "We are given the head node root of a binary tree, where additionally every node\u0026rsquo;s value is either a 0 or a 1.\nReturn the same tree where every subtree (of the given tree) not containing a 1 has been removed.\n(Recall that the subtree of a node X is X, plus every node that is a descendant of X.)\nExample 1:\n1 \\ 0 / \\ 0 1 Return:\n1 \\ 0 \\ 1 Exmaple 2:\n1 / \\ 0 1 / \\ / \\ 0 0 0 1 Return:\n``` python 1 \\ 1 \\ 1 ",
+    "ref": "/hugo/blog/binary-tree-pruning/"
+  },{
     "title": "100. Same Tree",
     "date": "",
     "description": "Leetcode solution",

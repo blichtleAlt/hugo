@@ -6,10 +6,23 @@
     <description>Recent content in tree on blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Aug 2020 01:55:08 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2020 17:46:40 -0400</lastBuildDate>
     
 	<atom:link href="https://blichtlealt.github.io/hugo/tags/tree/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>814. Binary Tree Pruning</title>
+      <link>https://blichtlealt.github.io/hugo/blog/binary-tree-pruning/</link>
+      <pubDate>Mon, 10 Aug 2020 17:46:40 -0400</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/blog/binary-tree-pruning/</guid>
+      <description>We are given the head node root of a binary tree, where additionally every node&amp;rsquo;s value is either a 0 or a 1.
+Return the same tree where every subtree (of the given tree) not containing a 1 has been removed.
+(Recall that the subtree of a node X is X, plus every node that is a descendant of X.)
+Example 1:
+1 \ 0 / \ 0 1 Return:</description>
+    </item>
     
     <item>
       <title>100. Same Tree</title>
