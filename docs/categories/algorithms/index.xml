@@ -6,10 +6,24 @@
     <description>Recent content in algorithms on blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Aug 2020 23:48:08 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2020 23:55:08 -0400</lastBuildDate>
     
 	<atom:link href="https://blichtlealt.github.io/hugo/categories/algorithms/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>129. Sum Root to Leaf Numbers</title>
+      <link>https://blichtlealt.github.io/hugo/blog/sum-root-to-leaf-numbers/</link>
+      <pubDate>Mon, 10 Aug 2020 23:55:08 -0400</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/blog/sum-root-to-leaf-numbers/</guid>
+      <description>https://leetcode.com/problems/sum-root-to-leaf-numbers/
+Problem Statement:  Given a binary tree containing digits from 0-9 only, each root-to-leaf path could represent a number.
+An example is the root-to-leaf path 1-&amp;gt;2-&amp;gt;3 which represents the number 123.
+Find the total sum of all root-to-leaf numbers.
+Note: A leaf is a node with no children.
+Examples  1: Input: [1,2,3] 1 / \ 2 3 Output: 25 Explanation: The root-to-leaf path 1-&amp;gt;2 represents the number 12. The root-to-leaf path 1-&amp;gt;3 represents the number 13.</description>
+    </item>
     
     <item>
       <title>257. Binary Tree Paths</title>
@@ -17,8 +31,10 @@
       <pubDate>Mon, 10 Aug 2020 23:48:08 -0400</pubDate>
       
       <guid>https://blichtlealt.github.io/hugo/blog/binary-tree-paths/</guid>
-      <description>Link:
-Problem Statement: Example: Idea: Solution: Complexity Analysis: </description>
+      <description>https://leetcode.com/problems/binary-tree-paths/
+Problem Statement:  Given a binary tree, return all root-to-leaf paths.
+Note: A leaf is a node with no children.
+Examples  1: Input: 1 / \ 2 3 \ 5 Output: [&amp;#34;1-&amp;gt;2-&amp;gt;5&amp;#34;, &amp;#34;1-&amp;gt;3&amp;#34;] Explanation: All root-to-leaf paths are: 1-&amp;gt;2-&amp;gt;5, 1-&amp;gt;3 Idea:  The most intuitive way is to use a recursion here. One is going through the tree by considering at each step the node itself and its children.</description>
     </item>
     
     <item>
@@ -28,20 +44,9 @@ Problem Statement: Example: Idea: Solution: Complexity Analysis: </description>
       
       <guid>https://blichtlealt.github.io/hugo/blog/binary-tree-pruning/</guid>
       <description>https://leetcode.com/problems/binary-tree-pruning/
-We are given the head node root of a binary tree, where additionally every node&amp;rsquo;s value is either a 0 or a 1.
-Return the same tree where every subtree (of the given tree) not containing a 1 has been removed.
+Problem Statement:  We are given the head node root of a binary tree, where additionally every node&#39;s value is either a 0 or a 1. Return the same tree where every subtree (of the given tree) not containing a 1 has been removed.
 (Recall that the subtree of a node X is X, plus every node that is a descendant of X.)
-Examples  1:   2:   3:   Idea: The idea here is to make a recursive helper function that will tell us if a given subtree contains a zero.</description>
-    </item>
-    
-    <item>
-      <title>129. Sum Root to Leaf Numbers</title>
-      <link>https://blichtlealt.github.io/hugo/blog/sum-root-to-leaf-numbers/</link>
-      <pubDate>Mon, 10 Aug 2020 11:55:08 -0400</pubDate>
-      
-      <guid>https://blichtlealt.github.io/hugo/blog/sum-root-to-leaf-numbers/</guid>
-      <description>Link:
-Problem Statement: Example: Idea: Solution: Complexity Analysis: </description>
+Examples  1:   2:   3:   Idea:  The idea here is to make a recursive helper function that will tell us if a given subtree contains a zero.</description>
     </item>
     
     <item>
@@ -74,11 +79,10 @@ Idea:Solution:</description>
       <pubDate>Mon, 10 Aug 2020 00:55:08 -0400</pubDate>
       
       <guid>https://blichtlealt.github.io/hugo/blog/path-sum-ii/</guid>
-      <description>Link: https://leetcode.com/problems/path-sum-ii/
-Problem Statement: Given a binary tree and a sum, find all root-to-leaf paths where each path&#39;s sum equals the given sum. Note: A leaf is a node with no children.
-Example: Given the below binary tree and sum = 22,
-5 / \ 4 8 / / \ 11 13 4 / \ / \ 7 2 5 1 Return:
-[ [5,4,11,2], [5,8,4,5] ] Idea: We can solve this using a recursive depth first search approach.</description>
+      <description>https://leetcode.com/problems/path-sum-ii/
+Problem Statement:  Given a binary tree and a sum, find all root-to-leaf paths where each path&#39;s sum equals the given sum. Note: A leaf is a node with no children.
+Example:  Given the below binary tree and sum = 22, 5 / \ 4 8 / / \ 11 13 4 / \ / \ 7 2 5 1 Return:
+[ [5,4,11,2], [5,8,4,5] ] Idea:  We can solve this using a recursive depth first search approach.</description>
     </item>
     
   </channel>

@@ -3,23 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://blichtlealt.github.io/hugo/blog/binary-tree-paths/</loc>
-    <lastmod>2020-08-10T23:48:08-04:00</lastmod>
+    <loc>https://blichtlealt.github.io/hugo/blog/sum-root-to-leaf-numbers/</loc>
+    <lastmod>2020-08-10T23:55:08-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://blichtlealt.github.io/hugo/categories/algorithms/</loc>
-    <lastmod>2020-08-10T23:48:08-04:00</lastmod>
+    <lastmod>2020-08-10T23:55:08-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://blichtlealt.github.io/hugo/blog/</loc>
-    <lastmod>2020-08-10T23:48:08-04:00</lastmod>
+    <lastmod>2020-08-10T23:55:08-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://blichtlealt.github.io/hugo/</loc>
-    <lastmod>2020-08-10T23:48:08-04:00</lastmod>
+    <lastmod>2020-08-10T23:55:08-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -74,7 +74,7 @@
   
   <url>
     <loc>https://blichtlealt.github.io/hugo/categories/</loc>
-    <lastmod>2020-08-10T23:48:08-04:00</lastmod>
+    <lastmod>2020-08-10T23:55:08-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -128,13 +128,18 @@
   </url>
   
   <url>
+    <loc>https://blichtlealt.github.io/hugo/tags/medium/</loc>
+    <lastmod>2020-08-10T23:55:08-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blichtlealt.github.io/hugo/tags/recursion/</loc>
-    <lastmod>2020-08-10T23:48:08-04:00</lastmod>
+    <lastmod>2020-08-10T23:55:08-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://blichtlealt.github.io/hugo/tags/</loc>
-    <lastmod>2020-08-10T23:48:08-04:00</lastmod>
+    <lastmod>2020-08-10T23:55:08-04:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -189,22 +194,17 @@
   
   <url>
     <loc>https://blichtlealt.github.io/hugo/tags/tree/</loc>
+    <lastmod>2020-08-10T23:55:08-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blichtlealt.github.io/hugo/blog/binary-tree-paths/</loc>
     <lastmod>2020-08-10T23:48:08-04:00</lastmod>
   </url>
   
   <url>
     <loc>https://blichtlealt.github.io/hugo/blog/binary-tree-pruning/</loc>
     <lastmod>2020-08-10T17:46:40-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blichtlealt.github.io/hugo/tags/medium/</loc>
-    <lastmod>2020-08-10T17:46:40-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blichtlealt.github.io/hugo/blog/sum-root-to-leaf-numbers/</loc>
-    <lastmod>2020-08-10T11:55:08-04:00</lastmod>
   </url>
   
   <url>
