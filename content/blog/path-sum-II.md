@@ -7,11 +7,11 @@ tags = ["tree", "recursion"]
 categories = ["algorithms"]
 +++
 
+https://leetcode.com/problems/path-sum-ii/
+
 Given a binary tree and a sum, find all root-to-leaf paths where each path's sum equals the given sum.
 
 Note: A leaf is a node with no children.
-
-<!--more-->
 
 <h3>Example:</h3>
 
@@ -38,8 +38,13 @@ Return:
 
 <h3>Idea:</h3>
 
-We can solve this using a recursive depth first search approach. The key idea is here, we want to keep a list
-of all the values that we have seen so far, and what the remaining sum is. So for any given node, if we find its a leaf and its value is equal to the remainingSum
+We can solve this using a recursive depth first search approach. First we set up a helper function that will help us recursively store the path and add it if a matching sum is found. 
+
+As base cases, our recursive function will return if the node is null, or a leaf node matching the sum has been found.
+
+Otherwise, the function is called recursively on the left and right subtrees. 
+
+At the end, the results list with all such paths is returned.
 
 <h3>Solution:</h3>
 

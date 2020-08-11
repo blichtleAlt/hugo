@@ -19,20 +19,22 @@
   <meta name="theme-color" content="#ffffff">
 
 <meta name="generator" content="Hugo 0.74.3" /><meta itemprop="name" content="814. Binary Tree Pruning">
-<meta itemprop="description" content="We are given the head node root of a binary tree, where additionally every node&rsquo;s value is either a 0 or a 1.
+<meta itemprop="description" content="https://leetcode.com/problems/binary-tree-pruning/
+We are given the head node root of a binary tree, where additionally every node&rsquo;s value is either a 0 or a 1.
 Return the same tree where every subtree (of the given tree) not containing a 1 has been removed.
 (Recall that the subtree of a node X is X, plus every node that is a descendant of X.)
 Example 1:
 1 \ 0 / \ 0 1 Return:">
 <meta itemprop="datePublished" content="2020-08-10T17:46:40-04:00" />
 <meta itemprop="dateModified" content="2020-08-10T17:46:40-04:00" />
-<meta itemprop="wordCount" content="96">
+<meta itemprop="wordCount" content="219">
 
 
 
 <meta itemprop="keywords" content="tree,recursion," />
 <meta property="og:title" content="814. Binary Tree Pruning" />
-<meta property="og:description" content="We are given the head node root of a binary tree, where additionally every node&rsquo;s value is either a 0 or a 1.
+<meta property="og:description" content="https://leetcode.com/problems/binary-tree-pruning/
+We are given the head node root of a binary tree, where additionally every node&rsquo;s value is either a 0 or a 1.
 Return the same tree where every subtree (of the given tree) not containing a 1 has been removed.
 (Recall that the subtree of a node X is X, plus every node that is a descendant of X.)
 Example 1:
@@ -43,7 +45,8 @@ Example 1:
 <meta property="article:modified_time" content="2020-08-10T17:46:40-04:00" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="814. Binary Tree Pruning"/>
-<meta name="twitter:description" content="We are given the head node root of a binary tree, where additionally every node&rsquo;s value is either a 0 or a 1.
+<meta name="twitter:description" content="https://leetcode.com/problems/binary-tree-pruning/
+We are given the head node root of a binary tree, where additionally every node&rsquo;s value is either a 0 or a 1.
 Return the same tree where every subtree (of the given tree) not containing a 1 has been removed.
 (Recall that the subtree of a node X is X, plus every node that is a descendant of X.)
 Example 1:
@@ -236,7 +239,7 @@ Example 1:
   <div class="meta">
     <time datetime="2020-08-10 17:46:40 -0400 EDT">August 10, 2020</time>
     <p>Brendan Lichtler</p>
-    <p>1-Minute Read</p>
+    <p>2-Minute Read</p>
   </div>
 </header>
 
@@ -250,7 +253,8 @@ Example 1:
     </div>
     <div class="content">
       
-      <p>We are given the head node root of a binary tree, where additionally every node&rsquo;s value is either a 0 or a 1.</p>
+      <p><a href="https://leetcode.com/problems/binary-tree-pruning/">https://leetcode.com/problems/binary-tree-pruning/</a></p>
+<p>We are given the head node root of a binary tree, where additionally every node&rsquo;s value is either a 0 or a 1.</p>
 <p>Return the same tree where every subtree (of the given tree) not containing a 1 has been removed.</p>
 <p>(Recall that the subtree of a node X is X, plus every node that is a descendant of X.)</p>
 <p>Example 1:</p>
@@ -277,6 +281,29 @@ Example 1:
           <span style="color:#ae81ff">1</span>
            \
             <span style="color:#ae81ff">1</span>
+</code></pre></div><h3>Idea:</h3>
+The idea here is to make a recursive helper function that will tell us if a given subtree contains a zero. We call this function on the root, and it will be recursively called on the subtrees. If we find at any point a given subtree contains a zero, that branch is effectively removed by setting the subtree to nullptr.
+<p>At the end, all subtrees that contain zero will be removed.</p>
+<h3>Solution:</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-C++" data-lang="C++">    <span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
+    <span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
+    
+    <span style="color:#66d9ef">bool</span> has_one(TreeNode<span style="color:#f92672">*</span> root) {
+        <span style="color:#66d9ef">if</span>(root <span style="color:#f92672">==</span> <span style="color:#66d9ef">nullptr</span>) <span style="color:#66d9ef">return</span> false;
+        <span style="color:#66d9ef">bool</span> left <span style="color:#f92672">=</span> has_one(root<span style="color:#f92672">-&gt;</span>left);
+        <span style="color:#66d9ef">bool</span> right <span style="color:#f92672">=</span> has_one(root<span style="color:#f92672">-&gt;</span>right);
+        <span style="color:#66d9ef">if</span>(<span style="color:#f92672">!</span>left) root<span style="color:#f92672">-&gt;</span>left <span style="color:#f92672">=</span> <span style="color:#66d9ef">nullptr</span>;
+        <span style="color:#66d9ef">if</span>(<span style="color:#f92672">!</span>right) root<span style="color:#f92672">-&gt;</span>right <span style="color:#f92672">=</span> <span style="color:#66d9ef">nullptr</span>;
+        <span style="color:#66d9ef">return</span> left <span style="color:#f92672">||</span> right <span style="color:#f92672">||</span> root<span style="color:#f92672">-&gt;</span>val <span style="color:#f92672">==</span> <span style="color:#ae81ff">1</span>;
+    }
+    
+    TreeNode<span style="color:#f92672">*</span> <span style="color:#a6e22e">pruneTree</span>(TreeNode<span style="color:#f92672">*</span> root) {
+        <span style="color:#66d9ef">return</span> has_one(root) <span style="color:#f92672">?</span> root: <span style="color:#66d9ef">nullptr</span>;
+    }
+    
+};
+
+
 </code></pre></div>
     </div>
     <footer>
@@ -417,7 +444,7 @@ Example 1:
           
           
           <li>
-              <a href="categories/algorithms/">algorithms<span class="count">2</span></a>
+              <a href="categories/algorithms/">algorithms<span class="count">3</span></a>
           
           </li>
         </ul>
