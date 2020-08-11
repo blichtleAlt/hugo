@@ -12,7 +12,7 @@ This project requires an installation of Hugo. To get Hugo, see the docs found h
 ## Run locally 
 
 ``` bash
-// deploy locally to test
+// deploy locally 
 hugo server -w // launch server at https://localhost:1313 in watch mode
 
 ```
