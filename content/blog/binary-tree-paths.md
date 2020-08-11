@@ -2,9 +2,9 @@
 title = "257. Binary Tree Paths"
 description = ""
 author = "Brendan Lichtler "
-date = 2020-08-11T10:01:08-04:00
-tags = []
-categories = []
+date = 2020-08-10T23:48:08-04:00
+tags = ["tree", "recursion"]
+categories = ["algorithms"]
 +++
 
 Link:

@@ -4,3 +4,15 @@
   is an official part of the theme (ex. Pull Requests) should be included in main.css
   and follow the formatting and style given.
 */
+h5 {
+  margin-block-end: .2em;
+  margin-block-start: .2em;
+}
+
+.leetcode img {
+  max-width: 70%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}

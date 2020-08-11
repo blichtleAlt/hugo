@@ -3,7 +3,7 @@ title = "129. Sum Root to Leaf Numbers"
 description = ""
 author = "Brendan Lichtler "
 date = 2020-08-10T11:55:08-04:00
-tags = ["tree", "recursion"]
+tags = ["tree", "recursion", "medium"]
 categories = ["algorithms"]
 +++
 

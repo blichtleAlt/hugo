@@ -1,8 +1,14 @@
 [{
+    "title": "257. Binary Tree Paths",
+    "date": "",
+    "description": "",
+    "body": "Link:\nProblem Statement: Example: Idea: Solution: Complexity Analysis: ",
+    "ref": "/hugo/blog/binary-tree-paths/"
+  },{
     "title": "814. Binary Tree Pruning",
     "date": "",
     "description": "",
-    "body": "https://leetcode.com/problems/binary-tree-pruning/\nWe are given the head node root of a binary tree, where additionally every node\u0026rsquo;s value is either a 0 or a 1.\nReturn the same tree where every subtree (of the given tree) not containing a 1 has been removed.\n(Recall that the subtree of a node X is X, plus every node that is a descendant of X.)\nExample 1:\n1 \\ 0 / \\ 0 1 Return:\n1 \\ 0 \\ 1 Exmaple 2:\n1 / \\ 0 1 / \\ / \\ 0 0 0 1 Return:\n1 \\ 1 \\ 1 Idea: The idea here is to make a recursive helper function that will tell us if a given subtree contains a zero. We call this function on the root, and it will be recursively called on the subtrees. If we find at any point a given subtree contains a zero, that branch is effectively removed by setting the subtree to nullptr. At the end, all subtrees that contain zero will be removed.\nSolution: class Solution { public: bool has_one(TreeNode* root) { if(root == nullptr) return false; bool left = has_one(root-\u0026gt;left); bool right = has_one(root-\u0026gt;right); if(!left) root-\u0026gt;left = nullptr; if(!right) root-\u0026gt;right = nullptr; return left || right || root-\u0026gt;val == 1; } TreeNode* pruneTree(TreeNode* root) { return has_one(root) ? root: nullptr; } }; ",
+    "body": "https://leetcode.com/problems/binary-tree-pruning/\nWe are given the head node root of a binary tree, where additionally every node\u0026rsquo;s value is either a 0 or a 1.\nReturn the same tree where every subtree (of the given tree) not containing a 1 has been removed.\n(Recall that the subtree of a node X is X, plus every node that is a descendant of X.)\nExamples  1:   2:   3:   Idea: The idea here is to make a recursive helper function that will tell us if a given subtree contains a zero. We call this function on the root, and it will be recursively called on the subtrees. If we find at any point a given subtree contains a zero, that branch is effectively removed by setting the subtree to nullptr. At the end, all subtrees that contain zero will be removed.\nSolution: class Solution { public: bool has_one(TreeNode* root) { if(root == nullptr) return false; bool left = has_one(root-\u0026gt;left); bool right = has_one(root-\u0026gt;right); if(!left) root-\u0026gt;left = nullptr; if(!right) root-\u0026gt;right = nullptr; return left || right || root-\u0026gt;val == 1; } TreeNode* pruneTree(TreeNode* root) { return has_one(root) ? root: nullptr; } }; Complexity Analysis: Time Time Complexity here is O(N). We process each node once in the process. Memory Here space compexity is O(H). This represents the height of our tree. In the worst case, we expect order O(N) for a totally unbalanced tree. Expect O(logN) if working with balanced tree.",
     "ref": "/hugo/blog/binary-tree-pruning/"
   },{
     "title": "129. Sum Root to Leaf Numbers",
@@ -16,12 +22,6 @@
     "description": "",
     "body": "Link: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/\nProblem Statement: Given a binary search tree (BST), find the lowest common ancestor (LCA) of two given nodes in the BST.\nAccording to the definition of LCA on Wikipedia: “The lowest common ancestor is defined between two nodes p and q as the lowest node in T that has both p and q as descendants (where we allow a node to be a descendant of itself).”\nExample: Given binary search tree: root = [6,2,8,0,4,7,9,null,null,3,5] \nIdea: Solution: Complexity Analysis: ",
     "ref": "/hugo/blog/lowest-common-ancestor-bst/"
-  },{
-    "title": "257. Binary Tree Paths",
-    "date": "",
-    "description": "",
-    "body": "Link:\nProblem Statement: Example: Idea: Solution: Complexity Analysis: ",
-    "ref": "/hugo/blog/binary-tree-paths/"
   },{
     "title": "100. Same Tree",
     "date": "",

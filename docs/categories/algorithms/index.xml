@@ -6,10 +6,20 @@
     <description>Recent content in algorithms on blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Aug 2020 17:46:40 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2020 23:48:08 -0400</lastBuildDate>
     
 	<atom:link href="https://blichtlealt.github.io/hugo/categories/algorithms/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>257. Binary Tree Paths</title>
+      <link>https://blichtlealt.github.io/hugo/blog/binary-tree-paths/</link>
+      <pubDate>Mon, 10 Aug 2020 23:48:08 -0400</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/blog/binary-tree-paths/</guid>
+      <description>Link:
+Problem Statement: Example: Idea: Solution: Complexity Analysis: </description>
+    </item>
     
     <item>
       <title>814. Binary Tree Pruning</title>
@@ -21,8 +31,7 @@
 We are given the head node root of a binary tree, where additionally every node&amp;rsquo;s value is either a 0 or a 1.
 Return the same tree where every subtree (of the given tree) not containing a 1 has been removed.
 (Recall that the subtree of a node X is X, plus every node that is a descendant of X.)
-Example 1:
-1 \ 0 / \ 0 1 Return:</description>
+Examples  1:   2:   3:   Idea: The idea here is to make a recursive helper function that will tell us if a given subtree contains a zero.</description>
     </item>
     
     <item>
