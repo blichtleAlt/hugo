@@ -3,8 +3,6 @@ Blog made using [Hugo](https://gohugo.io/) - a static site generator written in 
 Orignal clone of [Hugo future imperfect theme](https://themes.gohugo.io/hugo-future-imperfect-slim/). Customized for personal use.
 
 
-
-
 # Usage
 
 ## Installation
@@ -14,14 +12,18 @@ To get hugo on linux, you'll need to download a tar file and decompress and plac
 
 ## Build static site and run locally 
 
-Use following commands to build Hugo site 
-
 ``` bash
-hugo -D // build drafts, into dest specified in config.toml
-hugo // build, into dest
 
+// create a new blog post
 hugo new blog/<blog post title>.md // create new blog post
 
+// edit your blog post in markdown. post will be placed at /content/blog/<blog post title>.md
+
+// build static content for site (include new post)
+hugo -D // build drafts
+hugo // build, into dest
+
+// deploy locally to test
 hugo server -w // launch server at https://localhost:1313 in watch mode
 
 ```
