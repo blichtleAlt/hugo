@@ -203,6 +203,11 @@
   </url>
   
   <url>
+    <loc>https://blichtlealt.github.io/hugo/tags/easy/</loc>
+    <lastmod>2020-08-10T23:48:08-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blichtlealt.github.io/hugo/blog/binary-tree-pruning/</loc>
     <lastmod>2020-08-10T17:46:40-04:00</lastmod>
   </url>
@@ -214,11 +219,6 @@
   
   <url>
     <loc>https://blichtlealt.github.io/hugo/blog/same-tree/</loc>
-    <lastmod>2020-08-10T01:55:08-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blichtlealt.github.io/hugo/tags/easy/</loc>
     <lastmod>2020-08-10T01:55:08-04:00</lastmod>
   </url>
   

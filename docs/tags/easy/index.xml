@@ -6,10 +6,22 @@
     <description>Recent content in easy on blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Aug 2020 01:55:08 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2020 23:48:08 -0400</lastBuildDate>
     
 	<atom:link href="https://blichtlealt.github.io/hugo/tags/easy/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>257. Binary Tree Paths</title>
+      <link>https://blichtlealt.github.io/hugo/blog/binary-tree-paths/</link>
+      <pubDate>Mon, 10 Aug 2020 23:48:08 -0400</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/blog/binary-tree-paths/</guid>
+      <description>https://leetcode.com/problems/binary-tree-paths/
+Problem Statement:  Given a binary tree, return all root-to-leaf paths.
+Note: A leaf is a node with no children.
+Examples  1: Input: 1 / \ 2 3 \ 5 Output: [&amp;#34;1-&amp;gt;2-&amp;gt;5&amp;#34;, &amp;#34;1-&amp;gt;3&amp;#34;] Explanation: All root-to-leaf paths are: 1-&amp;gt;2-&amp;gt;5, 1-&amp;gt;3 Idea:  The most intuitive way is to use a recursion here. One is going through the tree by considering at each step the node itself and its children.</description>
+    </item>
     
     <item>
       <title>100. Same Tree</title>
