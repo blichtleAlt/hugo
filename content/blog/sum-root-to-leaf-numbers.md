@@ -5,6 +5,10 @@ author = "Brendan Lichtler "
 date = 2020-08-10T23:55:08-04:00
 tags = ["tree", "recursion", "medium"]
 categories = ["algorithms"]
+[[images]]
+  src = "img/2019/03/pic06.jpg"
+  alt = "Desert Scene"
+  stretch = "stretchH"
 +++
 
 https://leetcode.com/problems/sum-root-to-leaf-numbers/

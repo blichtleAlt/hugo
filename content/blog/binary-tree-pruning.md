@@ -4,6 +4,10 @@ date = 2020-08-10T17:46:40-04:00
 tags = ["tree", "recursion", "medium"]
 categories = ["algorithms"]
 author = "Brendan Lichtler"
+[[images]]
+  src = "img/2019/03/pic04.jpg"
+  alt = "Desert Scene"
+  stretch = "stretchH"
 +++
 
 https://leetcode.com/problems/binary-tree-pruning/

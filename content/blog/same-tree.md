@@ -5,6 +5,10 @@ author = "Brendan Lichtler "
 date = 2020-08-10T01:55:08-04:00
 tags = ["tree", "recursion", "easy"]
 categories = ["algorithms"]
+[[images]]
+  src = "img/2019/03/pic08.jpg"
+  alt = "Desert Scene"
+  stretch = "stretchH"
 +++
 
 https://leetcode.com/problems/same-tree/
