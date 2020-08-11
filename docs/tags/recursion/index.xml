@@ -58,7 +58,7 @@ Examples  1:   2:   3:   Idea:  The idea here is to make a recursive helper func
       <description>https://leetcode.com/problems/same-tree/
 Given two binary trees, write a function to check if they are the same or not.
 Two binary trees are considered the same if they are structurally identical and the nodes have the same value.
-Idea:Solution:</description>
+Idea:Recursively check each node in each tree. If both are null, we&amp;rsquo;ve gone off the end so return true If one is null and the other isn&amp;rsquo;t, there is a difference. If one has a val that isn&amp;rsquo;t equal to the other, there is a difference.</description>
     </item>
     
     <item>

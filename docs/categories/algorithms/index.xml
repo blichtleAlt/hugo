@@ -70,7 +70,7 @@ Example: Given binary search tree: root = [6,2,8,0,4,7,9,null,null,3,5]</descrip
       <description>https://leetcode.com/problems/same-tree/
 Given two binary trees, write a function to check if they are the same or not.
 Two binary trees are considered the same if they are structurally identical and the nodes have the same value.
-Idea:Solution:</description>
+Idea:Recursively check each node in each tree. If both are null, we&amp;rsquo;ve gone off the end so return true If one is null and the other isn&amp;rsquo;t, there is a difference. If one has a val that isn&amp;rsquo;t equal to the other, there is a difference.</description>
     </item>
     
     <item>

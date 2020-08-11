@@ -26,7 +26,7 @@
     "title": "100. Same Tree",
     "date": "",
     "description": "",
-    "body": "https://leetcode.com/problems/same-tree/\nGiven two binary trees, write a function to check if they are the same or not.\nTwo binary trees are considered the same if they are structurally identical and the nodes have the same value.\nIdea:\rSolution:\r",
+    "body": "https://leetcode.com/problems/same-tree/\nGiven two binary trees, write a function to check if they are the same or not.\nTwo binary trees are considered the same if they are structurally identical and the nodes have the same value.\nIdea:\rRecursively check each node in each tree. If both are null, we\u0026rsquo;ve gone off the end so return true If one is null and the other isn\u0026rsquo;t, there is a difference. If one has a val that isn\u0026rsquo;t equal to the other, there is a difference. Otherwise recursively call on the subtrees.\nSolution:\rclass solution { public: bool issametree(treenode* p, treenode* q) { if(!p and !q) return true; if(!p or !q) return false; if(p-\u0026gt;val != q-\u0026gt;val) return false; return issametree(p-\u0026gt;left, q-\u0026gt;left) \u0026amp;\u0026amp; issametree(p-\u0026gt;right, q-\u0026gt;right); } }; Complexity Analysis:\r\rTime\rO(N). Each node in each tree compared.\rMemory\rO(N). Worst case stack usage if trees are unbalanced.",
     "ref": "/hugo/blog/same-tree/"
   },{
     "title": "113. Path Sum II",
