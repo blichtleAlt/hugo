@@ -7,8 +7,7 @@ Orignal clone of [Hugo future imperfect theme](https://themes.gohugo.io/hugo-fut
 
 ## Installation
 
-To get hugo on linux, you'll need to download a tar file and decompress and place it in a binaries directory. More can be found here https://gohugo.io/getting-started/installing/
-
+This project requires an installation of Hugo. To get Hugo, see the docs found here https://gohugo.io/getting-started/installing/. 
 
 ## Run locally 
 
