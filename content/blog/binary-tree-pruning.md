@@ -1,7 +1,7 @@
 +++
 title = "814. Binary Tree Pruning"
 date = 2020-08-10T17:46:40-04:00
-tags = ["tree", "recursion"]
+tags = ["tree", "recursion", "medium"]
 categories = ["algorithms"]
 author = "Brendan Lichtler"
 +++

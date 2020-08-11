@@ -3,7 +3,7 @@ title = "113. Path Sum II"
 description = ""
 author = "Brendan Lichtler "
 date = 2020-08-10T00:55:08-04:00
-tags = ["tree", "recursion"]
+tags = ["tree", "recursion", "medium"]
 categories = ["algorithms"]
 +++
 
