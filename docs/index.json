@@ -1,10 +1,4 @@
 [{
-    "title": "Lowest Common Ancestor Bst",
-    "date": "",
-    "description": "",
-    "body": "",
-    "ref": "/hugo/blog/lowest-common-ancestor-bst/"
-  },{
     "title": "814. Binary Tree Pruning",
     "date": "",
     "description": "",
@@ -16,6 +10,12 @@
     "description": "",
     "body": "Link:\nProblem Statement: Example: Idea: Solution: Complexity Analysis: ",
     "ref": "/hugo/blog/sum-root-to-leaf-numbers/"
+  },{
+    "title": "235. Lowest Common Ancestor of a Binary Search Tree",
+    "date": "",
+    "description": "",
+    "body": "Link: https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/\nProblem Statement: Given a binary search tree (BST), find the lowest common ancestor (LCA) of two given nodes in the BST.\nAccording to the definition of LCA on Wikipedia: “The lowest common ancestor is defined between two nodes p and q as the lowest node in T that has both p and q as descendants (where we allow a node to be a descendant of itself).”\nExample: Given binary search tree: root = [6,2,8,0,4,7,9,null,null,3,5] \nIdea: Solution: Complexity Analysis: ",
+    "ref": "/hugo/blog/lowest-common-ancestor-bst/"
   },{
     "title": "257. Binary Tree Paths",
     "date": "",

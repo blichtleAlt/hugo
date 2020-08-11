@@ -2,7 +2,7 @@
 title = "257. Binary Tree Paths"
 description = ""
 author = "Brendan Lichtler "
-date = 2020-08-10T10:01:08-04:00
+date = 2020-08-11T10:01:08-04:00
 tags = []
 categories = []
 +++
