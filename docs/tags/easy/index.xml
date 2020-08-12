@@ -24,6 +24,18 @@ Examples  1: Input: 1 / \ 2 3 \ 5 Output: [&amp;#34;1-&amp;gt;2-&amp;gt;5&amp;#3
     </item>
     
     <item>
+      <title>235. Lowest Common Ancestor of a Binary Search Tree</title>
+      <link>https://blichtlealt.github.io/hugo/blog/lowest-common-ancestor-bst/</link>
+      <pubDate>Mon, 10 Aug 2020 11:42:08 -0400</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/blog/lowest-common-ancestor-bst/</guid>
+      <description>https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
+Problem Statement:  Given a binary search tree (BST), find the lowest common ancestor (LCA) of two given nodes in the BST.
+According to the definition of LCA on Wikipedia: “The lowest common ancestor is defined between two nodes p and q as the lowest node in T that has both p and q as descendants (where we allow a node to be a descendant of itself).”
+Example:  Given binary search tree: root = [6,2,8,0,4,7,9,null,null,3,5]</description>
+    </item>
+    
+    <item>
       <title>100. Same Tree</title>
       <link>https://blichtlealt.github.io/hugo/blog/same-tree/</link>
       <pubDate>Mon, 10 Aug 2020 01:55:08 -0400</pubDate>
