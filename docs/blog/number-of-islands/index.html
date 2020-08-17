@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
   <meta charset="utf-8">
-<title>Number of Islands - blog</title>
+<title>200. Number of Islands - blog</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
@@ -18,33 +18,30 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="theme-color" content="#ffffff">
 
-<meta name="generator" content="Hugo 0.74.3" /><meta itemprop="name" content="Number of Islands">
-<meta itemprop="description" content="TODO: Link
-Problem Statement: Examples1: 2: 3: Idea:This question is analogous to the problem of connected components in an undirected graph.
-Here I used recursion for a depth first search.
-Solution:void dfs(int i, int j, vector&lt;vector&lt;char&gt;&gt;&amp; grid) { // exit if search exhuasted  if(i &lt; 0 || j &lt; 0 || i &gt;= grid.size() || j &gt;= grid[0].">
+<meta name="generator" content="Hugo 0.74.3" /><meta itemprop="name" content="200. Number of Islands">
+<meta itemprop="description" content="https://leetcode.com/problems/number-of-islands/solution/
+Problem Statement: Given a 2d grid map of &lsquo;1&rsquo;s (land) and &lsquo;0&rsquo;s (water), count the number of islands. An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.
+Examples1:Input: grid = [ [&#34;1&#34;,&#34;1&#34;,&#34;1&#34;,&#34;1&#34;,&#34;0&#34;], [&#34;1&#34;,&#34;1&#34;,&#34;0&#34;,&#34;1&#34;,&#34;0&#34;], [&#34;1&#34;,&#34;1&#34;,&#34;0&#34;,&#34;0&#34;,&#34;0&#34;], [&#34;0&#34;,&#34;0&#34;,&#34;0&#34;,&#34;0&#34;,&#34;0&#34;] ] Output: 1 2:Input: grid = [ [&#34;1&#34;,&#34;1&#34;,&#34;0&#34;,&#34;0&#34;,&#34;0&#34;], [&#34;1&#34;,&#34;1&#34;,&#34;0&#34;,&#34;0&#34;,&#34;0&#34;], [&#34;0&#34;,&#34;0&#34;,&#34;1&#34;,&#34;0&#34;,&#34;0&#34;], [&#34;0&#34;,&#34;0&#34;,&#34;0&#34;,&#34;1&#34;,&#34;1&#34;] ] Output: 3 Idea:This question is analogous to the problem of connected components in an undirected graph.">
 <meta itemprop="datePublished" content="2020-08-12T23:17:44-04:00" />
 <meta itemprop="dateModified" content="2020-08-12T23:17:44-04:00" />
-<meta itemprop="wordCount" content="162">
+<meta itemprop="wordCount" content="250">
 
 
 
-<meta itemprop="keywords" content="tree,recursion,medium," />
-<meta property="og:title" content="Number of Islands" />
-<meta property="og:description" content="TODO: Link
-Problem Statement: Examples1: 2: 3: Idea:This question is analogous to the problem of connected components in an undirected graph.
-Here I used recursion for a depth first search.
-Solution:void dfs(int i, int j, vector&lt;vector&lt;char&gt;&gt;&amp; grid) { // exit if search exhuasted  if(i &lt; 0 || j &lt; 0 || i &gt;= grid.size() || j &gt;= grid[0]." />
+<meta itemprop="keywords" content="union-find,dfs,bfs,medium," />
+<meta property="og:title" content="200. Number of Islands" />
+<meta property="og:description" content="https://leetcode.com/problems/number-of-islands/solution/
+Problem Statement: Given a 2d grid map of &lsquo;1&rsquo;s (land) and &lsquo;0&rsquo;s (water), count the number of islands. An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.
+Examples1:Input: grid = [ [&#34;1&#34;,&#34;1&#34;,&#34;1&#34;,&#34;1&#34;,&#34;0&#34;], [&#34;1&#34;,&#34;1&#34;,&#34;0&#34;,&#34;1&#34;,&#34;0&#34;], [&#34;1&#34;,&#34;1&#34;,&#34;0&#34;,&#34;0&#34;,&#34;0&#34;], [&#34;0&#34;,&#34;0&#34;,&#34;0&#34;,&#34;0&#34;,&#34;0&#34;] ] Output: 1 2:Input: grid = [ [&#34;1&#34;,&#34;1&#34;,&#34;0&#34;,&#34;0&#34;,&#34;0&#34;], [&#34;1&#34;,&#34;1&#34;,&#34;0&#34;,&#34;0&#34;,&#34;0&#34;], [&#34;0&#34;,&#34;0&#34;,&#34;1&#34;,&#34;0&#34;,&#34;0&#34;], [&#34;0&#34;,&#34;0&#34;,&#34;0&#34;,&#34;1&#34;,&#34;1&#34;] ] Output: 3 Idea:This question is analogous to the problem of connected components in an undirected graph." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://blichtlealt.github.io/hugo/blog/number-of-islands/" />
 <meta property="article:published_time" content="2020-08-12T23:17:44-04:00" />
 <meta property="article:modified_time" content="2020-08-12T23:17:44-04:00" />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Number of Islands"/>
-<meta name="twitter:description" content="TODO: Link
-Problem Statement: Examples1: 2: 3: Idea:This question is analogous to the problem of connected components in an undirected graph.
-Here I used recursion for a depth first search.
-Solution:void dfs(int i, int j, vector&lt;vector&lt;char&gt;&gt;&amp; grid) { // exit if search exhuasted  if(i &lt; 0 || j &lt; 0 || i &gt;= grid.size() || j &gt;= grid[0]."/>
+<meta name="twitter:title" content="200. Number of Islands"/>
+<meta name="twitter:description" content="https://leetcode.com/problems/number-of-islands/solution/
+Problem Statement: Given a 2d grid map of &lsquo;1&rsquo;s (land) and &lsquo;0&rsquo;s (water), count the number of islands. An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.
+Examples1:Input: grid = [ [&#34;1&#34;,&#34;1&#34;,&#34;1&#34;,&#34;1&#34;,&#34;0&#34;], [&#34;1&#34;,&#34;1&#34;,&#34;0&#34;,&#34;1&#34;,&#34;0&#34;], [&#34;1&#34;,&#34;1&#34;,&#34;0&#34;,&#34;0&#34;,&#34;0&#34;], [&#34;0&#34;,&#34;0&#34;,&#34;0&#34;,&#34;0&#34;,&#34;0&#34;] ] Output: 1 2:Input: grid = [ [&#34;1&#34;,&#34;1&#34;,&#34;0&#34;,&#34;0&#34;,&#34;0&#34;], [&#34;1&#34;,&#34;1&#34;,&#34;0&#34;,&#34;0&#34;,&#34;0&#34;], [&#34;0&#34;,&#34;0&#34;,&#34;1&#34;,&#34;0&#34;,&#34;0&#34;], [&#34;0&#34;,&#34;0&#34;,&#34;0&#34;,&#34;1&#34;,&#34;1&#34;] ] Output: 3 Idea:This question is analogous to the problem of connected components in an undirected graph."/>
 <link rel="stylesheet" href="/hugo/css/bundle.min.61aad660bacc975469ff39e45f402b73170daef8780d6aa78e774152a1f85982.css" integrity="sha256-YarWYLrMl1Rp/znkX0ArcxcNrvh4DWqnjndBUqH4WYI="><link rel="stylesheet" href="/hugo/css/add-on.css">
 </head>
 
@@ -226,14 +223,14 @@ Solution:void dfs(int i, int j, vector&lt;vector&lt;char&gt;&gt;&amp; grid) { 
     <header>
   <div class="title">
     
-      <h2><a href="/hugo/blog/number-of-islands/">Number of Islands</a></h2>
+      <h2><a href="/hugo/blog/number-of-islands/">200. Number of Islands</a></h2>
     
     
   </div>
   <div class="meta">
     <time datetime="2020-08-12 23:17:44 -0400 EDT">August 12, 2020</time>
     <p>Brendan Lichtler</p>
-    <p>1-Minute Read</p>
+    <p>2-Minute Read</p>
   </div>
 </header>
 
@@ -247,23 +244,39 @@ Solution:void dfs(int i, int j, vector&lt;vector&lt;char&gt;&gt;&amp; grid) { 
     </div>
     <div class="content">
       
-      <p>TODO: Link</p>
+      <p><a href="https://leetcode.com/problems/number-of-islands/solution/">https://leetcode.com/problems/number-of-islands/solution/</a></p>
 <h3>Problem Statement:</h3>
 <hr> 
+<p>Given a 2d grid map of &lsquo;1&rsquo;s (land) and &lsquo;0&rsquo;s (water), count the number of islands. An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.</p>
 <h3>Examples</h3>
 <hr>
 <h4>1:</h4>
-<div class="leetcode"> <img src="https://s3-lc-upload.s3.amazonaws.com/uploads/2018/04/06/1028_2.png" ></img> </div>
-<h4>2:</h4>
-<div class="leetcode"> <img src="https://s3-lc-upload.s3.amazonaws.com/uploads/2018/04/06/1028_1.png" ></img> </div>
-<h4>3:</h4>
-<div class="leetcode"> <img src="https://s3-lc-upload.s3.amazonaws.com/uploads/2018/04/05/1028.png" ></img> </div>
-<h3>Idea:</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
+Input: grid <span style="color:#f92672">=</span> [
+  [<span style="color:#e6db74">&#34;1&#34;</span>,<span style="color:#e6db74">&#34;1&#34;</span>,<span style="color:#e6db74">&#34;1&#34;</span>,<span style="color:#e6db74">&#34;1&#34;</span>,<span style="color:#e6db74">&#34;0&#34;</span>],
+  [<span style="color:#e6db74">&#34;1&#34;</span>,<span style="color:#e6db74">&#34;1&#34;</span>,<span style="color:#e6db74">&#34;0&#34;</span>,<span style="color:#e6db74">&#34;1&#34;</span>,<span style="color:#e6db74">&#34;0&#34;</span>],
+  [<span style="color:#e6db74">&#34;1&#34;</span>,<span style="color:#e6db74">&#34;1&#34;</span>,<span style="color:#e6db74">&#34;0&#34;</span>,<span style="color:#e6db74">&#34;0&#34;</span>,<span style="color:#e6db74">&#34;0&#34;</span>],
+  [<span style="color:#e6db74">&#34;0&#34;</span>,<span style="color:#e6db74">&#34;0&#34;</span>,<span style="color:#e6db74">&#34;0&#34;</span>,<span style="color:#e6db74">&#34;0&#34;</span>,<span style="color:#e6db74">&#34;0&#34;</span>]
+]
+Output: <span style="color:#ae81ff">1</span>
+
+</code></pre></div><h4>2:</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
+Input: grid <span style="color:#f92672">=</span> [
+  [<span style="color:#e6db74">&#34;1&#34;</span>,<span style="color:#e6db74">&#34;1&#34;</span>,<span style="color:#e6db74">&#34;0&#34;</span>,<span style="color:#e6db74">&#34;0&#34;</span>,<span style="color:#e6db74">&#34;0&#34;</span>],
+  [<span style="color:#e6db74">&#34;1&#34;</span>,<span style="color:#e6db74">&#34;1&#34;</span>,<span style="color:#e6db74">&#34;0&#34;</span>,<span style="color:#e6db74">&#34;0&#34;</span>,<span style="color:#e6db74">&#34;0&#34;</span>],
+  [<span style="color:#e6db74">&#34;0&#34;</span>,<span style="color:#e6db74">&#34;0&#34;</span>,<span style="color:#e6db74">&#34;1&#34;</span>,<span style="color:#e6db74">&#34;0&#34;</span>,<span style="color:#e6db74">&#34;0&#34;</span>],
+  [<span style="color:#e6db74">&#34;0&#34;</span>,<span style="color:#e6db74">&#34;0&#34;</span>,<span style="color:#e6db74">&#34;0&#34;</span>,<span style="color:#e6db74">&#34;1&#34;</span>,<span style="color:#e6db74">&#34;1&#34;</span>]
+]
+Output: <span style="color:#ae81ff">3</span>
+
+</code></pre></div><h3>Idea:</h3>
 <hr>
 <p>This question is analogous to the problem of connected components in an undirected graph.</p>
 <p>Here I used recursion for a depth first search.</p>
 <h3>Solution:</h3>
 <hr>
+<h4>DFS:</h4>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-C++" data-lang="C++">
 <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">dfs</span>(<span style="color:#66d9ef">int</span> i, <span style="color:#66d9ef">int</span> j, vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">char</span><span style="color:#f92672">&gt;&gt;&amp;</span> grid) {
         <span style="color:#75715e">// exit if search exhuasted
@@ -290,14 +303,17 @@ Solution:void dfs(int i, int j, vector&lt;vector&lt;char&gt;&gt;&amp; grid) { 
         <span style="color:#66d9ef">return</span> count;
     }
 
-</code></pre></div><p>// todo: union find implementation</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-C++" data-lang="C++">
+</code></pre></div><h4>Union Find:</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c++" data-lang="c++">
+    <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">numIslands</span>(vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">char</span><span style="color:#f92672">&gt;&gt;&amp;</span> grid) {
+
+    }
 </code></pre></div><h3>Complexity Analysis:</h3>
 <hr>
 <h5><b>Time</b></h5>
 <p>Worst case is O(M X N) where M and N are the dimensions of the input grid.</p>
 <h5><b>Memory</b></h5>
-<p>Here we reuse the input grid which is good. However</p>
+<p>Here we reuse the input grid which is good. However since it is recursive, its possible to use O(MxN) memory in the case where the grid is all ones.</p>
 
     </div>
     <footer>
@@ -315,9 +331,11 @@ Solution:void dfs(int i, int j, vector&lt;vector&lt;char&gt;&gt;&amp; grid) { 
     <ul class="tags">
       
         
-          <li><a class="article-terms-link" href="tags/tree/">tree</a></li>
+          <li><a class="article-terms-link" href="tags/union-find/">union-find</a></li>
         
-          <li><a class="article-terms-link" href="tags/recursion/">recursion</a></li>
+          <li><a class="article-terms-link" href="tags/dfs/">dfs</a></li>
+        
+          <li><a class="article-terms-link" href="tags/bfs/">bfs</a></li>
         
           <li><a class="article-terms-link" href="tags/medium/">medium</a></li>
         
@@ -379,6 +397,8 @@ Solution:void dfs(int i, int j, vector&lt;vector&lt;char&gt;&gt;&amp; grid) { 
   
   <div class="pagination">
     
+      <a href="/hugo/blog/rotting-oranges/" class="button left"><span>994. Rotting Oranges</span></a>
+    
     
       <a href="/hugo/blog/disjoint-sets/" class="button right"><span>Disjoint Sets</span></a>
     
@@ -395,7 +415,15 @@ Solution:void dfs(int i, int j, vector&lt;vector&lt;char&gt;&gt;&amp; grid) { 
       <article class="mini-post">
           
         <header>
-          <h2><a href="/hugo/blog/number-of-islands/">Number of Islands</a></h2>
+          <h2><a href="/hugo/blog/rotting-oranges/">994. Rotting Oranges</a></h2>
+          <time class="published" datetime="2020-08-17 18:14:12 -0400 EDT">August 17, 2020</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+          
+        <header>
+          <h2><a href="/hugo/blog/number-of-islands/">200. Number of Islands</a></h2>
           <time class="published" datetime="2020-08-12 23:17:44 -0400 EDT">August 12, 2020</time>
         </header>
       </article>
@@ -428,16 +456,6 @@ Solution:void dfs(int i, int j, vector&lt;vector&lt;char&gt;&gt;&amp; grid) { 
         </header>
       </article>
       
-      <article class="mini-post">
-          <a href="/hugo/blog/binary-tree-pruning/" class="image" style="--bg-image: url('https://blichtlealt.github.io/hugo/img/2019/03/pic04.jpg');">
-    <img class="" src="https://blichtlealt.github.io/hugo/img/2019/03/pic04.jpg" alt="Desert Scene">
-  </a>
-        <header>
-          <h2><a href="/hugo/blog/binary-tree-pruning/">814. Binary Tree Pruning</a></h2>
-          <time class="published" datetime="2020-08-10 17:46:40 -0400 EDT">August 10, 2020</time>
-        </header>
-      </article>
-      
       
         <footer>
           <a href="/hugo/blog/" class="button">See More</a>
@@ -456,7 +474,7 @@ Solution:void dfs(int i, int j, vector&lt;vector&lt;char&gt;&gt;&amp; grid) { 
           
           
           <li>
-              <a href="categories/algorithms/">algorithms<span class="count">7</span></a>
+              <a href="categories/algorithms/">algorithms<span class="count">8</span></a>
           
           <li>
               <a href="categories/data-structures/">data-structures<span class="count">1</span></a>

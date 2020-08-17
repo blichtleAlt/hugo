@@ -6,7 +6,7 @@
     <description>Recent content in Tags on blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 12 Aug 2020 23:17:44 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2020 18:14:12 -0400</lastBuildDate>
     
 	<atom:link href="https://blichtlealt.github.io/hugo/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,27 +14,36 @@
     <item>
       <title>medium</title>
       <link>https://blichtlealt.github.io/hugo/tags/medium/</link>
-      <pubDate>Wed, 12 Aug 2020 23:17:44 -0400</pubDate>
+      <pubDate>Mon, 17 Aug 2020 18:14:12 -0400</pubDate>
       
       <guid>https://blichtlealt.github.io/hugo/tags/medium/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>recursion</title>
-      <link>https://blichtlealt.github.io/hugo/tags/recursion/</link>
+      <title>bfs</title>
+      <link>https://blichtlealt.github.io/hugo/tags/bfs/</link>
       <pubDate>Wed, 12 Aug 2020 23:17:44 -0400</pubDate>
       
-      <guid>https://blichtlealt.github.io/hugo/tags/recursion/</guid>
+      <guid>https://blichtlealt.github.io/hugo/tags/bfs/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>tree</title>
-      <link>https://blichtlealt.github.io/hugo/tags/tree/</link>
+      <title>dfs</title>
+      <link>https://blichtlealt.github.io/hugo/tags/dfs/</link>
       <pubDate>Wed, 12 Aug 2020 23:17:44 -0400</pubDate>
       
-      <guid>https://blichtlealt.github.io/hugo/tags/tree/</guid>
+      <guid>https://blichtlealt.github.io/hugo/tags/dfs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>union-find</title>
+      <link>https://blichtlealt.github.io/hugo/tags/union-find/</link>
+      <pubDate>Wed, 12 Aug 2020 23:17:44 -0400</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/tags/union-find/</guid>
       <description></description>
     </item>
     
@@ -53,6 +62,24 @@
       <pubDate>Wed, 12 Aug 2020 03:39:23 -0400</pubDate>
       
       <guid>https://blichtlealt.github.io/hugo/tags/sets/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>recursion</title>
+      <link>https://blichtlealt.github.io/hugo/tags/recursion/</link>
+      <pubDate>Mon, 10 Aug 2020 23:55:08 -0400</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/tags/recursion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tree</title>
+      <link>https://blichtlealt.github.io/hugo/tags/tree/</link>
+      <pubDate>Mon, 10 Aug 2020 23:55:08 -0400</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/tags/tree/</guid>
       <description></description>
     </item>
     

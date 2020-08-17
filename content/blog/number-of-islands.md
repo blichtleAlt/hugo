@@ -1,25 +1,49 @@
 +++
-title = "Number of Islands"
+title = "200. Number of Islands"
 date = 2020-08-12T23:17:44-04:00
-tags = ["tree", "recursion", "medium"]
+tags = ["union-find", "dfs", "bfs", "medium"]
 categories = ["algorithms"]
 author = "Brendan Lichtler"
 +++
 
-TODO: Link
+https://leetcode.com/problems/number-of-islands/solution/
 
 <h3>Problem Statement:</h3>
 <hr> 
+
+Given a 2d grid map of '1's (land) and '0's (water), count the number of islands. An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.
 
 
 <h3>Examples</h3>
 <hr>
 <h4>1:</h4>
-<div class="leetcode"> <img src="https://s3-lc-upload.s3.amazonaws.com/uploads/2018/04/06/1028_2.png" ></img> </div>
+
+``` python 
+
+Input: grid = [
+  ["1","1","1","1","0"],
+  ["1","1","0","1","0"],
+  ["1","1","0","0","0"],
+  ["0","0","0","0","0"]
+]
+Output: 1
+
+```
+
 <h4>2:</h4>
-<div class="leetcode"> <img src="https://s3-lc-upload.s3.amazonaws.com/uploads/2018/04/06/1028_1.png" ></img> </div>
-<h4>3:</h4>
-<div class="leetcode"> <img src="https://s3-lc-upload.s3.amazonaws.com/uploads/2018/04/05/1028.png" ></img> </div>
+
+``` python 
+
+Input: grid = [
+  ["1","1","0","0","0"],
+  ["1","1","0","0","0"],
+  ["0","0","1","0","0"],
+  ["0","0","0","1","1"]
+]
+Output: 3
+
+```
+
 
 <h3>Idea:</h3>
 <hr>
@@ -30,6 +54,8 @@ Here I used recursion for a depth first search.
 
 <h3>Solution:</h3>
 <hr>
+
+<h4>DFS:</h4>
 
 ``` C++ 
 
@@ -60,10 +86,13 @@ void dfs(int i, int j, vector<vector<char>>& grid) {
 
 ```
 
-// todo: union find implementation
+<h4>Union Find:</h4>
 
-``` C++
+``` c++
 
+    int numIslands(vector<vector<char>>& grid) {
+
+    }
 ```
 
 <h3>Complexity Analysis:</h3>
@@ -75,4 +104,4 @@ Worst case is O(M X N) where M and N are the dimensions of the input grid.
 
 <h5><b>Memory</b></h5>
 
-Here we reuse the input grid which is good. However 
+Here we reuse the input grid which is good. However since it is recursive, its possible to use O(MxN) memory in the case where the grid is all ones.

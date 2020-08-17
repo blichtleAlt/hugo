@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
   <meta charset="utf-8">
-<title>129. Sum Root to Leaf Numbers - blog</title>
+<title>994. Rotting Oranges - blog</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
@@ -18,43 +18,33 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="theme-color" content="#ffffff">
 
-<meta name="generator" content="Hugo 0.74.3" /><meta itemprop="name" content="129. Sum Root to Leaf Numbers">
-<meta itemprop="description" content="https://leetcode.com/problems/sum-root-to-leaf-numbers/
-Problem Statement:  Given a binary tree containing digits from 0-9 only, each root-to-leaf path could represent a number.
-An example is the root-to-leaf path 1-&gt;2-&gt;3 which represents the number 123.
-Find the total sum of all root-to-leaf numbers.
-Note: A leaf is a node with no children.
-Examples  1: Input: [1,2,3] 1 / \ 2 3 Output: 25 Explanation: The root-to-leaf path 1-&gt;2 represents the number 12. The root-to-leaf path 1-&gt;3 represents the number 13.">
-<meta itemprop="datePublished" content="2020-08-10T23:55:08-04:00" />
-<meta itemprop="dateModified" content="2020-08-10T23:55:08-04:00" />
-<meta itemprop="wordCount" content="314">
-<meta itemprop="image" content="">
+<meta name="generator" content="Hugo 0.74.3" /><meta itemprop="name" content="994. Rotting Oranges">
+<meta itemprop="description" content="https://leetcode.com/problems/rotting-oranges/
+Problem Statement: In a given grid, each cell can have one of three values:
+the value 0 representing an empty cell; the value 1 representing a fresh orange; the value 2 representing a rotten orange. Every minute, any fresh orange that is adjacent (4-directionally) to a rotten orange becomes rotten.
+Return the minimum number of minutes that must elapse until no cell has a fresh orange. If this is impossible, return -1 instead.">
+<meta itemprop="datePublished" content="2020-08-17T18:14:12-04:00" />
+<meta itemprop="dateModified" content="2020-08-17T18:14:12-04:00" />
+<meta itemprop="wordCount" content="142">
 
 
 
-<meta itemprop="keywords" content="tree,recursion,medium," />
-<meta property="og:title" content="129. Sum Root to Leaf Numbers" />
-<meta property="og:description" content="https://leetcode.com/problems/sum-root-to-leaf-numbers/
-Problem Statement:  Given a binary tree containing digits from 0-9 only, each root-to-leaf path could represent a number.
-An example is the root-to-leaf path 1-&gt;2-&gt;3 which represents the number 123.
-Find the total sum of all root-to-leaf numbers.
-Note: A leaf is a node with no children.
-Examples  1: Input: [1,2,3] 1 / \ 2 3 Output: 25 Explanation: The root-to-leaf path 1-&gt;2 represents the number 12. The root-to-leaf path 1-&gt;3 represents the number 13." />
+<meta itemprop="keywords" content="medium," />
+<meta property="og:title" content="994. Rotting Oranges" />
+<meta property="og:description" content="https://leetcode.com/problems/rotting-oranges/
+Problem Statement: In a given grid, each cell can have one of three values:
+the value 0 representing an empty cell; the value 1 representing a fresh orange; the value 2 representing a rotten orange. Every minute, any fresh orange that is adjacent (4-directionally) to a rotten orange becomes rotten.
+Return the minimum number of minutes that must elapse until no cell has a fresh orange. If this is impossible, return -1 instead." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://blichtlealt.github.io/hugo/blog/sum-root-to-leaf-numbers/" />
-<meta property="og:image" content="" />
-<meta property="article:published_time" content="2020-08-10T23:55:08-04:00" />
-<meta property="article:modified_time" content="2020-08-10T23:55:08-04:00" />
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content=""/>
-
-<meta name="twitter:title" content="129. Sum Root to Leaf Numbers"/>
-<meta name="twitter:description" content="https://leetcode.com/problems/sum-root-to-leaf-numbers/
-Problem Statement:  Given a binary tree containing digits from 0-9 only, each root-to-leaf path could represent a number.
-An example is the root-to-leaf path 1-&gt;2-&gt;3 which represents the number 123.
-Find the total sum of all root-to-leaf numbers.
-Note: A leaf is a node with no children.
-Examples  1: Input: [1,2,3] 1 / \ 2 3 Output: 25 Explanation: The root-to-leaf path 1-&gt;2 represents the number 12. The root-to-leaf path 1-&gt;3 represents the number 13."/>
+<meta property="og:url" content="https://blichtlealt.github.io/hugo/blog/rotting-oranges/" />
+<meta property="article:published_time" content="2020-08-17T18:14:12-04:00" />
+<meta property="article:modified_time" content="2020-08-17T18:14:12-04:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="994. Rotting Oranges"/>
+<meta name="twitter:description" content="https://leetcode.com/problems/rotting-oranges/
+Problem Statement: In a given grid, each cell can have one of three values:
+the value 0 representing an empty cell; the value 1 representing a fresh orange; the value 2 representing a rotten orange. Every minute, any fresh orange that is adjacent (4-directionally) to a rotten orange becomes rotten.
+Return the minimum number of minutes that must elapse until no cell has a fresh orange. If this is impossible, return -1 instead."/>
 <link rel="stylesheet" href="/hugo/css/bundle.min.61aad660bacc975469ff39e45f402b73170daef8780d6aa78e774152a1f85982.css" integrity="sha256-YarWYLrMl1Rp/znkX0ArcxcNrvh4DWqnjndBUqH4WYI="><link rel="stylesheet" href="/hugo/css/add-on.css">
 </head>
 
@@ -236,14 +226,14 @@ Examples  1: Input: [1,2,3] 1 / \ 2 3 Output: 25 Explanation: The root-to-leaf p
     <header>
   <div class="title">
     
-      <h2><a href="/hugo/blog/sum-root-to-leaf-numbers/">129. Sum Root to Leaf Numbers</a></h2>
+      <h2><a href="/hugo/blog/rotting-oranges/">994. Rotting Oranges</a></h2>
     
     
   </div>
   <div class="meta">
-    <time datetime="2020-08-10 23:55:08 -0400 EDT">August 10, 2020</time>
-    <p>Brendan Lichtler </p>
-    <p>2-Minute Read</p>
+    <time datetime="2020-08-17 18:14:12 -0400 EDT">August 17, 2020</time>
+    <p>Brendan Lichtler</p>
+    <p>1-Minute Read</p>
   </div>
 </header>
 
@@ -256,83 +246,52 @@ Examples  1: Input: [1,2,3] 1 / \ 2 3 Output: 25 Explanation: The root-to-leaf p
 
     </div>
     <div class="content">
-      <a href="/hugo/blog/sum-root-to-leaf-numbers/" class="image" style="--bg-image: url('https://blichtlealt.github.io/hugo/img/2019/03/pic06.jpg');">
-    <img class="" src="https://blichtlealt.github.io/hugo/img/2019/03/pic06.jpg" alt="Desert Scene">
-  </a>
-      <p><a href="https://leetcode.com/problems/sum-root-to-leaf-numbers/">https://leetcode.com/problems/sum-root-to-leaf-numbers/</a></p>
+      
+      <p><a href="https://leetcode.com/problems/rotting-oranges/">https://leetcode.com/problems/rotting-oranges/</a></p>
 <h3>Problem Statement:</h3>
 <hr> 
-<p>Given a binary tree containing digits from 0-9 only, each root-to-leaf path could represent a number.</p>
-<p>An example is the root-to-leaf path 1-&gt;2-&gt;3 which represents the number 123.</p>
-<p>Find the total sum of all root-to-leaf numbers.</p>
-<p>Note: A leaf is a node with no children.</p>
+<p>In a given grid, each cell can have one of three values:</p>
+<p>the value 0 representing an empty cell;
+the value 1 representing a fresh orange;
+the value 2 representing a rotten orange.
+Every minute, any fresh orange that is adjacent (4-directionally) to a rotten orange becomes rotten.</p>
+<p>Return the minimum number of minutes that must elapse until no cell has a fresh orange.  If this is impossible, return -1 instead.</p>
 <h3>Examples</h3>
 <hr>
 <h4>1:</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c++" data-lang="c++">Input: [<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">2</span>,<span style="color:#ae81ff">3</span>]
-    <span style="color:#ae81ff">1</span>
-   <span style="color:#f92672">/</span> \
-  <span style="color:#ae81ff">2</span>   <span style="color:#ae81ff">3</span>
-Output: <span style="color:#ae81ff">25</span>
-Explanation:
-The root<span style="color:#f92672">-</span>to<span style="color:#f92672">-</span>leaf path <span style="color:#ae81ff">1</span><span style="color:#f92672">-&gt;</span><span style="color:#ae81ff">2</span> represents the number <span style="color:#ae81ff">12.</span>
-The root<span style="color:#f92672">-</span>to<span style="color:#f92672">-</span>leaf path <span style="color:#ae81ff">1</span><span style="color:#f92672">-&gt;</span><span style="color:#ae81ff">3</span> represents the number <span style="color:#ae81ff">13.</span>
-Therefore, sum <span style="color:#f92672">=</span> <span style="color:#ae81ff">12</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">13</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">25.</span>
+<div class="leetcode"> <img src="https://assets.leetcode.com/uploads/2019/02/16/oranges.png" ></img> </div>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
+Input: [[<span style="color:#ae81ff">2</span>,<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">1</span>],[<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">0</span>],[<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">1</span>]]
+Output: <span style="color:#ae81ff">4</span>
+
 </code></pre></div><h4>2:</h4>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c++" data-lang="c++">Input: [<span style="color:#ae81ff">4</span>,<span style="color:#ae81ff">9</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">5</span>,<span style="color:#ae81ff">1</span>]
-    <span style="color:#ae81ff">4</span>
-   <span style="color:#f92672">/</span> \
-  <span style="color:#ae81ff">9</span>   <span style="color:#ae81ff">0</span>
- <span style="color:#f92672">/</span> \
-<span style="color:#ae81ff">5</span>   <span style="color:#ae81ff">1</span>
-Output: <span style="color:#ae81ff">1026</span>
-Explanation:
-The root<span style="color:#f92672">-</span>to<span style="color:#f92672">-</span>leaf path <span style="color:#ae81ff">4</span><span style="color:#f92672">-&gt;</span><span style="color:#ae81ff">9</span><span style="color:#f92672">-&gt;</span><span style="color:#ae81ff">5</span> represents the number <span style="color:#ae81ff">495.</span>
-The root<span style="color:#f92672">-</span>to<span style="color:#f92672">-</span>leaf path <span style="color:#ae81ff">4</span><span style="color:#f92672">-&gt;</span><span style="color:#ae81ff">9</span><span style="color:#f92672">-&gt;</span><span style="color:#ae81ff">1</span> represents the number <span style="color:#ae81ff">491.</span>
-The root<span style="color:#f92672">-</span>to<span style="color:#f92672">-</span>leaf path <span style="color:#ae81ff">4</span><span style="color:#f92672">-&gt;</span><span style="color:#ae81ff">0</span> represents the number <span style="color:#ae81ff">40.</span>
-Therefore, sum <span style="color:#f92672">=</span> <span style="color:#ae81ff">495</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">491</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">40</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">1026.</span>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
+Input: [[<span style="color:#ae81ff">2</span>,<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">1</span>],[<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">1</span>],[<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">1</span>]]
+Output: <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>
+Explanation:  The orange <span style="color:#f92672">in</span> the bottom left corner (row <span style="color:#ae81ff">2</span>, column <span style="color:#ae81ff">0</span>) <span style="color:#f92672">is</span> never rotten, because rotting only happens <span style="color:#ae81ff">4</span><span style="color:#f92672">-</span>directionally<span style="color:#f92672">.</span>
+
+</code></pre></div><h4>3:</h4>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
+Input: [[<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">2</span>]]
+Output: <span style="color:#ae81ff">0</span>
+Explanation:  Since there are already no fresh oranges at minute <span style="color:#ae81ff">0</span>, the answer <span style="color:#f92672">is</span> just <span style="color:#ae81ff">0.</span>
+
 </code></pre></div><h3>Idea:</h3>
 <hr>
-<p>The idea is traverse our tree, using any tree traversal algorighm. I choose dfs, and also I directly change the values of our tree.</p>
-<ol>
-<li>If we reach non-existing node (None), we just return back.</li>
-<li>If we reached leaf, that is it do not have any children, return value of this node.</li>
-<li>Update values for left and right children if they exist.</li>
-<li>Finally, call function recursively for left and right children and return sum of results for left and right.</li>
-</ol>
 <h3>Solution:</h3>
 <hr>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-C++" data-lang="C++"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-C++" data-lang="C++">
+<span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
 <span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
-    
-    <span style="color:#66d9ef">void</span> findPath(TreeNode<span style="color:#f92672">*</span> root, string <span style="color:#f92672">&amp;</span>path, <span style="color:#66d9ef">int</span> <span style="color:#f92672">&amp;</span>total) {
-        <span style="color:#66d9ef">if</span>(root <span style="color:#f92672">==</span> <span style="color:#66d9ef">nullptr</span>) <span style="color:#66d9ef">return</span>;
-        path <span style="color:#f92672">+=</span> std<span style="color:#f92672">::</span>to_string(root<span style="color:#f92672">-&gt;</span>val);
+    <span style="color:#66d9ef">int</span> orangesRotting(vector<span style="color:#f92672">&lt;</span>vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&gt;&amp;</span> grid) {
         
-        <span style="color:#66d9ef">if</span>(root<span style="color:#f92672">-&gt;</span>left <span style="color:#f92672">==</span> <span style="color:#66d9ef">nullptr</span> <span style="color:#f92672">&amp;&amp;</span> root<span style="color:#f92672">-&gt;</span>right <span style="color:#f92672">==</span> <span style="color:#66d9ef">nullptr</span>) {
-            total <span style="color:#f92672">+=</span> stoi(path);
-        }
-        findPath(root<span style="color:#f92672">-&gt;</span>left, path, total);
-        findPath(root<span style="color:#f92672">-&gt;</span>right, path, total);
-        
-        path.pop_back();
-    }
-    
-    <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">sumNumbers</span>(TreeNode<span style="color:#f92672">*</span> root) {
-        string path;
-        <span style="color:#66d9ef">int</span> total <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;
-        findPath(root, path, total);
-        
-        <span style="color:#66d9ef">return</span> total;
     }
 };
-</code></pre></div><p>TODO: Look at Morris Preorder Traversal.</p>
-<h3>Complexity Analysis:</h3>
+
+</code></pre></div><h3>Complexity Analysis:</h3>
 <hr>
 <h5><b>Time</b></h5>
-O(N). We look at each node once.
 <h5><b>Memory</b></h5>
-Here it is O(H) where H is the height of the binary tree. This will be where most recursive calls are made/where path string will be largest.
 
     </div>
     <footer>
@@ -349,10 +308,6 @@ Here it is O(H) where H is the height of the binary tree. This will be where mos
   
     <ul class="tags">
       
-        
-          <li><a class="article-terms-link" href="tags/tree/">tree</a></li>
-        
-          <li><a class="article-terms-link" href="tags/recursion/">recursion</a></li>
         
           <li><a class="article-terms-link" href="tags/medium/">medium</a></li>
         
@@ -376,7 +331,7 @@ Here it is O(H) where H is the height of the binary tree. This will be where mos
           </h3>
 
           
-          <input type="hidden" name="options[entryId]" value="a6fb3a6a4e55ca82407bdb7727e8da93">
+          <input type="hidden" name="options[entryId]" value="5b63f2308b8a330bce4730c8fe48d508">
           <input type='hidden' name='fields[replyThread]' value=''>
           <input type='hidden' name='fields[replyID]' value=''>
           <input type='hidden' name='fields[replyName]' value=''>
@@ -414,10 +369,8 @@ Here it is O(H) where H is the height of the binary tree. This will be where mos
   
   <div class="pagination">
     
-      <a href="/hugo/blog/disjoint-sets/" class="button left"><span>Disjoint Sets</span></a>
     
-    
-      <a href="/hugo/blog/binary-tree-paths/" class="button right"><span>257. Binary Tree Paths</span></a>
+      <a href="/hugo/blog/number-of-islands/" class="button right"><span>200. Number of Islands</span></a>
     
   </div>
 

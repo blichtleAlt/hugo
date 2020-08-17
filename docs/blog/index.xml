@@ -6,21 +6,32 @@
     <description>Recent content in Blog on blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 12 Aug 2020 23:17:44 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2020 18:14:12 -0400</lastBuildDate>
     
 	<atom:link href="https://blichtlealt.github.io/hugo/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Number of Islands</title>
+      <title>994. Rotting Oranges</title>
+      <link>https://blichtlealt.github.io/hugo/blog/rotting-oranges/</link>
+      <pubDate>Mon, 17 Aug 2020 18:14:12 -0400</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/blog/rotting-oranges/</guid>
+      <description>https://leetcode.com/problems/rotting-oranges/
+Problem Statement: In a given grid, each cell can have one of three values:
+the value 0 representing an empty cell; the value 1 representing a fresh orange; the value 2 representing a rotten orange. Every minute, any fresh orange that is adjacent (4-directionally) to a rotten orange becomes rotten.
+Return the minimum number of minutes that must elapse until no cell has a fresh orange. If this is impossible, return -1 instead.</description>
+    </item>
+    
+    <item>
+      <title>200. Number of Islands</title>
       <link>https://blichtlealt.github.io/hugo/blog/number-of-islands/</link>
       <pubDate>Wed, 12 Aug 2020 23:17:44 -0400</pubDate>
       
       <guid>https://blichtlealt.github.io/hugo/blog/number-of-islands/</guid>
-      <description>TODO: Link
-Problem Statement: Examples1: 2: 3: Idea:This question is analogous to the problem of connected components in an undirected graph.
-Here I used recursion for a depth first search.
-Solution:void dfs(int i, int j, vector&amp;lt;vector&amp;lt;char&amp;gt;&amp;gt;&amp;amp; grid) { // exit if search exhuasted  if(i &amp;lt; 0 || j &amp;lt; 0 || i &amp;gt;= grid.size() || j &amp;gt;= grid[0].</description>
+      <description>https://leetcode.com/problems/number-of-islands/solution/
+Problem Statement: Given a 2d grid map of &amp;lsquo;1&amp;rsquo;s (land) and &amp;lsquo;0&amp;rsquo;s (water), count the number of islands. An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.
+Examples1:Input: grid = [ [&amp;#34;1&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;0&amp;#34;], [&amp;#34;1&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;0&amp;#34;], [&amp;#34;1&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;], [&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;] ] Output: 1 2:Input: grid = [ [&amp;#34;1&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;], [&amp;#34;1&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;], [&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;], [&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;1&amp;#34;] ] Output: 3 Idea:This question is analogous to the problem of connected components in an undirected graph.</description>
     </item>
     
     <item>
