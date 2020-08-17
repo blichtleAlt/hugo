@@ -1,4 +1,16 @@
 [{
+    "title": "Number of Islands",
+    "date": "",
+    "description": "",
+    "body": "TODO: Link\nProblem Statement:\r Examples\r\r1:\r \r2:\r \r3:\r \rIdea:\r\rThis question is analogous to the problem of connected components in an undirected graph.\nHere I used recursion for a depth first search.\nSolution:\r\rvoid dfs(int i, int j, vector\u0026lt;vector\u0026lt;char\u0026gt;\u0026gt;\u0026amp; grid) { // exit if search exhuasted  if(i \u0026lt; 0 || j \u0026lt; 0 || i \u0026gt;= grid.size() || j \u0026gt;= grid[0].size() || grid[i][j] != \u0026#39;1\u0026#39;) return; grid[i][j] = \u0026#39;0\u0026#39;; dfs(i - 1, j, grid); dfs(i, j - 1, grid); dfs(i + 1, j, grid); dfs(i, j + 1, grid); } int numIslands(vector\u0026lt;vector\u0026lt;char\u0026gt;\u0026gt;\u0026amp; grid) { for(unsigned i = 0; i \u0026lt; grid.size(); ++i) { for(unsigned j = 0; j \u0026lt; grid[0].size(); ++j) { if(grid[i][j] == \u0026#39;1\u0026#39;) { dfs(i, j, grid); ++count; } } } return count; } // todo: union find implementation\nComplexity Analysis:\r\rTime\rWorst case is O(M X N) where M and N are the dimensions of the input grid.\nMemory\rHere we reuse the input grid which is good. However\n",
+    "ref": "/hugo/blog/number-of-islands/"
+  },{
+    "title": "Disjoint Sets",
+    "date": "",
+    "description": "",
+    "body": "Disjoint-set operations\r A disjoint-set data structure maintains a collection S = {s_1, s_2, \u0026hellip; s_k} disjoint sets. We identify each set by a representative.\n Union Pseudocode: \r\rfunction Union(x, y) is xRoot := Find(x) yRoot := Find(y) if xRoot = yRoot then // x and y are already in the same set return // x and y are not in same set, so we merge them if xRoot.size \u0026lt; yRoot.size then xRoot, yRoot := yRoot, xRoot // swap xRoot and yRoot // merge yRoot into xRoot yRoot.parent := xRoot xRoot.size := xRoot.size + yRoot.size Set-Union Data Structures:\r\rTodo\nConnected Components DFS Solution:\r\rConnected_Components(Graph G): for v in vertex: flag[v] = -1 count = 0 for v in vertex: if flag[v] == -1 // unvisited  dfs(v, flag) count++ DFS(int v, int flag) flag[v] = 1 for each adjacent node of v if flag[u] == - // unvisited  DFS(u, flag) Idea behind connected components DFS.\r\rEvery node is initially marked as -1 meaning not visited.\nThe main loop will go over all verticies, calling a DFS function if that vertex is unvisited ( == -1).\nIf unvisited, a DFS function will be called. This will recursively mark the neighbors of vertex v as visited, and then have then visit their neighbors and so on.\nThis means that when all neighbors have been visited, the DFS call will return. Hence we increment the count.\nAt the end, will will know the number of connected components in the graph.\nComplexity Analysis:\r\r",
+    "ref": "/hugo/blog/disjoint-sets/"
+  },{
     "title": "129. Sum Root to Leaf Numbers",
     "date": "",
     "description": "",

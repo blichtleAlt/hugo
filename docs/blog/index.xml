@@ -6,10 +6,32 @@
     <description>Recent content in Blog on blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Aug 2020 23:55:08 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2020 23:17:44 -0400</lastBuildDate>
     
 	<atom:link href="https://blichtlealt.github.io/hugo/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Number of Islands</title>
+      <link>https://blichtlealt.github.io/hugo/blog/number-of-islands/</link>
+      <pubDate>Wed, 12 Aug 2020 23:17:44 -0400</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/blog/number-of-islands/</guid>
+      <description>TODO: Link
+Problem Statement: Examples1: 2: 3: Idea:This question is analogous to the problem of connected components in an undirected graph.
+Here I used recursion for a depth first search.
+Solution:void dfs(int i, int j, vector&amp;lt;vector&amp;lt;char&amp;gt;&amp;gt;&amp;amp; grid) { // exit if search exhuasted  if(i &amp;lt; 0 || j &amp;lt; 0 || i &amp;gt;= grid.size() || j &amp;gt;= grid[0].</description>
+    </item>
+    
+    <item>
+      <title>Disjoint Sets</title>
+      <link>https://blichtlealt.github.io/hugo/blog/disjoint-sets/</link>
+      <pubDate>Wed, 12 Aug 2020 03:39:23 -0400</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/blog/disjoint-sets/</guid>
+      <description>Disjoint-set operations A disjoint-set data structure maintains a collection S = {s_1, s_2, &amp;hellip; s_k} disjoint sets. We identify each set by a representative.
+ Union Pseudocode: function Union(x, y) is xRoot := Find(x) yRoot := Find(y) if xRoot = yRoot then // x and y are already in the same set return // x and y are not in same set, so we merge them if xRoot.</description>
+    </item>
     
     <item>
       <title>129. Sum Root to Leaf Numbers</title>

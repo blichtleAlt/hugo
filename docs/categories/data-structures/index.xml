@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>data-structures on blog</title>
+    <link>https://blichtlealt.github.io/hugo/categories/data-structures/</link>
+    <description>Recent content in data-structures on blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 12 Aug 2020 03:39:23 -0400</lastBuildDate>
+    
+	<atom:link href="https://blichtlealt.github.io/hugo/categories/data-structures/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Disjoint Sets</title>
+      <link>https://blichtlealt.github.io/hugo/blog/disjoint-sets/</link>
+      <pubDate>Wed, 12 Aug 2020 03:39:23 -0400</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/blog/disjoint-sets/</guid>
+      <description>Disjoint-set operations A disjoint-set data structure maintains a collection S = {s_1, s_2, &amp;hellip; s_k} disjoint sets. We identify each set by a representative.
+ Union Pseudocode: function Union(x, y) is xRoot := Find(x) yRoot := Find(y) if xRoot = yRoot then // x and y are already in the same set return // x and y are not in same set, so we merge them if xRoot.</description>
+    </item>
+    
+  </channel>
+</rss>

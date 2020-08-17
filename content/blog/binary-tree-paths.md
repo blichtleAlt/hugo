@@ -5,11 +5,12 @@ author = "Brendan Lichtler "
 date = 2020-08-10T23:48:08-04:00
 tags = ["tree", "recursion", "easy"]
 categories = ["algorithms"]
-[[images]]
++++
+
+<!-- [[images]]
   src = "img/2019/03/pic05.jpg"
   alt = "Desert Scene"
-  stretch = "stretchH"
-+++
+  stretch = "stretchH" -->
 
 https://leetcode.com/problems/binary-tree-paths/
 
