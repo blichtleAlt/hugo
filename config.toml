@@ -4,7 +4,7 @@ baseurl                 = "https://blichtlealt.github.io/hugo"
 
 
 DefaultContentLanguage  = "en"
-title                   = "blog"
+title                   = "Brendan's Blog"
 theme                   = "hugo-future-imperfect-slim"
 paginate                = 6
 disqusShortname         = ""
