@@ -3,6 +3,61 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blichtlealt.github.io/hugo/pt/</loc>
+    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://blichtlealt.github.io/hugo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://blichtlealt.github.io/hugo/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="https://blichtlealt.github.io/hugo/pl/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://blichtlealt.github.io/hugo/de/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://blichtlealt.github.io/hugo/es/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-cn"
+                href="https://blichtlealt.github.io/hugo/zh-cn/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-tw"
+                href="https://blichtlealt.github.io/hugo/zh-tw/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://blichtlealt.github.io/hugo/ja/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="nl"
+                href="https://blichtlealt.github.io/hugo/nl/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://blichtlealt.github.io/hugo/pt/"
+                />
+  </url>
+  
+  <url>
     <loc>https://blichtlealt.github.io/hugo/pt/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -78,60 +133,6 @@
                 rel="alternate"
                 hreflang="pt"
                 href="https://blichtlealt.github.io/hugo/pt/categories/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://blichtlealt.github.io/hugo/pt/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://blichtlealt.github.io/hugo/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://blichtlealt.github.io/hugo/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pl"
-                href="https://blichtlealt.github.io/hugo/pl/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://blichtlealt.github.io/hugo/de/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://blichtlealt.github.io/hugo/es/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-cn"
-                href="https://blichtlealt.github.io/hugo/zh-cn/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-tw"
-                href="https://blichtlealt.github.io/hugo/zh-tw/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://blichtlealt.github.io/hugo/ja/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="nl"
-                href="https://blichtlealt.github.io/hugo/nl/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://blichtlealt.github.io/hugo/pt/"
                 />
   </url>
   
