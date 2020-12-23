@@ -4,6 +4,10 @@ date = 2020-08-17T18:14:12-04:00
 tags = ["medium"]
 categories = ["algorithms"]
 author = "Brendan Lichtler"
+[[images]]
+  src = "img/2019/03/pic14.jpg"
+  alt = "Desert Scene"
+  stretch = "stretchH"
 +++
 
 https://leetcode.com/problems/rotting-oranges/

@@ -4,6 +4,10 @@ date = 2020-08-12T23:17:44-04:00
 tags = ["union-find", "dfs", "bfs", "medium"]
 categories = ["algorithms"]
 author = "Brendan Lichtler"
+[[images]]
+  src = "img/2019/03/pic13.jpg"
+  alt = "Desert Scene"
+  stretch = "stretchH"
 +++
 
 https://leetcode.com/problems/number-of-islands/solution/
