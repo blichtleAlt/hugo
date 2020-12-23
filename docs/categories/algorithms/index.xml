@@ -6,10 +6,21 @@
     <description>Recent content in algorithms on Brendan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 22 Dec 2020 21:41:48 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 22 Dec 2020 22:36:56 -0500</lastBuildDate>
     
 	<atom:link href="https://blichtlealt.github.io/hugo/categories/algorithms/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>226. Invert Binary Tree</title>
+      <link>https://blichtlealt.github.io/hugo/blog/invert_tree/</link>
+      <pubDate>Tue, 22 Dec 2020 22:36:56 -0500</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/blog/invert_tree/</guid>
+      <description>Problem Statement: Invert a binary tree.
+Idea:Here we just use a simple recursive solution. Just swap your children pointers, then call recursively on the children. Eventually everynode will swap the children pointers, and the tree will be inverted.
+Solution:void swapChildren(TreeNode* root) {if(!root) {return;} else {std::swap(root-&amp;gt;left, root-&amp;gt;right);swapChildren(root-&amp;gt;left);swapChildren(root-&amp;gt;right); }}TreeNode* invertTree(TreeNode* root) {swapChildren(root);return root;}Complexity Analysis:TimeO(H) where H is the height of the tree.</description>
+    </item>
     
     <item>
       <title>191. Number of 1 Bits</title>

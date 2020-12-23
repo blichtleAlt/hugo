@@ -1,4 +1,10 @@
 [{
+    "title": "226. Invert Binary Tree",
+    "date": "",
+    "description": "",
+    "body": "Problem Statement:\r Invert a binary tree.\nIdea:\r\rHere we just use a simple recursive solution. Just swap your children pointers, then call recursively on the children. Eventually everynode will swap the children pointers, and the tree will be inverted.\nSolution:\r\rvoid swapChildren(TreeNode* root) {\rif(!root) {\rreturn;\r} else {\rstd::swap(root-\u0026gt;left, root-\u0026gt;right);\rswapChildren(root-\u0026gt;left);\rswapChildren(root-\u0026gt;right); }\r}\rTreeNode* invertTree(TreeNode* root) {\rswapChildren(root);\rreturn root;\r}\rComplexity Analysis:\r\rTime\rO(H) where H is the height of the tree.\nMemory\rO(H) where H is the height of the tree, memory used in the form of stack frames from recursive calls.\n",
+    "ref": "/hugo/blog/invert_tree/"
+  },{
     "title": "191. Number of 1 Bits",
     "date": "",
     "description": "",

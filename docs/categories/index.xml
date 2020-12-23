@@ -6,7 +6,7 @@
     <description>Recent content in Categories on Brendan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 22 Dec 2020 21:41:48 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 22 Dec 2020 22:36:56 -0500</lastBuildDate>
     
 	<atom:link href="https://blichtlealt.github.io/hugo/categories/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,18 @@
     <item>
       <title>algorithms</title>
       <link>https://blichtlealt.github.io/hugo/categories/algorithms/</link>
-      <pubDate>Tue, 22 Dec 2020 21:41:48 -0500</pubDate>
+      <pubDate>Tue, 22 Dec 2020 22:36:56 -0500</pubDate>
       
       <guid>https://blichtlealt.github.io/hugo/categories/algorithms/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>easy</title>
+      <link>https://blichtlealt.github.io/hugo/categories/easy/</link>
+      <pubDate>Tue, 22 Dec 2020 21:41:48 -0500</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/categories/easy/</guid>
       <description></description>
     </item>
     

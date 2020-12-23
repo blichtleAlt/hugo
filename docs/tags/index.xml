@@ -6,13 +6,40 @@
     <description>Recent content in Tags on Brendan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 22 Dec 2020 21:41:48 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 22 Dec 2020 22:36:56 -0500</lastBuildDate>
     
 	<atom:link href="https://blichtlealt.github.io/hugo/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Bit Manipulation</title>
+      <title>easy</title>
+      <link>https://blichtlealt.github.io/hugo/tags/easy/</link>
+      <pubDate>Tue, 22 Dec 2020 22:36:56 -0500</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/tags/easy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>recursion</title>
+      <link>https://blichtlealt.github.io/hugo/tags/recursion/</link>
+      <pubDate>Tue, 22 Dec 2020 22:36:56 -0500</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/tags/recursion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tree</title>
+      <link>https://blichtlealt.github.io/hugo/tags/tree/</link>
+      <pubDate>Tue, 22 Dec 2020 22:36:56 -0500</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/tags/tree/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bit manipulation</title>
       <link>https://blichtlealt.github.io/hugo/tags/bit-manipulation/</link>
       <pubDate>Tue, 22 Dec 2020 21:41:48 -0500</pubDate>
       
@@ -71,33 +98,6 @@
       <pubDate>Wed, 12 Aug 2020 03:39:23 -0400</pubDate>
       
       <guid>https://blichtlealt.github.io/hugo/tags/sets/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>recursion</title>
-      <link>https://blichtlealt.github.io/hugo/tags/recursion/</link>
-      <pubDate>Mon, 10 Aug 2020 23:55:08 -0400</pubDate>
-      
-      <guid>https://blichtlealt.github.io/hugo/tags/recursion/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tree</title>
-      <link>https://blichtlealt.github.io/hugo/tags/tree/</link>
-      <pubDate>Mon, 10 Aug 2020 23:55:08 -0400</pubDate>
-      
-      <guid>https://blichtlealt.github.io/hugo/tags/tree/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>easy</title>
-      <link>https://blichtlealt.github.io/hugo/tags/easy/</link>
-      <pubDate>Mon, 10 Aug 2020 23:48:08 -0400</pubDate>
-      
-      <guid>https://blichtlealt.github.io/hugo/tags/easy/</guid>
       <description></description>
     </item>
     

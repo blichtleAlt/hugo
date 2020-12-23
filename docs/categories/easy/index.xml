@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>bit manipulation on Brendan&#39;s Blog</title>
-    <link>https://blichtlealt.github.io/hugo/tags/bit-manipulation/</link>
-    <description>Recent content in bit manipulation on Brendan&#39;s Blog</description>
+    <title>easy on Brendan&#39;s Blog</title>
+    <link>https://blichtlealt.github.io/hugo/categories/easy/</link>
+    <description>Recent content in easy on Brendan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 22 Dec 2020 21:41:48 -0500</lastBuildDate>
     
-	<atom:link href="https://blichtlealt.github.io/hugo/tags/bit-manipulation/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blichtlealt.github.io/hugo/categories/easy/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
