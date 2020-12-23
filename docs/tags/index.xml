@@ -6,10 +6,46 @@
     <description>Recent content in Tags on Brendan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 22 Dec 2020 22:36:56 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 23 Dec 2020 04:05:17 -0500</lastBuildDate>
     
 	<atom:link href="https://blichtlealt.github.io/hugo/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>array</title>
+      <link>https://blichtlealt.github.io/hugo/tags/array/</link>
+      <pubDate>Wed, 23 Dec 2020 04:05:17 -0500</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/tags/array/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dynamic programming</title>
+      <link>https://blichtlealt.github.io/hugo/tags/dynamic-programming/</link>
+      <pubDate>Wed, 23 Dec 2020 04:05:17 -0500</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/tags/dynamic-programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>greedy</title>
+      <link>https://blichtlealt.github.io/hugo/tags/greedy/</link>
+      <pubDate>Wed, 23 Dec 2020 04:05:17 -0500</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/tags/greedy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>medium</title>
+      <link>https://blichtlealt.github.io/hugo/tags/medium/</link>
+      <pubDate>Wed, 23 Dec 2020 04:05:17 -0500</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/tags/medium/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>easy</title>
@@ -44,15 +80,6 @@
       <pubDate>Tue, 22 Dec 2020 21:41:48 -0500</pubDate>
       
       <guid>https://blichtlealt.github.io/hugo/tags/bit-manipulation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>medium</title>
-      <link>https://blichtlealt.github.io/hugo/tags/medium/</link>
-      <pubDate>Mon, 17 Aug 2020 18:14:12 -0400</pubDate>
-      
-      <guid>https://blichtlealt.github.io/hugo/tags/medium/</guid>
       <description></description>
     </item>
     

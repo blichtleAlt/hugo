@@ -1,0 +1,590 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+<title>Jump_game - Brendan&#39;s Blog</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/hugo/favicon/apple-touch-icon.png?v=1">
+  <link rel="icon" type="image/png" sizes="32x32" href="/hugo/favicon/favicon-32x32.png?v=1">
+  <link rel="icon" type="image/png" sizes="16x16" href="/hugo/favicon/favicon-16x16.png?v=1">
+  <link rel="manifest" href="/hugo/favicon/site.webmanifest?v=1">
+  
+    <link rel="mask-icon" href="/hugo/favicon/safari-pinned-tab.svg?v=1" color="#ffffff">
+    <link rel="shortcut icon" href="favicon.svg?v=1">
+    <meta name="msapplication-config" content="/hugo/favicon/browserconfig.xml?v=1">
+  
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+<meta name="generator" content="Hugo 0.68.3" /><meta itemprop="name" content="Jump_game">
+<meta itemprop="description" content="https://leetcode.com/problems/jump-game/
+Problem Statement: Given an array of non-negative integers nums, you are initially positioned at the first index of the array. Each element in the array represents your maximum jump length at that position. Determine if you are able to reach the last index.
+ExamplesExample 1Input: nums = [2,3,1,1,4]Output: trueExplanation: Jump 1 step from index 0 to 1, then 3 steps to the last index.">
+<meta itemprop="datePublished" content="2020-12-23T04:05:17-05:00" />
+<meta itemprop="dateModified" content="2020-12-23T04:05:17-05:00" />
+<meta itemprop="wordCount" content="344">
+<meta itemprop="image" content="">
+
+
+
+<meta itemprop="keywords" content="array,greedy,medium,dynamic programming," /><meta property="og:title" content="Jump_game" />
+<meta property="og:description" content="https://leetcode.com/problems/jump-game/
+Problem Statement: Given an array of non-negative integers nums, you are initially positioned at the first index of the array. Each element in the array represents your maximum jump length at that position. Determine if you are able to reach the last index.
+ExamplesExample 1Input: nums = [2,3,1,1,4]Output: trueExplanation: Jump 1 step from index 0 to 1, then 3 steps to the last index." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://blichtlealt.github.io/hugo/blog/jump_game/" />
+<meta property="og:image" content="" />
+<meta property="article:published_time" content="2020-12-23T04:05:17-05:00" />
+<meta property="article:modified_time" content="2020-12-23T04:05:17-05:00" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content=""/>
+
+<meta name="twitter:title" content="Jump_game"/>
+<meta name="twitter:description" content="https://leetcode.com/problems/jump-game/
+Problem Statement: Given an array of non-negative integers nums, you are initially positioned at the first index of the array. Each element in the array represents your maximum jump length at that position. Determine if you are able to reach the last index.
+ExamplesExample 1Input: nums = [2,3,1,1,4]Output: trueExplanation: Jump 1 step from index 0 to 1, then 3 steps to the last index."/>
+<link rel="stylesheet" href="/hugo/css/bundle.min.61aad660bacc975469ff39e45f402b73170daef8780d6aa78e774152a1f85982.css" integrity="sha256-YarWYLrMl1Rp/znkX0ArcxcNrvh4DWqnjndBUqH4WYI="><link rel="stylesheet" href="/hugo/css/add-on.css">
+</head>
+
+  <body>
+    
+
+<header id="site-header">
+  <nav id="site-nav">
+    <h1 class="nav-title">
+      <a href="/hugo/" class="nav">
+        
+          Blog
+        
+      </a>
+    </h1>
+    <menu id="site-nav-menu" class="flyout-menu menu">
+      
+        
+          
+          <a href="/hugo/" class="nav link"><i class='fa fa-home'></i> Home</a>
+        
+      
+        
+          
+          <a href="/hugo/about/" class="nav link"><i class='far fa-id-card'></i> About</a>
+        
+      
+        
+          
+          <a href="/hugo/blog/" class="nav link"><i class='far fa-newspaper'></i> Blog</a>
+        
+      
+        
+          
+          <a href="/hugo/categories/" class="nav link"><i class='fas fa-sitemap'></i> Categories</a>
+        
+      
+        
+          
+          <a href="/hugo/contact/" class="nav link"><i class='far fa-envelope'></i> Contact</a>
+        
+      
+        
+          
+          <a href="/hugo/tags/" class="nav link"><i class='fa fa-home'></i> Tags</a>
+        
+      
+      <a href="#share-menu" class="nav link share-toggle"><i class="fas fa-share-alt">&nbsp;</i>Share</a>
+      <a href="#search-input" class="nav link search-toggle"><i class="fas fa-search">&nbsp;</i>Search</a>
+    </menu>
+    <a href="#search-input" class="nav search-toggle"><i class="fas fa-search fa-2x">&nbsp;</i></a>
+    <a href="#share-menu" class="nav share-toggle"><i class="fas fa-share-alt fa-2x">&nbsp;</i></a>
+    <a href="#lang-menu" class="nav lang-toggle" lang="en">en</a>
+    <a href="#site-nav" class="nav nav-toggle"><i class="fas fa-bars fa-2x"></i></a>
+  </nav>
+  <menu id="search" class="menu"><input id="search-input" class="search-input menu"></input><div id="search-results" class="search-results menu"></div></menu>
+  <menu id="lang-menu" class="flyout-menu menu">
+  <a href="#" lang="en" class="nav link active">English (en)</a>
+  
+    
+      
+    
+      
+        <a href="/hugo/fr" lang="fr" class="nav no-lang link">Français (fr)</a>
+      
+    
+      
+        <a href="/hugo/pl" lang="pl" class="nav no-lang link">Polski (pl)</a>
+      
+    
+      
+        <a href="/hugo/pt" lang="pt" class="nav no-lang link">Português (pt)</a>
+      
+    
+      
+        <a href="/hugo/de" lang="de" class="nav no-lang link">Deutsche (de)</a>
+      
+    
+      
+        <a href="/hugo/es" lang="es" class="nav no-lang link">Española (es)</a>
+      
+    
+      
+        <a href="/hugo/zh-cn" lang="zh-cn" class="nav no-lang link">中文 (zh-cn)</a>
+      
+    
+      
+        <a href="/hugo/zh-tw" lang="zh-tw" class="nav no-lang link">中文 (zh-tw)</a>
+      
+    
+      
+        <a href="/hugo/ja" lang="ja" class="nav no-lang link">日本語 (ja)</a>
+      
+    
+      
+        <a href="/hugo/nl" lang="nl" class="nav no-lang link">Nederlands (nl)</a>
+      
+    
+  
+</menu>
+
+  
+    <menu id="share-menu" class="flyout-menu menu">
+      <h1>Share Post</h1>
+      
+
+
+
+
+
+    </menu>
+  
+</header>
+
+    <div id="wrapper">
+      <section id="site-intro" >
+  <a href="/"><img src="https://blichtlealt.github.io/hugo/img/main/logo.jpg" class="circle" width="100%" alt="Logo" /></a>
+  <header>
+    <h1>Brendan's Blog</h1>
+  </header>
+  <main>
+    <p>Come for computer science and tech related blog posts. </p>
+  </main>
+  
+    <footer>
+      <ul class="socnet-icons">
+        
+
+        <li><a href="//github.com/blichtleAlt" target="_blank" rel="noopener" title="GitHub" class="fab fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//linkedin.com/in/blichtle" target="_blank" rel="noopener" title="LinkedIn" class="fab fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="mailto:blichtle@umich.edu" target="_blank" title="Email" class="far fa-envelope"></a></li>
+
+      </ul>
+    </footer>
+  
+</section>
+
+      <main id="site-main">
+        
+  <article class="post">
+    <header>
+  <div class="title">
+    
+      <h2><a href="/hugo/blog/jump_game/">Jump_game</a></h2>
+    
+    
+  </div>
+  <div class="meta">
+    <time datetime="2020-12-23 04:05:17 -0500 EST">December 23, 2020</time>
+    <p>Brendan Lichtler</p>
+    <p>2-Minute Read</p>
+  </div>
+</header>
+
+    <div id="socnet-share">
+      
+
+
+
+
+
+    </div>
+    <div class="content">
+      <a href="/hugo/blog/jump_game/" class="image" style="--bg-image: url('https://blichtlealt.github.io/hugo/img/2019/03/pic12.jpg');">
+    <img class="" src="https://blichtlealt.github.io/hugo/img/2019/03/pic12.jpg" alt="Desert Scene">
+  </a>
+      <p><a href="https://leetcode.com/problems/jump-game/">https://leetcode.com/problems/jump-game/</a></p>
+<h3>Problem Statement:</h3>
+<hr> 
+<p>Given an array of non-negative integers nums, you are initially positioned at the first index of the array.
+Each element in the array represents your maximum jump length at that position.
+Determine if you are able to reach the last index.</p>
+<h3>Examples</h3>
+<hr>
+<h5><b>Example 1</b></h5>
+Input: nums = [2,3,1,1,4]
+Output: true
+Explanation: Jump 1 step from index 0 to 1, then 3 steps to the last index.
+<h5><b>Example 2</b></h5>
+Input: nums = [3,2,1,0,4]
+Output: false
+Explanation: You will always arrive at index 3 no matter what. Its maximum jump length is 0, which makes it impossible to reach the last index.
+<h3>Idea:</h3>
+<hr>
+<p>Here we can keep track of the left most index. If the current element can get at least to the left most index, it becomes the left most index.
+Therefore if we go right to left, if at the end the left most index is 0, we know we can jump to the end.</p>
+<p>Greedily update the left most index.</p>
+<h3>Solution:</h3>
+<hr>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-C++" data-lang="C++">
+<span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
+<span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
+    <span style="color:#66d9ef">bool</span> canJump(vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> nums) {
+       
+        <span style="color:#66d9ef">int</span> leftMostIndex <span style="color:#f92672">=</span> nums.size() <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>;
+        <span style="color:#75715e">// start at the second to last, we can always reach the last element
+</span><span style="color:#75715e"></span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> nums.size() <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>; i <span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">0</span>; <span style="color:#f92672">--</span>i) {
+            <span style="color:#66d9ef">if</span>(i <span style="color:#f92672">+</span> nums[i] <span style="color:#f92672">&gt;=</span> leftMostIndex) {
+                leftMostIndex <span style="color:#f92672">=</span> i;
+            }
+        }
+        
+        
+        <span style="color:#66d9ef">return</span> leftMostIndex <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>;
+    }
+};
+
+
+</code></pre></div><h3>Complexity Analysis:</h3>
+<hr>
+<h5><b>Time</b></h5>
+<p>O(N) time. It is a one time linear pass over the input array.</p>
+<h5><b>Memory</b></h5>
+<p>O(1) memory.</p>
+<h3>Side Note: Original DP Implementation I went with</h3>
+<hr>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c++" data-lang="c++">
+<span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> {
+<span style="color:#66d9ef">public</span><span style="color:#f92672">:</span>
+    <span style="color:#66d9ef">bool</span> canJump(vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;&amp;</span> nums) {
+        <span style="color:#66d9ef">if</span>(nums.empty()) {
+            <span style="color:#66d9ef">return</span> false;
+        }
+        
+        vector<span style="color:#f92672">&lt;</span><span style="color:#66d9ef">int</span><span style="color:#f92672">&gt;</span> dp;
+        dp.resize(nums.size(), <span style="color:#ae81ff">0</span>);
+        dp[nums.size() <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;
+        
+        
+        <span style="color:#75715e">// start at the second to last, we can always reach the last element
+</span><span style="color:#75715e"></span>        <span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> nums.size() <span style="color:#f92672">-</span> <span style="color:#ae81ff">2</span>; i <span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">0</span>; <span style="color:#f92672">--</span>i) {
+            
+            <span style="color:#66d9ef">int</span> num_to_check <span style="color:#f92672">=</span> nums[i];
+            <span style="color:#66d9ef">int</span> cur_offset <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;
+            
+            <span style="color:#66d9ef">while</span>( ((cur_offset <span style="color:#f92672">+</span> i) <span style="color:#f92672">&lt;</span> nums.size()) <span style="color:#f92672">&amp;&amp;</span> (num_to_check <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0</span>) ) {
+                <span style="color:#66d9ef">if</span>(dp[i <span style="color:#f92672">+</span> cur_offset] <span style="color:#f92672">==</span> <span style="color:#ae81ff">1</span>) {
+                    dp[i] <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;
+                    <span style="color:#66d9ef">break</span>;
+                }
+                cur_offset <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>;
+                num_to_check <span style="color:#f92672">-=</span> <span style="color:#ae81ff">1</span>;
+            }
+        }
+        
+        
+        <span style="color:#66d9ef">return</span> dp[<span style="color:#ae81ff">0</span>];
+    }
+};
+
+</code></pre></div><h5><b>Time</b></h5>
+<p>O(N^2) time.</p>
+<h5><b>Memory</b></h5>
+<p>O(N) memory.</p>
+
+    </div>
+    <footer>
+      <div class="stats">
+  
+    <ul class="categories">
+      
+        
+          <li><a class="article-terms-link" href="categories/algorithms/">algorithms</a></li>
+        
+      
+    </ul>
+  
+  
+    <ul class="tags">
+      
+        
+          <li><a class="article-terms-link" href="tags/array/">array</a></li>
+        
+          <li><a class="article-terms-link" href="tags/greedy/">greedy</a></li>
+        
+          <li><a class="article-terms-link" href="tags/medium/">medium</a></li>
+        
+          <li><a class="article-terms-link" href="tags/dynamic-programming/">dynamic programming</a></li>
+        
+      
+    </ul>
+  
+</div>
+
+    </footer>
+  </article>
+  
+    
+  <article class="post">
+    
+    <div>
+      <h2 id="say-something">Say Something</h2>
+        <form id="comment-form" class="new-comment" method="POST">
+          
+          <h3 class='reply-notice hidden'>
+            <span class='reply-name'></span>
+          </h3>
+
+          
+          <input type="hidden" name="options[entryId]" value="ba60189091a05fd51f92958c1dbefb57">
+          <input type='hidden' name='fields[replyThread]' value=''>
+          <input type='hidden' name='fields[replyID]' value=''>
+          <input type='hidden' name='fields[replyName]' value=''>
+
+          
+          <input required name='fields[name]' type='text' placeholder='Your Name'>
+          <input name='fields[website]' type='text' placeholder='Your Website'>
+          <input required name='fields[email]' type='email' placeholder='Your Email'>
+          <textarea required name='fields[body]' placeholder='Your Message' rows='10'></textarea>
+
+          
+          
+
+          
+          <div class='submit-notice'>
+            <strong class='submit-notice-text submit-success hidden'>Thanks for your comment! It will be shown on the site once it has been approved.</strong>
+            <strong class='submit-notice-text submit-failed hidden'>Sorry, there was an error with your submission. Please make sure all required fields have been completed and try again.</strong>
+          </div>
+
+          
+          <input type='submit' value='Submit' class='button'>
+          <input type='submit' value='Submitted' class='hidden button' disabled>
+          <input type='reset' value='Reset' class='button'>
+        </form>
+    </div>
+
+    
+    <div>
+      <h2>Comments</h2><p>Nothing yet.</p>
+      
+    </div>
+  </article>
+
+
+  
+  <div class="pagination">
+    
+    
+      <a href="/hugo/blog/invert_tree/" class="button right"><span>226. Invert Binary Tree</span></a>
+    
+  </div>
+
+      </main>
+      <section id="site-sidebar">
+  
+    <section id="recent-posts">
+      <header>
+        <h1>Recent Posts</h1>
+      </header>
+      
+      <article class="mini-post">
+          <a href="/hugo/blog/jump_game/" class="image" style="--bg-image: url('https://blichtlealt.github.io/hugo/img/2019/03/pic12.jpg');">
+    <img class="" src="https://blichtlealt.github.io/hugo/img/2019/03/pic12.jpg" alt="Desert Scene">
+  </a>
+        <header>
+          <h2><a href="/hugo/blog/jump_game/">Jump_game</a></h2>
+          <time class="published" datetime="2020-12-23 04:05:17 -0500 EST">December 23, 2020</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+          <a href="/hugo/blog/invert_tree/" class="image" style="--bg-image: url('https://blichtlealt.github.io/hugo/img/2019/03/pic11.jpg');">
+    <img class="" src="https://blichtlealt.github.io/hugo/img/2019/03/pic11.jpg" alt="Desert Scene">
+  </a>
+        <header>
+          <h2><a href="/hugo/blog/invert_tree/">226. Invert Binary Tree</a></h2>
+          <time class="published" datetime="2020-12-22 22:36:56 -0500 EST">December 22, 2020</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+          <a href="/hugo/blog/count_one_bits/" class="image" style="--bg-image: url('https://blichtlealt.github.io/hugo/img/2019/03/pic10.jpg');">
+    <img class="" src="https://blichtlealt.github.io/hugo/img/2019/03/pic10.jpg" alt="Desert Scene">
+  </a>
+        <header>
+          <h2><a href="/hugo/blog/count_one_bits/">191. Number of 1 Bits</a></h2>
+          <time class="published" datetime="2020-12-22 21:41:48 -0500 EST">December 22, 2020</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+          
+        <header>
+          <h2><a href="/hugo/blog/rotting-oranges/">994. Rotting Oranges</a></h2>
+          <time class="published" datetime="2020-08-17 18:14:12 -0400 EDT">August 17, 2020</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+          
+        <header>
+          <h2><a href="/hugo/blog/number-of-islands/">200. Number of Islands</a></h2>
+          <time class="published" datetime="2020-08-12 23:17:44 -0400 EDT">August 12, 2020</time>
+        </header>
+      </article>
+      
+      
+        <footer>
+          <a href="/hugo/blog/" class="button">See More</a>
+        </footer>
+      
+    </section>
+  
+
+  
+    
+      <section id="categories">
+        <header>
+          <h1><a href="categories">categories</a></h1>
+        </header>
+        <ul>
+          
+          
+          <li>
+              <a href="categories/algorithms/">algorithms<span class="count">11</span></a>
+          
+          <li>
+              <a href="categories/data-structures/">data-structures<span class="count">1</span></a>
+          
+          <li>
+              <a href="categories/easy/">easy<span class="count">1</span></a>
+          
+          </li>
+        </ul>
+      </section>
+    
+  
+
+  
+    <section id="mini-bio">
+      <header>
+        <h1>About</h1>
+      </header>
+      <p>Blog designed for tech and computer science content.</p>
+      <footer>
+        <a href="about" class="button">Learn More</a>
+      </footer>
+    </section>
+  
+</section>
+
+      <footer id="site-footer">
+  
+      <ul class="socnet-icons">
+        
+
+        <li><a href="//github.com/blichtleAlt" target="_blank" rel="noopener" title="GitHub" class="fab fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//linkedin.com/in/blichtle" target="_blank" rel="noopener" title="LinkedIn" class="fab fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="mailto:blichtle@umich.edu" target="_blank" title="Email" class="far fa-envelope"></a></li>
+
+      </ul>
+  
+  <p class="copyright">
+    © 2020 Brendan&#39;s Blog
+      <br>
+    
+  </p>
+</footer>
+<a id="back-to-top" href="#" class="fas fa-arrow-up fa-2x"></a>
+
+      <script src="/hugo/js/highlight.js"></script>
+    
+    <script>hljs.initHighlightingOnLoad();</script><script src="/hugo/js/bundle.min.b3da7d729da85dcf87b21243dfe69f8f3a465c4ad98f68e58fbdb9f2d495801e.js" integrity="sha256-s9p9cp2oXc&#43;HshJD3&#43;afjzpGXErZj2jlj7258tSVgB4="></script>
+    <script src="/hugo/js/add-on.js"></script>
+    </div>
+  </body>
+</html>
