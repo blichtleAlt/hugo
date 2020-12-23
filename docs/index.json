@@ -1,8 +1,8 @@
 [{
-    "title": "Count_one_bits",
+    "title": "191. Number of 1 Bits",
     "date": "",
     "description": "",
-    "body": "TODO: Link\nProblem Statement:\r Examples\r\r1:\r \r2:\r \r3:\r \rIdea:\r\rSolution:\r\rComplexity Analysis:\r\rTime\rMemory\r",
+    "body": "https://leetcode.com/problems/number-of-1-bits/\nProblem Statement:\r Return the number of bits set to 1 in a 4 byte integer.\nIdea:\r\rThe idea here is to use a clever trick, created by Brian Kernighan. Instead of doing a naive O(N) traversal over the bits of the input integer, this algorthim works by removing the rightmost 1 bit iteratively until the number is zero.\nTherefore, the number of iterations the algorithm takes to converge depends on the number of bits set to 1 on the input integer.\nFor example, the number 5 has 2 bits set to 1. ( 0101 ). Kernighan\u0026rsquo;s algorithm only takes 2 iterations here.\nThe idea is showcases in the code below. It uses clever bit manipulation to find the right most 1 bit and remove it.\nSolution:\r\rint count_one_bits(int x) {\rint count = 0;\rwhile(x != 0) {\r// Update count.\r count += 1;\r// Remove the rightmost one bit.\r x \u0026amp;= (x-1);\r}\rreturn count;\r}\rComplexity Analysis:\r\rTime\rO(N) time in the worst case that all bits on the input are zero. Faster on the common case where this isn\u0026rsquo;t true.\nMemory\rO(1) memory.\n",
     "ref": "/hugo/blog/count_one_bits/"
   },{
     "title": "994. Rotting Oranges",

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bit Manipulation on Brendan&#39;s Blog</title>
+    <link>https://blichtlealt.github.io/hugo/tags/bit-manipulation/</link>
+    <description>Recent content in Bit Manipulation on Brendan&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 22 Dec 2020 21:41:48 -0500</lastBuildDate>
+    
+	<atom:link href="https://blichtlealt.github.io/hugo/tags/bit-manipulation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>191. Number of 1 Bits</title>
+      <link>https://blichtlealt.github.io/hugo/blog/count_one_bits/</link>
+      <pubDate>Tue, 22 Dec 2020 21:41:48 -0500</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/blog/count_one_bits/</guid>
+      <description>https://leetcode.com/problems/number-of-1-bits/
+Problem Statement: Return the number of bits set to 1 in a 4 byte integer.
+Idea:The idea here is to use a clever trick, created by Brian Kernighan. Instead of doing a naive O(N) traversal over the bits of the input integer, this algorthim works by removing the rightmost 1 bit iteratively until the number is zero.
+Therefore, the number of iterations the algorithm takes to converge depends on the number of bits set to 1 on the input integer.</description>
+    </item>
+    
+  </channel>
+</rss>
