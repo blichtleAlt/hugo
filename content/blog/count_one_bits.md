@@ -3,6 +3,10 @@ title = "191. Number of 1 Bits"
 date = 2020-12-22T21:41:48-05:00
 tags = ["Bit Manipulation"]
 categories = ["algorithms"]
+[[images]]
+  src = "img/2019/03/pic10.jpg"
+  alt = "Desert Scene"
+  stretch = "stretchH"
 author = "Brendan Lichtler"
 +++
 
