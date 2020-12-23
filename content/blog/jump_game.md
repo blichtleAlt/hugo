@@ -52,16 +52,16 @@ Greedily update the left most index.
 class Solution {
 public:
     bool canJump(vector<int>& nums) {
-       
         int leftMostIndex = nums.size() - 1;
-        // start at the second to last, we can always reach the last element
+
         for(int i = nums.size() - 1; i >= 0; --i) {
+            // if we can at least reach the left most index, make i the left most index.
             if(i + nums[i] >= leftMostIndex) {
                 leftMostIndex = i;
             }
         }
         
-        
+        // if left most index ends at zero, we can jump to the end.
         return leftMostIndex == 0;
     }
 };
