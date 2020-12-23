@@ -1,5 +1,5 @@
 +++
-title = "Jump_game"
+title = "55. Jump Game"
 date = 2020-12-23T04:05:17-05:00
 tags = ["array", "greedy", "medium", "dynamic programming"]
 categories = ["algorithms"]
