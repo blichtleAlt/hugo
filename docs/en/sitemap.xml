@@ -3,23 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://blichtlealt.github.io/hugo/blog/rotting-oranges/</loc>
-    <lastmod>2020-08-17T18:14:12-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://blichtlealt.github.io/hugo/categories/algorithms/</loc>
-    <lastmod>2020-08-17T18:14:12-04:00</lastmod>
+    <lastmod>2020-12-22T21:41:48-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://blichtlealt.github.io/hugo/blog/</loc>
-    <lastmod>2020-08-17T18:14:12-04:00</lastmod>
+    <lastmod>2020-12-22T21:41:48-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://blichtlealt.github.io/hugo/categories/</loc>
-    <lastmod>2020-08-17T18:14:12-04:00</lastmod>
+    <lastmod>2020-12-22T21:41:48-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -73,13 +68,23 @@
   </url>
   
   <url>
+    <loc>https://blichtlealt.github.io/hugo/blog/count_one_bits/</loc>
+    <lastmod>2020-12-22T21:41:48-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blichtlealt.github.io/hugo/tags/medium/</loc>
-    <lastmod>2020-08-17T18:14:12-04:00</lastmod>
+    <lastmod>2020-12-22T21:41:48-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blichtlealt.github.io/hugo/tags/recursion/</loc>
+    <lastmod>2020-12-22T21:41:48-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://blichtlealt.github.io/hugo/tags/</loc>
-    <lastmod>2020-08-17T18:14:12-04:00</lastmod>
+    <lastmod>2020-12-22T21:41:48-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -133,6 +138,16 @@
   </url>
   
   <url>
+    <loc>https://blichtlealt.github.io/hugo/tags/tree/</loc>
+    <lastmod>2020-12-22T21:41:48-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blichtlealt.github.io/hugo/blog/rotting-oranges/</loc>
+    <lastmod>2020-08-17T18:14:12-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blichtlealt.github.io/hugo/blog/number-of-islands/</loc>
     <lastmod>2020-08-12T23:17:44-04:00</lastmod>
   </url>
@@ -174,16 +189,6 @@
   
   <url>
     <loc>https://blichtlealt.github.io/hugo/blog/sum-root-to-leaf-numbers/</loc>
-    <lastmod>2020-08-10T23:55:08-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blichtlealt.github.io/hugo/tags/recursion/</loc>
-    <lastmod>2020-08-10T23:55:08-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blichtlealt.github.io/hugo/tags/tree/</loc>
     <lastmod>2020-08-10T23:55:08-04:00</lastmod>
   </url>
   
