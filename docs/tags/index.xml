@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Brendan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 23 Dec 2020 04:05:17 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 21 Aug 2021 17:21:49 -0700</lastBuildDate>
     
 	<atom:link href="https://blichtlealt.github.io/hugo/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,27 @@
     <item>
       <title>array</title>
       <link>https://blichtlealt.github.io/hugo/tags/array/</link>
-      <pubDate>Wed, 23 Dec 2020 04:05:17 -0500</pubDate>
+      <pubDate>Sat, 21 Aug 2021 17:21:49 -0700</pubDate>
       
       <guid>https://blichtlealt.github.io/hugo/tags/array/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>backtracking</title>
+      <link>https://blichtlealt.github.io/hugo/tags/backtracking/</link>
+      <pubDate>Sat, 21 Aug 2021 17:21:49 -0700</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/tags/backtracking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>medium</title>
+      <link>https://blichtlealt.github.io/hugo/tags/medium/</link>
+      <pubDate>Sat, 21 Aug 2021 17:21:49 -0700</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/tags/medium/</guid>
       <description></description>
     </item>
     
@@ -35,15 +53,6 @@
       <pubDate>Wed, 23 Dec 2020 04:05:17 -0500</pubDate>
       
       <guid>https://blichtlealt.github.io/hugo/tags/greedy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>medium</title>
-      <link>https://blichtlealt.github.io/hugo/tags/medium/</link>
-      <pubDate>Wed, 23 Dec 2020 04:05:17 -0500</pubDate>
-      
-      <guid>https://blichtlealt.github.io/hugo/tags/medium/</guid>
       <description></description>
     </item>
     

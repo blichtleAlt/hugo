@@ -6,10 +6,22 @@
     <description>Recent content in medium on Brendan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 23 Dec 2020 04:05:17 -0500</lastBuildDate>
+    <lastBuildDate>Sat, 21 Aug 2021 17:21:49 -0700</lastBuildDate>
     
 	<atom:link href="https://blichtlealt.github.io/hugo/tags/medium/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>79. Word Search</title>
+      <link>https://blichtlealt.github.io/hugo/blog/word-search/</link>
+      <pubDate>Sat, 21 Aug 2021 17:21:49 -0700</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/blog/word-search/</guid>
+      <description>https://leetcode.com/problems/word-search/
+Problem Statement:Given an m x n grid of characters board and a string word, return true if word exists in the grid.
+The word can be constructed from letters of sequentially adjacent cells, where adjacent cells are horizontally or vertically neighboring. The same letter cell may not be used more than once.
+ Examples1: Input: board = [[&amp;quot;A&amp;quot;,&amp;quot;B&amp;quot;,&amp;quot;C&amp;quot;,&amp;quot;E&amp;quot;],[&amp;quot;S&amp;quot;,&amp;quot;F&amp;quot;,&amp;quot;C&amp;quot;,&amp;quot;S&amp;quot;],[&amp;quot;A&amp;quot;,&amp;quot;D&amp;quot;,&amp;quot;E&amp;quot;,&amp;quot;E&amp;quot;]], word = &amp;quot;ABCCED&amp;quot;Output: trueIdea:Here what we do is a breadth first search, but also marking our path as we going along.</description>
+    </item>
     
     <item>
       <title>55. Jump Game</title>
