@@ -6,11 +6,7 @@
     <description>Recent content in array on Brendan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Aug 2021 17:21:49 -0700</lastBuildDate>
-    
-	<atom:link href="https://blichtlealt.github.io/hugo/tags/array/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 21 Aug 2021 17:21:49 -0700</lastBuildDate><atom:link href="https://blichtlealt.github.io/hugo/tags/array/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>79. Word Search</title>
       <link>https://blichtlealt.github.io/hugo/blog/word-search/</link>
@@ -20,7 +16,7 @@
       <description>https://leetcode.com/problems/word-search/
 Problem Statement:Given an m x n grid of characters board and a string word, return true if word exists in the grid.
 The word can be constructed from letters of sequentially adjacent cells, where adjacent cells are horizontally or vertically neighboring. The same letter cell may not be used more than once.
- Examples1: Input: board = [[&amp;quot;A&amp;quot;,&amp;quot;B&amp;quot;,&amp;quot;C&amp;quot;,&amp;quot;E&amp;quot;],[&amp;quot;S&amp;quot;,&amp;quot;F&amp;quot;,&amp;quot;C&amp;quot;,&amp;quot;S&amp;quot;],[&amp;quot;A&amp;quot;,&amp;quot;D&amp;quot;,&amp;quot;E&amp;quot;,&amp;quot;E&amp;quot;]], word = &amp;quot;ABCCED&amp;quot;Output: trueIdea:Here what we do is a breadth first search, but also marking our path as we going along.</description>
+ Examples1: Input: board = [[&amp;#34;A&amp;#34;,&amp;#34;B&amp;#34;,&amp;#34;C&amp;#34;,&amp;#34;E&amp;#34;],[&amp;#34;S&amp;#34;,&amp;#34;F&amp;#34;,&amp;#34;C&amp;#34;,&amp;#34;S&amp;#34;],[&amp;#34;A&amp;#34;,&amp;#34;D&amp;#34;,&amp;#34;E&amp;#34;,&amp;#34;E&amp;#34;]], word = &amp;#34;ABCCED&amp;#34;Output: true Idea:Here what we do is a breadth first search, but also marking our path as we going along.</description>
     </item>
     
     <item>

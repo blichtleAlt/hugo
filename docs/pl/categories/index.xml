@@ -5,10 +5,6 @@
     <link>https://blichtlealt.github.io/hugo/pl/categories/</link>
     <description>Recent content in Categories on Hugo Future Imperfect Slim po polsku</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pl</language>
-    
-	<atom:link href="https://blichtlealt.github.io/hugo/pl/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>pl</language><atom:link href="https://blichtlealt.github.io/hugo/pl/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

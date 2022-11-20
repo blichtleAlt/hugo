@@ -5,10 +5,6 @@
     <link>https://blichtlealt.github.io/hugo/zh-cn/tags/</link>
     <description>Recent content in Tags on Brendan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>zh-CN</language>
-    
-	<atom:link href="https://blichtlealt.github.io/hugo/zh-cn/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>zh-CN</language><atom:link href="https://blichtlealt.github.io/hugo/zh-cn/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

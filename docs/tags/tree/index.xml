@@ -6,11 +6,7 @@
     <description>Recent content in tree on Brendan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 22 Dec 2020 22:36:56 -0500</lastBuildDate>
-    
-	<atom:link href="https://blichtlealt.github.io/hugo/tags/tree/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 22 Dec 2020 22:36:56 -0500</lastBuildDate><atom:link href="https://blichtlealt.github.io/hugo/tags/tree/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>226. Invert Binary Tree</title>
       <link>https://blichtlealt.github.io/hugo/blog/invert_tree/</link>
@@ -19,7 +15,7 @@
       <guid>https://blichtlealt.github.io/hugo/blog/invert_tree/</guid>
       <description>Problem Statement: Invert a binary tree.
 Idea:Here we just use a simple recursive solution. Just swap your children pointers, then call recursively on the children. Eventually everynode will swap the children pointers, and the tree will be inverted.
-Solution:void swapChildren(TreeNode* root) {if(!root) {return;} else {std::swap(root-&amp;gt;left, root-&amp;gt;right);swapChildren(root-&amp;gt;left);swapChildren(root-&amp;gt;right); }}TreeNode* invertTree(TreeNode* root) {swapChildren(root);return root;}Complexity Analysis:TimeO(H) where H is the height of the tree.</description>
+Solution:  void swapChildren(TreeNode* root) {  if(!root) {  return;  } else {  std::swap(root-&amp;gt;left, root-&amp;gt;right);  swapChildren(root-&amp;gt;left);  swapChildren(root-&amp;gt;right);  }  }    TreeNode* invertTree(TreeNode* root) {  swapChildren(root);  return root;  } Complexity Analysis:TimeO(H) where H is the height of the tree.</description>
     </item>
     
     <item>
@@ -33,7 +29,7 @@ Problem Statement:  Given a binary tree containing digits from 0-9 only, each ro
 An example is the root-to-leaf path 1-&amp;gt;2-&amp;gt;3 which represents the number 123.
 Find the total sum of all root-to-leaf numbers.
 Note: A leaf is a node with no children.
-Examples  1: Input: [1,2,3] 1 / \ 2 3 Output: 25 Explanation: The root-to-leaf path 1-&amp;gt;2 represents the number 12. The root-to-leaf path 1-&amp;gt;3 represents the number 13.</description>
+Examples  1: Input: [1,2,3]  1  / \  2 3 Output: 25 Explanation: The root-to-leaf path 1-&amp;gt;2 represents the number 12.</description>
     </item>
     
     <item>
@@ -45,7 +41,7 @@ Examples  1: Input: [1,2,3] 1 / \ 2 3 Output: 25 Explanation: The root-to-leaf p
       <description>https://leetcode.com/problems/binary-tree-paths/
 Problem Statement:  Given a binary tree, return all root-to-leaf paths.
 Note: A leaf is a node with no children.
-Examples  1: Input: 1 / \ 2 3 \ 5 Output: [&amp;#34;1-&amp;gt;2-&amp;gt;5&amp;#34;, &amp;#34;1-&amp;gt;3&amp;#34;] Explanation: All root-to-leaf paths are: 1-&amp;gt;2-&amp;gt;5, 1-&amp;gt;3 Idea:  The most intuitive way is to use a recursion here. One is going through the tree by considering at each step the node itself and its children.</description>
+Examples  1: Input:   1  / \ 2 3  \  5  Output: [&amp;#34;1-&amp;gt;2-&amp;gt;5&amp;#34;, &amp;#34;1-&amp;gt;3&amp;#34;]  Explanation: All root-to-leaf paths are: 1-&amp;gt;2-&amp;gt;5, 1-&amp;gt;3 Idea:  The most intuitive way is to use a recursion here. One is going through the tree by considering at each step the node itself and its children.</description>
     </item>
     
     <item>
@@ -92,8 +88,8 @@ Idea:Recursively check each node in each tree. If both are null, we&amp;rsquo;v
       <guid>https://blichtlealt.github.io/hugo/blog/path-sum-ii/</guid>
       <description>https://leetcode.com/problems/path-sum-ii/
 Problem Statement:  Given a binary tree and a sum, find all root-to-leaf paths where each path&#39;s sum equals the given sum. Note: A leaf is a node with no children.
-Example:  Given the below binary tree and sum = 22, 5 / \ 4 8 / / \ 11 13 4 / \ / \ 7 2 5 1 Return:
-[ [5,4,11,2], [5,8,4,5] ] Idea:  We can solve this using a recursive depth first search approach.</description>
+Example:  Given the below binary tree and sum = 22,  5  / \  4 8  / / \  11 13 4  / \ / \ 7 2 5 1 Return:
+[  [5,4,11,2],  [5,8,4,5] ] Idea:  We can solve this using a recursive depth first search approach.</description>
     </item>
     
   </channel>

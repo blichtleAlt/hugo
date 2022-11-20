@@ -6,11 +6,7 @@
     <description>Recent content in graph on Brendan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 12 Aug 2020 03:39:23 -0400</lastBuildDate>
-    
-	<atom:link href="https://blichtlealt.github.io/hugo/tags/graph/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 12 Aug 2020 03:39:23 -0400</lastBuildDate><atom:link href="https://blichtlealt.github.io/hugo/tags/graph/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Disjoint Sets</title>
       <link>https://blichtlealt.github.io/hugo/blog/disjoint-sets/</link>
@@ -18,7 +14,7 @@
       
       <guid>https://blichtlealt.github.io/hugo/blog/disjoint-sets/</guid>
       <description>Disjoint-set operations A disjoint-set data structure maintains a collection S = {s_1, s_2, &amp;hellip; s_k} disjoint sets. We identify each set by a representative.
- Union Pseudocode: function Union(x, y) isxRoot := Find(x)yRoot := Find(y)if xRoot = yRoot then// x and y are already in the same setreturn// x and y are not in same set, so we merge themif xRoot.</description>
+ Union Pseudocode:   function Union(x, y) is  xRoot := Find(x)  yRoot := Find(y)   if xRoot = yRoot then  // x and y are already in the same set  return   // x and y are not in same set, so we merge them  if xRoot.</description>
     </item>
     
   </channel>

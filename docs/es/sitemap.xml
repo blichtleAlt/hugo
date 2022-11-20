@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://blichtlealt.github.io/hugo/es/</loc>
     <xhtml:link
@@ -54,9 +53,7 @@
                 hreflang="es"
                 href="https://blichtlealt.github.io/hugo/es/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blichtlealt.github.io/hugo/es/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -108,9 +105,7 @@
                 hreflang="es"
                 href="https://blichtlealt.github.io/hugo/es/categories/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blichtlealt.github.io/hugo/es/contact/</loc>
     <xhtml:link
                 rel="alternate"
@@ -132,9 +127,7 @@
                 hreflang="es"
                 href="https://blichtlealt.github.io/hugo/es/contact/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://blichtlealt.github.io/hugo/es/tags/</loc>
     <xhtml:link
                 rel="alternate"
@@ -187,5 +180,4 @@
                 href="https://blichtlealt.github.io/hugo/es/tags/"
                 />
   </url>
-  
 </urlset>

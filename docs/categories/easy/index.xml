@@ -6,11 +6,7 @@
     <description>Recent content in easy on Brendan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 22 Dec 2020 21:41:48 -0500</lastBuildDate>
-    
-	<atom:link href="https://blichtlealt.github.io/hugo/categories/easy/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Tue, 22 Dec 2020 21:41:48 -0500</lastBuildDate><atom:link href="https://blichtlealt.github.io/hugo/categories/easy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>191. Number of 1 Bits</title>
       <link>https://blichtlealt.github.io/hugo/blog/count_one_bits/</link>

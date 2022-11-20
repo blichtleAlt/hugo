@@ -6,11 +6,7 @@
     <description>Recent content in Blog on Brendan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Aug 2021 17:21:49 -0700</lastBuildDate>
-    
-	<atom:link href="https://blichtlealt.github.io/hugo/blog/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 21 Aug 2021 17:21:49 -0700</lastBuildDate><atom:link href="https://blichtlealt.github.io/hugo/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>79. Word Search</title>
       <link>https://blichtlealt.github.io/hugo/blog/word-search/</link>
@@ -20,7 +16,7 @@
       <description>https://leetcode.com/problems/word-search/
 Problem Statement:Given an m x n grid of characters board and a string word, return true if word exists in the grid.
 The word can be constructed from letters of sequentially adjacent cells, where adjacent cells are horizontally or vertically neighboring. The same letter cell may not be used more than once.
- Examples1: Input: board = [[&amp;quot;A&amp;quot;,&amp;quot;B&amp;quot;,&amp;quot;C&amp;quot;,&amp;quot;E&amp;quot;],[&amp;quot;S&amp;quot;,&amp;quot;F&amp;quot;,&amp;quot;C&amp;quot;,&amp;quot;S&amp;quot;],[&amp;quot;A&amp;quot;,&amp;quot;D&amp;quot;,&amp;quot;E&amp;quot;,&amp;quot;E&amp;quot;]], word = &amp;quot;ABCCED&amp;quot;Output: trueIdea:Here what we do is a breadth first search, but also marking our path as we going along.</description>
+ Examples1: Input: board = [[&amp;#34;A&amp;#34;,&amp;#34;B&amp;#34;,&amp;#34;C&amp;#34;,&amp;#34;E&amp;#34;],[&amp;#34;S&amp;#34;,&amp;#34;F&amp;#34;,&amp;#34;C&amp;#34;,&amp;#34;S&amp;#34;],[&amp;#34;A&amp;#34;,&amp;#34;D&amp;#34;,&amp;#34;E&amp;#34;,&amp;#34;E&amp;#34;]], word = &amp;#34;ABCCED&amp;#34;Output: true Idea:Here what we do is a breadth first search, but also marking our path as we going along.</description>
     </item>
     
     <item>
@@ -42,7 +38,7 @@ ExamplesExample 1Input: nums = [2,3,1,1,4]Output: trueExplanation: Jump 1 s
       <guid>https://blichtlealt.github.io/hugo/blog/invert_tree/</guid>
       <description>Problem Statement: Invert a binary tree.
 Idea:Here we just use a simple recursive solution. Just swap your children pointers, then call recursively on the children. Eventually everynode will swap the children pointers, and the tree will be inverted.
-Solution:void swapChildren(TreeNode* root) {if(!root) {return;} else {std::swap(root-&amp;gt;left, root-&amp;gt;right);swapChildren(root-&amp;gt;left);swapChildren(root-&amp;gt;right); }}TreeNode* invertTree(TreeNode* root) {swapChildren(root);return root;}Complexity Analysis:TimeO(H) where H is the height of the tree.</description>
+Solution:  void swapChildren(TreeNode* root) {  if(!root) {  return;  } else {  std::swap(root-&amp;gt;left, root-&amp;gt;right);  swapChildren(root-&amp;gt;left);  swapChildren(root-&amp;gt;right);  }  }    TreeNode* invertTree(TreeNode* root) {  swapChildren(root);  return root;  } Complexity Analysis:TimeO(H) where H is the height of the tree.</description>
     </item>
     
     <item>
@@ -77,7 +73,7 @@ Return the minimum number of minutes that must elapse until no cell has a fresh 
       <guid>https://blichtlealt.github.io/hugo/blog/number-of-islands/</guid>
       <description>https://leetcode.com/problems/number-of-islands/solution/
 Problem Statement: Given a 2d grid map of &amp;lsquo;1&amp;rsquo;s (land) and &amp;lsquo;0&amp;rsquo;s (water), count the number of islands. An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.
-Examples1:Input: grid = [[&amp;#34;1&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;0&amp;#34;],[&amp;#34;1&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;0&amp;#34;],[&amp;#34;1&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;],[&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;]]Output: 12:Input: grid = [[&amp;#34;1&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;],[&amp;#34;1&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;],[&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;],[&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;1&amp;#34;]]Output: 3Idea:This question is analogous to the problem of connected components in an undirected graph.</description>
+Examples1: Input: grid = [  [&amp;#34;1&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;0&amp;#34;],  [&amp;#34;1&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;0&amp;#34;],  [&amp;#34;1&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;],  [&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;] ] Output: 1 2: Input: grid = [  [&amp;#34;1&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;],  [&amp;#34;1&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;],  [&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;],  [&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;1&amp;#34;] ] Output: 3 Idea:This question is analogous to the problem of connected components in an undirected graph.</description>
     </item>
     
     <item>
@@ -87,7 +83,7 @@ Examples1:Input: grid = [[&amp;#34;1&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;1
       
       <guid>https://blichtlealt.github.io/hugo/blog/disjoint-sets/</guid>
       <description>Disjoint-set operations A disjoint-set data structure maintains a collection S = {s_1, s_2, &amp;hellip; s_k} disjoint sets. We identify each set by a representative.
- Union Pseudocode: function Union(x, y) isxRoot := Find(x)yRoot := Find(y)if xRoot = yRoot then// x and y are already in the same setreturn// x and y are not in same set, so we merge themif xRoot.</description>
+ Union Pseudocode:   function Union(x, y) is  xRoot := Find(x)  yRoot := Find(y)   if xRoot = yRoot then  // x and y are already in the same set  return   // x and y are not in same set, so we merge them  if xRoot.</description>
     </item>
     
     <item>
@@ -101,7 +97,7 @@ Problem Statement:  Given a binary tree containing digits from 0-9 only, each ro
 An example is the root-to-leaf path 1-&amp;gt;2-&amp;gt;3 which represents the number 123.
 Find the total sum of all root-to-leaf numbers.
 Note: A leaf is a node with no children.
-Examples  1: Input: [1,2,3] 1 / \ 2 3 Output: 25 Explanation: The root-to-leaf path 1-&amp;gt;2 represents the number 12. The root-to-leaf path 1-&amp;gt;3 represents the number 13.</description>
+Examples  1: Input: [1,2,3]  1  / \  2 3 Output: 25 Explanation: The root-to-leaf path 1-&amp;gt;2 represents the number 12.</description>
     </item>
     
     <item>
@@ -113,7 +109,7 @@ Examples  1: Input: [1,2,3] 1 / \ 2 3 Output: 25 Explanation: The root-to-leaf p
       <description>https://leetcode.com/problems/binary-tree-paths/
 Problem Statement:  Given a binary tree, return all root-to-leaf paths.
 Note: A leaf is a node with no children.
-Examples  1: Input: 1 / \ 2 3 \ 5 Output: [&amp;#34;1-&amp;gt;2-&amp;gt;5&amp;#34;, &amp;#34;1-&amp;gt;3&amp;#34;] Explanation: All root-to-leaf paths are: 1-&amp;gt;2-&amp;gt;5, 1-&amp;gt;3 Idea:  The most intuitive way is to use a recursion here. One is going through the tree by considering at each step the node itself and its children.</description>
+Examples  1: Input:   1  / \ 2 3  \  5  Output: [&amp;#34;1-&amp;gt;2-&amp;gt;5&amp;#34;, &amp;#34;1-&amp;gt;3&amp;#34;]  Explanation: All root-to-leaf paths are: 1-&amp;gt;2-&amp;gt;5, 1-&amp;gt;3 Idea:  The most intuitive way is to use a recursion here. One is going through the tree by considering at each step the node itself and its children.</description>
     </item>
     
     <item>
@@ -160,8 +156,8 @@ Idea:Recursively check each node in each tree. If both are null, we&amp;rsquo;v
       <guid>https://blichtlealt.github.io/hugo/blog/path-sum-ii/</guid>
       <description>https://leetcode.com/problems/path-sum-ii/
 Problem Statement:  Given a binary tree and a sum, find all root-to-leaf paths where each path&#39;s sum equals the given sum. Note: A leaf is a node with no children.
-Example:  Given the below binary tree and sum = 22, 5 / \ 4 8 / / \ 11 13 4 / \ / \ 7 2 5 1 Return:
-[ [5,4,11,2], [5,8,4,5] ] Idea:  We can solve this using a recursive depth first search approach.</description>
+Example:  Given the below binary tree and sum = 22,  5  / \  4 8  / / \  11 13 4  / \ / \ 7 2 5 1 Return:
+[  [5,4,11,2],  [5,8,4,5] ] Idea:  We can solve this using a recursive depth first search approach.</description>
     </item>
     
     <item>

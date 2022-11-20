@@ -6,11 +6,7 @@
     <description>Recent content in bfs on Brendan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 12 Aug 2020 23:17:44 -0400</lastBuildDate>
-    
-	<atom:link href="https://blichtlealt.github.io/hugo/tags/bfs/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 12 Aug 2020 23:17:44 -0400</lastBuildDate><atom:link href="https://blichtlealt.github.io/hugo/tags/bfs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>200. Number of Islands</title>
       <link>https://blichtlealt.github.io/hugo/blog/number-of-islands/</link>
@@ -19,7 +15,7 @@
       <guid>https://blichtlealt.github.io/hugo/blog/number-of-islands/</guid>
       <description>https://leetcode.com/problems/number-of-islands/solution/
 Problem Statement: Given a 2d grid map of &amp;lsquo;1&amp;rsquo;s (land) and &amp;lsquo;0&amp;rsquo;s (water), count the number of islands. An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water.
-Examples1:Input: grid = [[&amp;#34;1&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;0&amp;#34;],[&amp;#34;1&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;0&amp;#34;],[&amp;#34;1&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;],[&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;]]Output: 12:Input: grid = [[&amp;#34;1&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;],[&amp;#34;1&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;],[&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;],[&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;1&amp;#34;]]Output: 3Idea:This question is analogous to the problem of connected components in an undirected graph.</description>
+Examples1: Input: grid = [  [&amp;#34;1&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;0&amp;#34;],  [&amp;#34;1&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;0&amp;#34;],  [&amp;#34;1&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;],  [&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;] ] Output: 1 2: Input: grid = [  [&amp;#34;1&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;],  [&amp;#34;1&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;],  [&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;],  [&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;0&amp;#34;,&amp;#34;1&amp;#34;,&amp;#34;1&amp;#34;] ] Output: 3 Idea:This question is analogous to the problem of connected components in an undirected graph.</description>
     </item>
     
   </channel>

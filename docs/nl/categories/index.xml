@@ -5,10 +5,6 @@
     <link>https://blichtlealt.github.io/hugo/nl/categories/</link>
     <description>Recent content in Categories on Brendan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>nl</language>
-    
-	<atom:link href="https://blichtlealt.github.io/hugo/nl/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>nl</language><atom:link href="https://blichtlealt.github.io/hugo/nl/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

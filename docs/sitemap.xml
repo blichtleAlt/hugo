@@ -1,62 +1,56 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	
-	<sitemap>
-	   	<loc>https://blichtlealt.github.io/hugo/en/sitemap.xml</loc>
-		
-	   	<lastmod>2021-08-21T17:21:49-07:00</lastmod>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>https://blichtlealt.github.io/hugo/fr/sitemap.xml</loc>
-		
-	   	<lastmod>2019-02-28T00:00:00+00:00</lastmod>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>https://blichtlealt.github.io/hugo/pl/sitemap.xml</loc>
-		
-	   	<lastmod>2019-02-28T00:00:00+00:00</lastmod>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>https://blichtlealt.github.io/hugo/pt/sitemap.xml</loc>
-		
-	   	<lastmod>2019-02-28T00:00:00+00:00</lastmod>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>https://blichtlealt.github.io/hugo/de/sitemap.xml</loc>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>https://blichtlealt.github.io/hugo/es/sitemap.xml</loc>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>https://blichtlealt.github.io/hugo/zh-cn/sitemap.xml</loc>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>https://blichtlealt.github.io/hugo/zh-tw/sitemap.xml</loc>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>https://blichtlealt.github.io/hugo/ja/sitemap.xml</loc>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>https://blichtlealt.github.io/hugo/nl/sitemap.xml</loc>
-		
-	</sitemap>
-	
+  
+  <sitemap>
+    <loc>https://blichtlealt.github.io/hugo/en/sitemap.xml</loc>
+    
+      <lastmod>2021-08-21T17:21:49-07:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://blichtlealt.github.io/hugo/fr/sitemap.xml</loc>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://blichtlealt.github.io/hugo/pl/sitemap.xml</loc>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://blichtlealt.github.io/hugo/pt/sitemap.xml</loc>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://blichtlealt.github.io/hugo/de/sitemap.xml</loc>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://blichtlealt.github.io/hugo/es/sitemap.xml</loc>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://blichtlealt.github.io/hugo/zh-cn/sitemap.xml</loc>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://blichtlealt.github.io/hugo/zh-tw/sitemap.xml</loc>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://blichtlealt.github.io/hugo/ja/sitemap.xml</loc>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>https://blichtlealt.github.io/hugo/nl/sitemap.xml</loc>
+    
+  </sitemap>
+  
 </sitemapindex>

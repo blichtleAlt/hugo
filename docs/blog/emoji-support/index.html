@@ -3,43 +3,35 @@
   <head>
   <meta charset="utf-8">
 <title>Emoji Support - Brendan&#39;s Blog</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Guide to emoji usage in Hugo">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="twitter:card" content="summary_large_image">
+
+<meta property="og:site_name" content="Brendan&#39;s Blog">
+<meta property="og:title" content="Emoji Support">
+<meta property="og:description" content="Guide to emoji usage in Hugo">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://blichtlealt.github.io/hugo/blog/emoji-support/">
+    <meta property="og:image" content="https://blichtlealt.github.io/hugo/img/2019/03/pic02.jpg">
+    <meta property="og:image:alt" content="Desert Scene">
 
 
+  <link rel="manifest" href="/hugo/favicon/site.webmanifest?v=1">
   <link rel="apple-touch-icon" sizes="180x180" href="/hugo/favicon/apple-touch-icon.png?v=1">
   <link rel="icon" type="image/png" sizes="32x32" href="/hugo/favicon/favicon-32x32.png?v=1">
   <link rel="icon" type="image/png" sizes="16x16" href="/hugo/favicon/favicon-16x16.png?v=1">
-  <link rel="manifest" href="/hugo/favicon/site.webmanifest?v=1">
   
     <link rel="mask-icon" href="/hugo/favicon/safari-pinned-tab.svg?v=1" color="#ffffff">
-    <link rel="shortcut icon" href="favicon.svg?v=1">
+    <link rel="shortcut icon" href="/hugo/favicon/favicon.ico?v=1">
     <meta name="msapplication-config" content="/hugo/favicon/browserconfig.xml?v=1">
   
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="theme-color" content="#ffffff">
 
-<meta name="generator" content="Hugo 0.68.3" /><meta itemprop="name" content="Emoji Support">
-<meta itemprop="description" content="Guide to emoji usage in Hugo">
-<meta itemprop="datePublished" content="2019-03-05T00:00:00&#43;00:00" />
-<meta itemprop="dateModified" content="2019-03-05T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="124">
-<meta itemprop="image" content="">
 
-
-
-<meta itemprop="keywords" content="emoji," /><meta property="og:title" content="Emoji Support" />
-<meta property="og:description" content="Guide to emoji usage in Hugo" />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://blichtlealt.github.io/hugo/blog/emoji-support/" />
-<meta property="og:image" content="" />
-<meta property="article:published_time" content="2019-03-05T00:00:00+00:00" />
-<meta property="article:modified_time" content="2019-03-05T00:00:00+00:00" />
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content=""/>
-
-<meta name="twitter:title" content="Emoji Support"/>
-<meta name="twitter:description" content="Guide to emoji usage in Hugo"/>
-<link rel="stylesheet" href="/hugo/css/bundle.min.61aad660bacc975469ff39e45f402b73170daef8780d6aa78e774152a1f85982.css" integrity="sha256-YarWYLrMl1Rp/znkX0ArcxcNrvh4DWqnjndBUqH4WYI="><link rel="stylesheet" href="/hugo/css/add-on.css">
+  <meta name="generator" content="Hugo 0.96.0" />
+  <link rel="stylesheet" href="/hugo/css/bundle.min.5233f2a4cd515395301b4154f6c1c621695e8cf53faa0935b76ac52fed7f4585.css" integrity="sha256-UjPypM1RU5UwG0FU9sHGIWlejPU/qgk1t2rFL&#43;1/RYU="><link rel="stylesheet" href="/hugo/css/add-on.css">
 </head>
 
   <body>
@@ -155,7 +147,7 @@
 
     <div id="wrapper">
       <section id="site-intro" >
-  <a href="/hugo/"><img src="https://blichtlealt.github.io/hugo/img/main/logo.jpg" class="circle" width="100%" alt="Logo" /></a>
+  <a href="/hugo/"><img src="/hugo/img/main/logo.jpg" class="circle" width="100%" alt="Logo" /></a>
   <header>
     <h1>Brendan's Blog</h1>
   </header>
@@ -179,7 +171,7 @@
 
 
 
-<li><a href="//linkedin.com/in/blichtle" target="_blank" rel="noopener" title="LinkedIn" class="fab fa-linkedin"></a></li>
+<li><a href="//www.linkedin.com/in/blichtle" target="_blank" rel="noopener" title="LinkedIn" class="fab fa-linkedin"></a></li>
 
 
 
@@ -216,8 +208,9 @@
 
       <main id="site-main">
         
-  <article class="post">
-    <header>
+  <article>
+    <div class="post">
+      <header>
   <div class="title">
     
       <h2><a href="/hugo/blog/emoji-support/">Emoji Support</a></h2>
@@ -233,19 +226,20 @@
   </div>
 </header>
 
-    <div id="socnet-share">
-      
+      <div id="socnet-share">
+        
 
 
 
 
 
-    </div>
-    <div class="content">
-      <a href="/hugo/blog/emoji-support/" class="image" style="--bg-image: url('https://blichtlealt.github.io/hugo/img/2019/03/pic02.jpg');">
-    <img class="" src="https://blichtlealt.github.io/hugo/img/2019/03/pic02.jpg" alt="Desert Scene">
+      </div>
+      <div class="content">
+        <a href="/hugo/blog/emoji-support/" class="image" style="--bg-image: url('/hugo/img/2019/03/pic02.jpg');">
+    <img class="" src="/hugo/img/2019/03/pic02.jpg" alt="Desert Scene">
   </a>
-      <p>Emoji can be enabled in a Hugo project in a number of ways.</p>
+        
+        <p>Emoji can be enabled in a Hugo project in a number of ways.</p>
 <p>The <a href="https://gohugo.io/functions/emojify/"><code>emojify</code></a> function can be called directly in templates or <a href="https://gohugo.io/templates/shortcode-templates/#inline-shortcodes">Inline Shortcodes</a>.</p>
 <p>To enable emoji globally, set <code>enableEmoji</code> to <code>true</code> in your site’s <a href="https://gohugo.io/getting-started/configuration/">configuration</a> and then you can type emoji shorthand codes directly in content files; e.g.</p>
 <p><span class="nowrap"><span class="emojify">🙈</span> <code>:see_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙉</span> <code>:hear_no_evil:</code></span>  <span class="nowrap"><span class="emojify">🙊</span> <code>:speak_no_evil:</code></span></p>
@@ -253,12 +247,12 @@
 <p>The <a href="http://www.emoji-cheat-sheet.com/">Emoji cheat sheet</a> is a useful reference for emoji shorthand codes.</p>
 <hr>
 <p><strong>N.B.</strong> The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-html" data-lang="html">.emoji {
-font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,Android Emoji,EmojiSymbols;
-}</code></pre></div>
-    </div>
-    <footer>
-      <div class="stats">
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>.emoji {
+</span></span><span style="display:flex;"><span>font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,Android Emoji,EmojiSymbols;
+</span></span><span style="display:flex;"><span>}</span></span></code></pre></div>
+      </div>
+      <footer>
+        <div class="stats">
   
     <ul class="categories">
       <li>None</li>
@@ -268,29 +262,30 @@ font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,And
     <ul class="tags">
       
         
-          <li><a class="article-terms-link" href="tags/emoji/">emoji</a></li>
+          <li><a class="article-terms-link" href="/hugo/tags/emoji/">emoji</a></li>
         
       
     </ul>
   
 </div>
 
-    </footer>
-  </article>
-  
+      </footer>
+    </div>
     
-  <article class="post">
+      
+  <div class='post'>
     
     <div>
-      <h2 id="say-something">Say Something</h2>
-        <form id="comment-form" class="new-comment" method="POST">
+      <h2 id='say-something'>Say Something</h2>
+        <form id='comment-form' class='new-comment' method='POST'>
           
           <h3 class='reply-notice hidden'>
             <span class='reply-name'></span>
+            <a class='reply-close-btn button'><i class='fas fa-times'></i></a>
           </h3>
 
           
-          <input type="hidden" name="options[entryId]" value="a399e6e24470de80e4ff57debade181d">
+          <input type='hidden' name='options[entryId]' value='a399e6e24470de80e4ff57debade181d'>
           <input type='hidden' name='fields[replyThread]' value=''>
           <input type='hidden' name='fields[replyID]' value=''>
           <input type='hidden' name='fields[replyName]' value=''>
@@ -311,21 +306,22 @@ font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,And
           </div>
 
           
-          <input type='submit' value='Submit' class='button'>
-          <input type='submit' value='Submitted' class='hidden button' disabled>
-          <input type='reset' value='Reset' class='button'>
+          <button type='button' id="comment-form-submit" class='button'>Submit</button>
+          <button type='button' id="comment-form-submitted" class='hidden button' disabled>Submitted</button>
+          <button type='reset' id="comment-form-reset" class='button'>Reset</button>
         </form>
     </div>
 
     
-    <div>
+    <div class='comments-container'>
       <h2>Comments</h2><p>Nothing yet.</p>
       
     </div>
+  </div>
+
+
+    
   </article>
-
-
-  
   <div class="pagination">
     
       <a href="/hugo/blog/path-sum-ii/" class="button left"><span>113. Path Sum II</span></a>
@@ -342,8 +338,8 @@ font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,And
       </header>
       
       <article class="mini-post">
-          <a href="/hugo/blog/word-search/" class="image" style="--bg-image: url('https://blichtlealt.github.io/hugo/img/2019/03/pic15.jpg');">
-    <img class="" src="https://blichtlealt.github.io/hugo/img/2019/03/pic15.jpg" alt="Desert Scene">
+          <a href="/hugo/blog/word-search/" class="image" style="--bg-image: url('/hugo/img/2019/03/pic15.jpg');">
+    <img class="" src="/hugo/img/2019/03/pic15.jpg" alt="Desert Scene">
   </a>
         <header>
           <h2><a href="/hugo/blog/word-search/">79. Word Search</a></h2>
@@ -352,8 +348,8 @@ font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,And
       </article>
       
       <article class="mini-post">
-          <a href="/hugo/blog/jump_game/" class="image" style="--bg-image: url('https://blichtlealt.github.io/hugo/img/2019/03/pic12.jpg');">
-    <img class="" src="https://blichtlealt.github.io/hugo/img/2019/03/pic12.jpg" alt="Desert Scene">
+          <a href="/hugo/blog/jump_game/" class="image" style="--bg-image: url('/hugo/img/2019/03/pic12.jpg');">
+    <img class="" src="/hugo/img/2019/03/pic12.jpg" alt="Desert Scene">
   </a>
         <header>
           <h2><a href="/hugo/blog/jump_game/">55. Jump Game</a></h2>
@@ -362,8 +358,8 @@ font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,And
       </article>
       
       <article class="mini-post">
-          <a href="/hugo/blog/invert_tree/" class="image" style="--bg-image: url('https://blichtlealt.github.io/hugo/img/2019/03/pic11.jpg');">
-    <img class="" src="https://blichtlealt.github.io/hugo/img/2019/03/pic11.jpg" alt="Desert Scene">
+          <a href="/hugo/blog/invert_tree/" class="image" style="--bg-image: url('/hugo/img/2019/03/pic11.jpg');">
+    <img class="" src="/hugo/img/2019/03/pic11.jpg" alt="Desert Scene">
   </a>
         <header>
           <h2><a href="/hugo/blog/invert_tree/">226. Invert Binary Tree</a></h2>
@@ -372,8 +368,8 @@ font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,And
       </article>
       
       <article class="mini-post">
-          <a href="/hugo/blog/count_one_bits/" class="image" style="--bg-image: url('https://blichtlealt.github.io/hugo/img/2019/03/pic10.jpg');">
-    <img class="" src="https://blichtlealt.github.io/hugo/img/2019/03/pic10.jpg" alt="Desert Scene">
+          <a href="/hugo/blog/count_one_bits/" class="image" style="--bg-image: url('/hugo/img/2019/03/pic10.jpg');">
+    <img class="" src="/hugo/img/2019/03/pic10.jpg" alt="Desert Scene">
   </a>
         <header>
           <h2><a href="/hugo/blog/count_one_bits/">191. Number of 1 Bits</a></h2>
@@ -382,8 +378,8 @@ font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,And
       </article>
       
       <article class="mini-post">
-          <a href="/hugo/blog/rotting-oranges/" class="image" style="--bg-image: url('https://blichtlealt.github.io/hugo/img/2019/03/pic14.jpg');">
-    <img class="" src="https://blichtlealt.github.io/hugo/img/2019/03/pic14.jpg" alt="Desert Scene">
+          <a href="/hugo/blog/rotting-oranges/" class="image" style="--bg-image: url('/hugo/img/2019/03/pic14.jpg');">
+    <img class="" src="/hugo/img/2019/03/pic14.jpg" alt="Desert Scene">
   </a>
         <header>
           <h2><a href="/hugo/blog/rotting-oranges/">994. Rotting Oranges</a></h2>
@@ -393,7 +389,7 @@ font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,And
       
       
         <footer>
-          <a href="/hugo/blog/" class="button">See More</a>
+          <a href="/hugo/hugo/blog/" class="button">See More</a>
         </footer>
       
     </section>
@@ -401,21 +397,22 @@ font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,And
 
   
     
+
       <section id="categories">
         <header>
-          <h1><a href="categories">categories</a></h1>
+          <h1><a href="/hugo/categories">Categories</a></h1>
         </header>
         <ul>
           
           
           <li>
-              <a href="categories/algorithms/">algorithms<span class="count">12</span></a>
+              <a href="/hugo/categories/algorithms/">algorithms<span class="count">12</span></a>
           
           <li>
-              <a href="categories/data-structures/">data-structures<span class="count">1</span></a>
+              <a href="/hugo/categories/data-structures/">data-structures<span class="count">1</span></a>
           
           <li>
-              <a href="categories/easy/">easy<span class="count">1</span></a>
+              <a href="/hugo/categories/easy/">easy<span class="count">1</span></a>
           
           </li>
         </ul>
@@ -430,7 +427,7 @@ font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,And
       </header>
       <p>Blog designed for tech and computer science content.</p>
       <footer>
-        <a href="about" class="button">Learn More</a>
+        <a href="/hugo/about" class="button">Learn More</a>
       </footer>
     </section>
   
@@ -453,7 +450,7 @@ font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,And
 
 
 
-<li><a href="//linkedin.com/in/blichtle" target="_blank" rel="noopener" title="LinkedIn" class="fab fa-linkedin"></a></li>
+<li><a href="//www.linkedin.com/in/blichtle" target="_blank" rel="noopener" title="LinkedIn" class="fab fa-linkedin"></a></li>
 
 
 
@@ -488,14 +485,14 @@ font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,And
   <p class="copyright">
     © 2021 Brendan&#39;s Blog
       <br>
-    
+    Theme: <a href='https://github.com/pacollins/hugo-future-imperfect-slim' target='_blank' rel='noopener'>Hugo Future Imperfect Slim</a><br>A <a href='https://html5up.net/future-imperfect' target='_blank' rel='noopener'>HTML5 UP port</a> | Powered by <a href='https://gohugo.io/' title='0.96.0' target='_blank' rel='noopener'>Hugo</a>
   </p>
 </footer>
 <a id="back-to-top" href="#" class="fas fa-arrow-up fa-2x"></a>
 
       <script src="/hugo/js/highlight.js"></script>
     
-    <script>hljs.initHighlightingOnLoad();</script><script src="/hugo/js/bundle.min.b3da7d729da85dcf87b21243dfe69f8f3a465c4ad98f68e58fbdb9f2d495801e.js" integrity="sha256-s9p9cp2oXc&#43;HshJD3&#43;afjzpGXErZj2jlj7258tSVgB4="></script>
+    <script>hljs.highlightAll();</script><script src="/hugo/js/bundle.min.12d71f4b347de87ce4ceb79ca9c472b179f87487ee8385353a7c6e2c9bc61e14.js" integrity="sha256-EtcfSzR96HzkzrecqcRysXn4dIfug4U1OnxuLJvGHhQ="></script>
     <script src="/hugo/js/add-on.js"></script>
     </div>
   </body>
