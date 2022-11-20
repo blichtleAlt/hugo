@@ -26,23 +26,26 @@ Here we just use a simple recursive solution. Just swap your children pointers, 
 <h3>Solution:</h3>
 <hr>
 
-``` C++ 
+``` 
 
-    void swapChildren(TreeNode* root) {
-        if(!root) {
-            return;
-        } else {
-            std::swap(root->left, root->right);
-            swapChildren(root->left);
-            swapChildren(root->right);      
-        }
-    }
-    
-    
+class Solution {
+public:
     TreeNode* invertTree(TreeNode* root) {
-        swapChildren(root);
+        swapNodes(root);
+
         return root;
     }
+
+    void swapNodes(TreeNode *root) {
+        if (!root) 
+            return;
+
+        std::swap(root->left, root->right);
+
+        swapNodes(root->left);
+        swapNodes(root->right);
+    }
+};
 
 ```
 

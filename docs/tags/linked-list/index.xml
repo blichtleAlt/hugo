@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>linked list on Brendan&#39;s Blog</title>
+    <link>https://blichtlealt.github.io/hugo/tags/linked-list/</link>
+    <description>Recent content in linked list on Brendan&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 20 Nov 2022 12:22:11 -0800</lastBuildDate><atom:link href="https://blichtlealt.github.io/hugo/tags/linked-list/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>21. Merge Two Sorted Lists</title>
+      <link>https://blichtlealt.github.io/hugo/blog/merge-sorted-lists/</link>
+      <pubDate>Sun, 20 Nov 2022 12:22:11 -0800</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/blog/merge-sorted-lists/</guid>
+      <description>https://leetcode.com/problems/merge-two-sorted-lists/
+You are given the heads of two sorted linked lists list1 and list2.
+Merge the two lists in a one sorted list. The list should be made by splicing together the nodes of the first two lists.
+Return the head of the merged linked list.
+Idea: Merge two lists into a single list
+Solution:  class Solution { public: ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) { ListNode* head = nullptr, *tail = nullptr; int val; while(list1 &amp;amp;&amp;amp; list2) { if (list1-&amp;gt;val &amp;lt; list2-&amp;gt;val) { val = list1-&amp;gt;val; list1 = list1-&amp;gt;next; } else { val = list2-&amp;gt;val; list2 = list2-&amp;gt;next; } insertNode(head, tail, val); } while (list1) { insertNode(head, tail, list1-&amp;gt;val); list1 = list1-&amp;gt;next; } while (list2) { insertNode(head, tail, list2-&amp;gt;val); list2 = list2-&amp;gt;next; } return head; } void insertNode(ListNode * &amp;amp;head, ListNode * &amp;amp;tail, const int val) { ListNode* insert = new ListNode(val); if (head == nullptr) { head = tail = insert; } else { tail-&amp;gt;next = insert; tail = tail-&amp;gt;next; } } }; Complexity Analysis:  Time O(N + M) where N is size of list 1 and M is size of list2</description>
+    </item>
+    
+  </channel>
+</rss>

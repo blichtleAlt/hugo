@@ -15,7 +15,7 @@
       <guid>https://blichtlealt.github.io/hugo/blog/invert_tree/</guid>
       <description>Problem Statement: Invert a binary tree.
 Idea:Here we just use a simple recursive solution. Just swap your children pointers, then call recursively on the children. Eventually everynode will swap the children pointers, and the tree will be inverted.
-Solution:  void swapChildren(TreeNode* root) {  if(!root) {  return;  } else {  std::swap(root-&amp;gt;left, root-&amp;gt;right);  swapChildren(root-&amp;gt;left);  swapChildren(root-&amp;gt;right);  }  }    TreeNode* invertTree(TreeNode* root) {  swapChildren(root);  return root;  } Complexity Analysis:TimeO(H) where H is the height of the tree.</description>
+Solution:class Solution {public:TreeNode* invertTree(TreeNode* root) {swapNodes(root);return root;}void swapNodes(TreeNode *root) {if (!root) return;std::swap(root-&amp;gt;left, root-&amp;gt;right);swapNodes(root-&amp;gt;left);swapNodes(root-&amp;gt;right);}}; Complexity Analysis:TimeO(H) where H is the height of the tree.</description>
     </item>
     
     <item>

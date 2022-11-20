@@ -245,23 +245,26 @@
 <p>Here we just use a simple recursive solution. Just swap your children pointers, then call recursively on the children. Eventually everynode will swap the children pointers, and the tree will be inverted.</p>
 <h3>Solution:</h3>
 <hr>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-C++" data-lang="C++"><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">void</span> <span style="color:#a6e22e">swapChildren</span>(TreeNode<span style="color:#f92672">*</span> root) {
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">if</span>(<span style="color:#f92672">!</span>root) {
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">return</span>;
-</span></span><span style="display:flex;"><span>        } <span style="color:#66d9ef">else</span> {
-</span></span><span style="display:flex;"><span>            std<span style="color:#f92672">::</span>swap(root<span style="color:#f92672">-&gt;</span>left, root<span style="color:#f92672">-&gt;</span>right);
-</span></span><span style="display:flex;"><span>            swapChildren(root<span style="color:#f92672">-&gt;</span>left);
-</span></span><span style="display:flex;"><span>            swapChildren(root<span style="color:#f92672">-&gt;</span>right);      
-</span></span><span style="display:flex;"><span>        }
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>    
-</span></span><span style="display:flex;"><span>    
-</span></span><span style="display:flex;"><span>    TreeNode<span style="color:#f92672">*</span> <span style="color:#a6e22e">invertTree</span>(TreeNode<span style="color:#f92672">*</span> root) {
-</span></span><span style="display:flex;"><span>        swapChildren(root);
-</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> root;
-</span></span><span style="display:flex;"><span>    }
-</span></span></code></pre></div><h3>Complexity Analysis:</h3>
+<pre tabindex="0"><code>
+class Solution {
+public:
+    TreeNode* invertTree(TreeNode* root) {
+        swapNodes(root);
+
+        return root;
+    }
+
+    void swapNodes(TreeNode *root) {
+        if (!root) 
+            return;
+
+        std::swap(root-&gt;left, root-&gt;right);
+
+        swapNodes(root-&gt;left);
+        swapNodes(root-&gt;right);
+    }
+};
+</code></pre><h3>Complexity Analysis:</h3>
 <hr>
 <h5><b>Time</b></h5>
 <p>O(H) where H is the height of the tree.</p>
@@ -366,6 +369,16 @@
       </header>
       
       <article class="mini-post">
+          <a href="/hugo/blog/merge-sorted-lists/" class="image" style="--bg-image: url('/hugo/img/2019/03/pic19.jpg');">
+    <img class="" src="/hugo/img/2019/03/pic19.jpg" alt="Desert Scene">
+  </a>
+        <header>
+          <h2><a href="/hugo/blog/merge-sorted-lists/">21. Merge Two Sorted Lists</a></h2>
+          <time class="published" datetime="2022-11-20 12:22:11 -0800 PST">November 20, 2022</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
           <a href="/hugo/blog/valid-parentheses/" class="image" style="--bg-image: url('/hugo/img/2019/03/pic18.jpg');">
     <img class="" src="/hugo/img/2019/03/pic18.jpg" alt="Desert Scene">
   </a>
@@ -405,16 +418,6 @@
         </header>
       </article>
       
-      <article class="mini-post">
-          <a href="/hugo/blog/invert_tree/" class="image" style="--bg-image: url('/hugo/img/2019/03/pic11.jpg');">
-    <img class="" src="/hugo/img/2019/03/pic11.jpg" alt="Desert Scene">
-  </a>
-        <header>
-          <h2><a href="/hugo/blog/invert_tree/">226. Invert Binary Tree</a></h2>
-          <time class="published" datetime="2020-12-22 22:36:56 -0500 -0500">December 22, 2020</time>
-        </header>
-      </article>
-      
       
         <footer>
           <a href="/hugo/hugo/blog/" class="button">See More</a>
@@ -434,7 +437,7 @@
           
           
           <li>
-              <a href="/hugo/categories/algorithms/">algorithms<span class="count">14</span></a>
+              <a href="/hugo/categories/algorithms/">algorithms<span class="count">15</span></a>
           
           <li>
               <a href="/hugo/categories/data-structures/">data-structures<span class="count">2</span></a>

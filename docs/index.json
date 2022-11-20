@@ -1,4 +1,10 @@
 [{
+    "title": "21. Merge Two Sorted Lists",
+    "date": "",
+    "description": "",
+    "body": "https://leetcode.com/problems/merge-two-sorted-lists/\nYou are given the heads of two sorted linked lists list1 and list2.\nMerge the two lists in a one sorted list. The list should be made by splicing together the nodes of the first two lists.\nReturn the head of the merged linked list.\nIdea: Merge two lists into a single list\nSolution:  class Solution { public: ListNode* mergeTwoLists(ListNode* list1, ListNode* list2) { ListNode* head = nullptr, *tail = nullptr; int val; while(list1 \u0026amp;\u0026amp; list2) { if (list1-\u0026gt;val \u0026lt; list2-\u0026gt;val) { val = list1-\u0026gt;val; list1 = list1-\u0026gt;next; } else { val = list2-\u0026gt;val; list2 = list2-\u0026gt;next; } insertNode(head, tail, val); } while (list1) { insertNode(head, tail, list1-\u0026gt;val); list1 = list1-\u0026gt;next; } while (list2) { insertNode(head, tail, list2-\u0026gt;val); list2 = list2-\u0026gt;next; } return head; } void insertNode(ListNode * \u0026amp;head, ListNode * \u0026amp;tail, const int val) { ListNode* insert = new ListNode(val); if (head == nullptr) { head = tail = insert; } else { tail-\u0026gt;next = insert; tail = tail-\u0026gt;next; } } }; Complexity Analysis:  Time O(N + M) where N is size of list 1 and M is size of list2\nMemory O(N + M) where N is size of list 1 and M is size of list2\n",
+    "ref": "/hugo/blog/merge-sorted-lists/"
+  },{
     "title": "20. Valid Parentheses",
     "date": "",
     "description": "",
@@ -26,7 +32,7 @@
     "title": "226. Invert Binary Tree",
     "date": "",
     "description": "",
-    "body": "Problem Statement:\r Invert a binary tree.\nIdea:\r\rHere we just use a simple recursive solution. Just swap your children pointers, then call recursively on the children. Eventually everynode will swap the children pointers, and the tree will be inverted.\nSolution:\r\r  void swapChildren(TreeNode* root) {  if(!root) {  return;  } else {  std::swap(root-\u0026gt;left, root-\u0026gt;right);  swapChildren(root-\u0026gt;left);  swapChildren(root-\u0026gt;right);  }  }    TreeNode* invertTree(TreeNode* root) {  swapChildren(root);  return root;  } Complexity Analysis:\r\rTime\rO(H) where H is the height of the tree.\nMemory\rO(H) where H is the height of the tree, memory used in the form of stack frames from recursive calls.\n",
+    "body": "Problem Statement:\r Invert a binary tree.\nIdea:\r\rHere we just use a simple recursive solution. Just swap your children pointers, then call recursively on the children. Eventually everynode will swap the children pointers, and the tree will be inverted.\nSolution:\r\r\rclass Solution {\rpublic:\rTreeNode* invertTree(TreeNode* root) {\rswapNodes(root);\rreturn root;\r}\rvoid swapNodes(TreeNode *root) {\rif (!root) return;\rstd::swap(root-\u0026gt;left, root-\u0026gt;right);\rswapNodes(root-\u0026gt;left);\rswapNodes(root-\u0026gt;right);\r}\r}; Complexity Analysis:\r\rTime\rO(H) where H is the height of the tree.\nMemory\rO(H) where H is the height of the tree, memory used in the form of stack frames from recursive calls.\n",
     "ref": "/hugo/blog/invert_tree/"
   },{
     "title": "191. Number of 1 Bits",
