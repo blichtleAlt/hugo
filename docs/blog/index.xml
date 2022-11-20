@@ -6,7 +6,33 @@
     <description>Recent content in Blog on Brendan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Aug 2021 17:21:49 -0700</lastBuildDate><atom:link href="https://blichtlealt.github.io/hugo/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Nov 2022 11:14:14 -0800</lastBuildDate><atom:link href="https://blichtlealt.github.io/hugo/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>20. Valid Parentheses</title>
+      <link>https://blichtlealt.github.io/hugo/blog/valid-parentheses/</link>
+      <pubDate>Sun, 20 Nov 2022 11:14:14 -0800</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/blog/valid-parentheses/</guid>
+      <description>https://leetcode.com/problems/valid-parentheses/
+Given a string s containing just the characters &amp;lsquo;(&amp;rsquo;, &amp;lsquo;)&amp;rsquo;, &amp;lsquo;{&amp;rsquo;, &amp;lsquo;}&amp;rsquo;, &amp;lsquo;[&amp;rsquo; and &amp;lsquo;]&amp;rsquo;, determine if the input string is valid.
+An input string is valid if:
+Open brackets must be closed by the same type of brackets. Open brackets must be closed in the correct order. Every close bracket has a corresponding open bracket of the same type.
+Idea: If we see a closing parenthese, that means that the most recently seen opening parenthese must be it&amp;rsquo;s complement.</description>
+    </item>
+    
+    <item>
+      <title>1. Two Sum</title>
+      <link>https://blichtlealt.github.io/hugo/blog/two-sum/</link>
+      <pubDate>Sun, 20 Nov 2022 10:33:33 -0800</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/blog/two-sum/</guid>
+      <description>https://leetcode.com/problems/two-sum/
+Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
+You can return the answer in any order.
+Idea: Here we construct a lookup map where the key is the number and the value is the index.</description>
+    </item>
+    
     <item>
       <title>79. Word Search</title>
       <link>https://blichtlealt.github.io/hugo/blog/word-search/</link>

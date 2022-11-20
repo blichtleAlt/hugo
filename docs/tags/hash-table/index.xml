@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hash table on Brendan&#39;s Blog</title>
+    <link>https://blichtlealt.github.io/hugo/tags/hash-table/</link>
+    <description>Recent content in hash table on Brendan&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 20 Nov 2022 10:33:33 -0800</lastBuildDate><atom:link href="https://blichtlealt.github.io/hugo/tags/hash-table/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1. Two Sum</title>
+      <link>https://blichtlealt.github.io/hugo/blog/two-sum/</link>
+      <pubDate>Sun, 20 Nov 2022 10:33:33 -0800</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/blog/two-sum/</guid>
+      <description>https://leetcode.com/problems/two-sum/
+Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
+You can return the answer in any order.
+Idea: Here we construct a lookup map where the key is the number and the value is the index.</description>
+    </item>
+    
+  </channel>
+</rss>

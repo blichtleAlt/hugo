@@ -2,23 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://blichtlealt.github.io/hugo/blog/word-search/</loc>
-    <lastmod>2021-08-21T17:21:49-07:00</lastmod>
+    <loc>https://blichtlealt.github.io/hugo/blog/valid-parentheses/</loc>
+    <lastmod>2022-11-20T11:14:14-08:00</lastmod>
   </url><url>
     <loc>https://blichtlealt.github.io/hugo/categories/algorithms/</loc>
-    <lastmod>2021-08-21T17:21:49-07:00</lastmod>
-  </url><url>
-    <loc>https://blichtlealt.github.io/hugo/tags/array/</loc>
-    <lastmod>2021-08-21T17:21:49-07:00</lastmod>
-  </url><url>
-    <loc>https://blichtlealt.github.io/hugo/tags/backtracking/</loc>
-    <lastmod>2021-08-21T17:21:49-07:00</lastmod>
+    <lastmod>2022-11-20T11:14:14-08:00</lastmod>
   </url><url>
     <loc>https://blichtlealt.github.io/hugo/blog/</loc>
-    <lastmod>2021-08-21T17:21:49-07:00</lastmod>
+    <lastmod>2022-11-20T11:14:14-08:00</lastmod>
   </url><url>
     <loc>https://blichtlealt.github.io/hugo/</loc>
-    <lastmod>2021-08-21T17:21:49-07:00</lastmod>
+    <lastmod>2022-11-20T11:14:14-08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -71,7 +65,7 @@
                 />
   </url><url>
     <loc>https://blichtlealt.github.io/hugo/categories/</loc>
-    <lastmod>2021-08-21T17:21:49-07:00</lastmod>
+    <lastmod>2022-11-20T11:14:14-08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -123,11 +117,14 @@
                 href="https://blichtlealt.github.io/hugo/categories/"
                 />
   </url><url>
-    <loc>https://blichtlealt.github.io/hugo/tags/medium/</loc>
-    <lastmod>2021-08-21T17:21:49-07:00</lastmod>
+    <loc>https://blichtlealt.github.io/hugo/tags/easy/</loc>
+    <lastmod>2022-11-20T11:14:14-08:00</lastmod>
+  </url><url>
+    <loc>https://blichtlealt.github.io/hugo/tags/stack/</loc>
+    <lastmod>2022-11-20T11:14:14-08:00</lastmod>
   </url><url>
     <loc>https://blichtlealt.github.io/hugo/tags/</loc>
-    <lastmod>2021-08-21T17:21:49-07:00</lastmod>
+    <lastmod>2022-11-20T11:14:14-08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
@@ -179,6 +176,27 @@
                 href="https://blichtlealt.github.io/hugo/tags/"
                 />
   </url><url>
+    <loc>https://blichtlealt.github.io/hugo/blog/two-sum/</loc>
+    <lastmod>2022-11-20T10:33:33-08:00</lastmod>
+  </url><url>
+    <loc>https://blichtlealt.github.io/hugo/tags/array/</loc>
+    <lastmod>2022-11-20T10:33:33-08:00</lastmod>
+  </url><url>
+    <loc>https://blichtlealt.github.io/hugo/categories/data-structures/</loc>
+    <lastmod>2022-11-20T10:33:33-08:00</lastmod>
+  </url><url>
+    <loc>https://blichtlealt.github.io/hugo/tags/hash-table/</loc>
+    <lastmod>2022-11-20T10:33:33-08:00</lastmod>
+  </url><url>
+    <loc>https://blichtlealt.github.io/hugo/blog/word-search/</loc>
+    <lastmod>2021-08-21T17:21:49-07:00</lastmod>
+  </url><url>
+    <loc>https://blichtlealt.github.io/hugo/tags/backtracking/</loc>
+    <lastmod>2021-08-21T17:21:49-07:00</lastmod>
+  </url><url>
+    <loc>https://blichtlealt.github.io/hugo/tags/medium/</loc>
+    <lastmod>2021-08-21T17:21:49-07:00</lastmod>
+  </url><url>
     <loc>https://blichtlealt.github.io/hugo/blog/jump_game/</loc>
     <lastmod>2020-12-23T04:05:17-05:00</lastmod>
   </url><url>
@@ -191,9 +209,6 @@
     <loc>https://blichtlealt.github.io/hugo/blog/invert_tree/</loc>
     <lastmod>2020-12-22T22:36:56-05:00</lastmod>
   </url><url>
-    <loc>https://blichtlealt.github.io/hugo/tags/easy/</loc>
-    <lastmod>2020-12-22T22:36:56-05:00</lastmod>
-  </url><url>
     <loc>https://blichtlealt.github.io/hugo/tags/recursion/</loc>
     <lastmod>2020-12-22T22:36:56-05:00</lastmod>
   </url><url>
@@ -204,9 +219,6 @@
     <lastmod>2020-12-22T21:41:48-05:00</lastmod>
   </url><url>
     <loc>https://blichtlealt.github.io/hugo/tags/bit-manipulation/</loc>
-    <lastmod>2020-12-22T21:41:48-05:00</lastmod>
-  </url><url>
-    <loc>https://blichtlealt.github.io/hugo/categories/easy/</loc>
     <lastmod>2020-12-22T21:41:48-05:00</lastmod>
   </url><url>
     <loc>https://blichtlealt.github.io/hugo/blog/rotting-oranges/</loc>
@@ -223,9 +235,6 @@
   </url><url>
     <loc>https://blichtlealt.github.io/hugo/tags/union-find/</loc>
     <lastmod>2020-08-12T23:17:44-04:00</lastmod>
-  </url><url>
-    <loc>https://blichtlealt.github.io/hugo/categories/data-structures/</loc>
-    <lastmod>2020-08-12T03:39:23-04:00</lastmod>
   </url><url>
     <loc>https://blichtlealt.github.io/hugo/blog/disjoint-sets/</loc>
     <lastmod>2020-08-12T03:39:23-04:00</lastmod>

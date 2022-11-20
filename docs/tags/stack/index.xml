@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>stack on Brendan&#39;s Blog</title>
+    <link>https://blichtlealt.github.io/hugo/tags/stack/</link>
+    <description>Recent content in stack on Brendan&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 20 Nov 2022 11:14:14 -0800</lastBuildDate><atom:link href="https://blichtlealt.github.io/hugo/tags/stack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>20. Valid Parentheses</title>
+      <link>https://blichtlealt.github.io/hugo/blog/valid-parentheses/</link>
+      <pubDate>Sun, 20 Nov 2022 11:14:14 -0800</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/blog/valid-parentheses/</guid>
+      <description>https://leetcode.com/problems/valid-parentheses/
+Given a string s containing just the characters &amp;lsquo;(&amp;rsquo;, &amp;lsquo;)&amp;rsquo;, &amp;lsquo;{&amp;rsquo;, &amp;lsquo;}&amp;rsquo;, &amp;lsquo;[&amp;rsquo; and &amp;lsquo;]&amp;rsquo;, determine if the input string is valid.
+An input string is valid if:
+Open brackets must be closed by the same type of brackets. Open brackets must be closed in the correct order. Every close bracket has a corresponding open bracket of the same type.
+Idea: If we see a closing parenthese, that means that the most recently seen opening parenthese must be it&amp;rsquo;s complement.</description>
+    </item>
+    
+  </channel>
+</rss>
