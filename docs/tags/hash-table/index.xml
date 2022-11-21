@@ -6,7 +6,30 @@
     <description>Recent content in hash table on Brendan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 20 Nov 2022 10:33:33 -0800</lastBuildDate><atom:link href="https://blichtlealt.github.io/hugo/tags/hash-table/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Nov 2022 16:26:56 -0800</lastBuildDate><atom:link href="https://blichtlealt.github.io/hugo/tags/hash-table/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>141. Linked List Cycle</title>
+      <link>https://blichtlealt.github.io/hugo/blog/linked-list-cycle/</link>
+      <pubDate>Sun, 20 Nov 2022 16:26:56 -0800</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/blog/linked-list-cycle/</guid>
+      <description>https://leetcode.com/problems/linked-list-cycle/
+Given head, the head of a linked list, determine if the linked list has a cycle in it.
+There is a cycle in a linked list if there is some node in the list that can be reached again by continuously following the next pointer. Internally, pos is used to denote the index of the node that tail&amp;rsquo;s next pointer is connected to. Note that pos is not passed as a parameter.</description>
+    </item>
+    
+    <item>
+      <title>242. Valid Anagram</title>
+      <link>https://blichtlealt.github.io/hugo/blog/valid-anagram/</link>
+      <pubDate>Sun, 20 Nov 2022 15:53:28 -0800</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/blog/valid-anagram/</guid>
+      <description>https://leetcode.com/problems/valid-anagram/
+Given two strings s and t, return true if t is an anagram of s, and false otherwise.
+An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
+Example 1: Input: s = &amp;#34;anagram&amp;#34;, t = &amp;#34;nagaram&amp;#34; Output: true Example 2: Input: s = &amp;#34;rat&amp;#34;, t = &amp;#34;car&amp;#34; Output: false Constraints: 1 &amp;lt;= s.</description>
+    </item>
+    
     <item>
       <title>1. Two Sum</title>
       <link>https://blichtlealt.github.io/hugo/blog/two-sum/</link>

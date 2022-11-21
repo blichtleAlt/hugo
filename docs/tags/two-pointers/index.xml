@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>two pointers on Brendan&#39;s Blog</title>
+    <link>https://blichtlealt.github.io/hugo/tags/two-pointers/</link>
+    <description>Recent content in two pointers on Brendan&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 20 Nov 2022 16:26:56 -0800</lastBuildDate><atom:link href="https://blichtlealt.github.io/hugo/tags/two-pointers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>141. Linked List Cycle</title>
+      <link>https://blichtlealt.github.io/hugo/blog/linked-list-cycle/</link>
+      <pubDate>Sun, 20 Nov 2022 16:26:56 -0800</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/blog/linked-list-cycle/</guid>
+      <description>https://leetcode.com/problems/linked-list-cycle/
+Given head, the head of a linked list, determine if the linked list has a cycle in it.
+There is a cycle in a linked list if there is some node in the list that can be reached again by continuously following the next pointer. Internally, pos is used to denote the index of the node that tail&amp;rsquo;s next pointer is connected to. Note that pos is not passed as a parameter.</description>
+    </item>
+    
+    <item>
+      <title>125. Valid Palindrome</title>
+      <link>https://blichtlealt.github.io/hugo/blog/valid-palindrome/</link>
+      <pubDate>Sun, 20 Nov 2022 15:28:07 -0800</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/blog/valid-palindrome/</guid>
+      <description>https://leetcode.com/problems/valid-palindrome/
+A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers.
+Given a string s, return true if it is a palindrome, or false otherwise.
+Idea: Two pointers
+Solution:  class Solution { public: bool isPalindrome(string &amp;amp;s) { for (int i = 0, j = s.size() - 1; i &amp;lt; j; ++i, --j) { nextLetter(s, i, j); if (tolower(s[i]) !</description>
+    </item>
+    
+  </channel>
+</rss>

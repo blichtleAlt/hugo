@@ -6,13 +6,85 @@
     <description>Recent content in Tags on Brendan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 20 Nov 2022 12:22:11 -0800</lastBuildDate><atom:link href="https://blichtlealt.github.io/hugo/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Nov 2022 16:58:28 -0800</lastBuildDate><atom:link href="https://blichtlealt.github.io/hugo/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>design</title>
+      <link>https://blichtlealt.github.io/hugo/tags/design/</link>
+      <pubDate>Sun, 20 Nov 2022 16:58:28 -0800</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/tags/design/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>easy</title>
       <link>https://blichtlealt.github.io/hugo/tags/easy/</link>
-      <pubDate>Sun, 20 Nov 2022 12:22:11 -0800</pubDate>
+      <pubDate>Sun, 20 Nov 2022 16:58:28 -0800</pubDate>
       
       <guid>https://blichtlealt.github.io/hugo/tags/easy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>queue</title>
+      <link>https://blichtlealt.github.io/hugo/tags/queue/</link>
+      <pubDate>Sun, 20 Nov 2022 16:58:28 -0800</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/tags/queue/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>stack</title>
+      <link>https://blichtlealt.github.io/hugo/tags/stack/</link>
+      <pubDate>Sun, 20 Nov 2022 16:58:28 -0800</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/tags/stack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hash table</title>
+      <link>https://blichtlealt.github.io/hugo/tags/hash-table/</link>
+      <pubDate>Sun, 20 Nov 2022 16:26:56 -0800</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/tags/hash-table/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>two pointers</title>
+      <link>https://blichtlealt.github.io/hugo/tags/two-pointers/</link>
+      <pubDate>Sun, 20 Nov 2022 16:26:56 -0800</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/tags/two-pointers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>string</title>
+      <link>https://blichtlealt.github.io/hugo/tags/string/</link>
+      <pubDate>Sun, 20 Nov 2022 15:53:28 -0800</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/tags/string/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>recursion</title>
+      <link>https://blichtlealt.github.io/hugo/tags/recursion/</link>
+      <pubDate>Sun, 20 Nov 2022 13:33:33 -0800</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/tags/recursion/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tree</title>
+      <link>https://blichtlealt.github.io/hugo/tags/tree/</link>
+      <pubDate>Sun, 20 Nov 2022 13:33:33 -0800</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/tags/tree/</guid>
       <description></description>
     </item>
     
@@ -26,29 +98,11 @@
     </item>
     
     <item>
-      <title>stack</title>
-      <link>https://blichtlealt.github.io/hugo/tags/stack/</link>
-      <pubDate>Sun, 20 Nov 2022 11:14:14 -0800</pubDate>
-      
-      <guid>https://blichtlealt.github.io/hugo/tags/stack/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>array</title>
       <link>https://blichtlealt.github.io/hugo/tags/array/</link>
       <pubDate>Sun, 20 Nov 2022 10:33:33 -0800</pubDate>
       
       <guid>https://blichtlealt.github.io/hugo/tags/array/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hash table</title>
-      <link>https://blichtlealt.github.io/hugo/tags/hash-table/</link>
-      <pubDate>Sun, 20 Nov 2022 10:33:33 -0800</pubDate>
-      
-      <guid>https://blichtlealt.github.io/hugo/tags/hash-table/</guid>
       <description></description>
     </item>
     
@@ -85,24 +139,6 @@
       <pubDate>Wed, 23 Dec 2020 04:05:17 -0500</pubDate>
       
       <guid>https://blichtlealt.github.io/hugo/tags/greedy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>recursion</title>
-      <link>https://blichtlealt.github.io/hugo/tags/recursion/</link>
-      <pubDate>Tue, 22 Dec 2020 22:36:56 -0500</pubDate>
-      
-      <guid>https://blichtlealt.github.io/hugo/tags/recursion/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tree</title>
-      <link>https://blichtlealt.github.io/hugo/tags/tree/</link>
-      <pubDate>Tue, 22 Dec 2020 22:36:56 -0500</pubDate>
-      
-      <guid>https://blichtlealt.github.io/hugo/tags/tree/</guid>
       <description></description>
     </item>
     
@@ -157,15 +193,6 @@
       <pubDate>Wed, 12 Aug 2020 03:39:23 -0400</pubDate>
       
       <guid>https://blichtlealt.github.io/hugo/tags/sets/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>emoji</title>
-      <link>https://blichtlealt.github.io/hugo/tags/emoji/</link>
-      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://blichtlealt.github.io/hugo/tags/emoji/</guid>
       <description></description>
     </item>
     

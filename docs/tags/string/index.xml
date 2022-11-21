@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>string on Brendan&#39;s Blog</title>
+    <link>https://blichtlealt.github.io/hugo/tags/string/</link>
+    <description>Recent content in string on Brendan&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 20 Nov 2022 15:53:28 -0800</lastBuildDate><atom:link href="https://blichtlealt.github.io/hugo/tags/string/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>242. Valid Anagram</title>
+      <link>https://blichtlealt.github.io/hugo/blog/valid-anagram/</link>
+      <pubDate>Sun, 20 Nov 2022 15:53:28 -0800</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/blog/valid-anagram/</guid>
+      <description>https://leetcode.com/problems/valid-anagram/
+Given two strings s and t, return true if t is an anagram of s, and false otherwise.
+An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
+Example 1: Input: s = &amp;#34;anagram&amp;#34;, t = &amp;#34;nagaram&amp;#34; Output: true Example 2: Input: s = &amp;#34;rat&amp;#34;, t = &amp;#34;car&amp;#34; Output: false Constraints: 1 &amp;lt;= s.</description>
+    </item>
+    
+    <item>
+      <title>125. Valid Palindrome</title>
+      <link>https://blichtlealt.github.io/hugo/blog/valid-palindrome/</link>
+      <pubDate>Sun, 20 Nov 2022 15:28:07 -0800</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/blog/valid-palindrome/</guid>
+      <description>https://leetcode.com/problems/valid-palindrome/
+A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers.
+Given a string s, return true if it is a palindrome, or false otherwise.
+Idea: Two pointers
+Solution:  class Solution { public: bool isPalindrome(string &amp;amp;s) { for (int i = 0, j = s.size() - 1; i &amp;lt; j; ++i, --j) { nextLetter(s, i, j); if (tolower(s[i]) !</description>
+    </item>
+    
+  </channel>
+</rss>

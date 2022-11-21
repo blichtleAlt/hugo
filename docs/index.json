@@ -1,4 +1,34 @@
 [{
+    "title": "232. Implement Queue using Stacks",
+    "date": "",
+    "description": "",
+    "body": "https://leetcode.com/problems/implement-queue-using-stacks/\nImplement a first in first out (FIFO) queue using only two stacks. The implemented queue should support all the functions of a normal queue (push, peek, pop, and empty).\nImplement the MyQueue class:\nvoid push(int x) Pushes element x to the back of the queue. int pop() Removes the element from the front of the queue and returns it. int peek() Returns the element at the front of the queue. boolean empty() Returns true if the queue is empty, false otherwise.\nIdea: Solution:  class MyQueue { public: std::stack\u0026lt;int\u0026gt; s1; std::stack\u0026lt;int\u0026gt; s2; MyQueue() { } void push(int x) { s1.push(x); } int pop() { buildQueue(); int val = s2.top(); s2.pop(); return val; } int peek() { buildQueue(); return s2.top(); } bool empty() { return s1.empty() \u0026amp;\u0026amp; s2.empty(); } private: void buildQueue() { if(s2.empty()) { while(!s1.empty()) { int t = s1.top(); s1.pop(); s2.push(t); } } } }; Complexity Analysis:  Time O(1) amortized\nMemory O(1) amortized\n",
+    "ref": "/hugo/blog/queue-with-stacks/"
+  },{
+    "title": "141. Linked List Cycle",
+    "date": "",
+    "description": "",
+    "body": "https://leetcode.com/problems/linked-list-cycle/\nGiven head, the head of a linked list, determine if the linked list has a cycle in it.\nThere is a cycle in a linked list if there is some node in the list that can be reached again by continuously following the next pointer. Internally, pos is used to denote the index of the node that tail\u0026rsquo;s next pointer is connected to. Note that pos is not passed as a parameter.\nReturn true if there is a cycle in the linked list. Otherwise, return false.\nIdea: Slow and fast pointer. One pointer moves 2 forward and other moves 1 forward. If there is a cycle, eventually they will colide. Otherwise, fast will reach the end of the list.\nSolution:  class Solution { public: bool hasCycle(ListNode *head) { if (!head) { return false; } ListNode *slow = head, *fast = head-\u0026gt;next; while(fast != nullptr \u0026amp;\u0026amp; fast-\u0026gt;next) { if (slow == fast) { return true; } slow = slow-\u0026gt;next; fast = fast-\u0026gt;next-\u0026gt;next; } return false; } }; Complexity Analysis:  Time O(N) where N is the number of nodes in the linked list\nMemory O(1) two pointers\n",
+    "ref": "/hugo/blog/linked-list-cycle/"
+  },{
+    "title": "242. Valid Anagram",
+    "date": "",
+    "description": "",
+    "body": "https://leetcode.com/problems/valid-anagram/\nGiven two strings s and t, return true if t is an anagram of s, and false otherwise.\nAn Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.\nExample 1: Input: s = \u0026#34;anagram\u0026#34;, t = \u0026#34;nagaram\u0026#34; Output: true Example 2: Input: s = \u0026#34;rat\u0026#34;, t = \u0026#34;car\u0026#34; Output: false Constraints: 1 \u0026lt;= s.length, t.length \u0026lt;= 5 * 104 s and t consist of lowercase English letters. Idea: Frequency counter\nSolution:  class Solution { public: static const int NUM_LETTERS = 26; bool isAnagram(string s, string t) { int arr[NUM_LETTERS] = {0}; if (s.size() != t.size()) { return false; } for(int i = 0; i \u0026lt; s.size(); ++i) { arr[s[i] - \u0026#39;a\u0026#39;]++; arr[t[i] - \u0026#39;a\u0026#39;]--; } for(int i = 0; i \u0026lt; NUM_LETTERS; ++i) { if(arr[i] != 0) { return false; } } return true; } }; Complexity Analysis:  Time O(N + M) + constant time\nMemory O(1) array fixed to 26\n",
+    "ref": "/hugo/blog/valid-anagram/"
+  },{
+    "title": "125. Valid Palindrome",
+    "date": "",
+    "description": "",
+    "body": "https://leetcode.com/problems/valid-palindrome/\nA phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers.\nGiven a string s, return true if it is a palindrome, or false otherwise.\nIdea: Two pointers\nSolution:  class Solution { public: bool isPalindrome(string \u0026amp;s) { for (int i = 0, j = s.size() - 1; i \u0026lt; j; ++i, --j) { nextLetter(s, i, j); if (tolower(s[i]) != tolower(s[j])) { return false; } } return true; } void nextLetter(const string \u0026amp;s, int \u0026amp;i, int \u0026amp;j) { while (i \u0026lt; j \u0026amp;\u0026amp; !isalnum(s[i])) { i++; } while(i \u0026lt; j \u0026amp;\u0026amp; !isalnum(s[j])) { j--; } } }; Complexity Analysis:  Time O(N) one pass over the string\nMemory O(1) constant memory for loop variables\n",
+    "ref": "/hugo/blog/valid-palindrome/"
+  },{
+    "title": "226. Invert Binary Tree",
+    "date": "",
+    "description": "",
+    "body": "Problem Statement:\r Invert a binary tree.\nIdea:\r\rHere we just use a simple recursive solution. Just swap your children pointers, then call recursively on the children. Eventually everynode will swap the children pointers, and the tree will be inverted.\nSolution:\r\r\rclass Solution {\rpublic:\rTreeNode* invertTree(TreeNode* root) {\rswapNodes(root);\rreturn root;\r}\rvoid swapNodes(TreeNode *root) {\rif (!root) return;\rstd::swap(root-\u0026gt;left, root-\u0026gt;right);\rswapNodes(root-\u0026gt;left);\rswapNodes(root-\u0026gt;right);\r}\r}; Complexity Analysis:\r\rTime\rO(H) where H is the height of the tree.\nMemory\rO(H) where H is the height of the tree, memory used in the form of stack frames from recursive calls.\n",
+    "ref": "/hugo/blog/invert_tree/"
+  },{
     "title": "21. Merge Two Sorted Lists",
     "date": "",
     "description": "",
@@ -28,12 +58,6 @@
     "description": "",
     "body": "https://leetcode.com/problems/jump-game/\nProblem Statement:\r Given an array of non-negative integers nums, you are initially positioned at the first index of the array. Each element in the array represents your maximum jump length at that position. Determine if you are able to reach the last index.\nExamples\r\rExample 1\rInput: nums = [2,3,1,1,4]\rOutput: true\rExplanation: Jump 1 step from index 0 to 1, then 3 steps to the last index.\rExample 2\rInput: nums = [3,2,1,0,4]\rOutput: false\rExplanation: You will always arrive at index 3 no matter what. Its maximum jump length is 0, which makes it impossible to reach the last index.\rIdea:\r\rHere we can keep track of the left most index. If the current element can get at least to the left most index, it becomes the left most index. Therefore if we go right to left, if at the end the left most index is 0, we know we can jump to the end.\nGreedily update the left most index.\nSolution:\r\r class Solution { public:  bool canJump(vector\u0026lt;int\u0026gt;\u0026amp; nums) {  int leftMostIndex = nums.size() - 1;   for(int i = nums.size() - 1; i \u0026gt;= 0; --i) {  // if we can at least reach the left most index, make i the left most index.  if(i + nums[i] \u0026gt;= leftMostIndex) {  leftMostIndex = i;  }  }   // if left most index ends at zero, we can jump to the end.  return leftMostIndex == 0;  } }; Complexity Analysis:\r\rTime\rO(N) time. It is a one time linear pass over the input array.\nMemory\rO(1) memory.\nSide Note: Original DP Implementation I went with\r\r class Solution { public:  bool canJump(vector\u0026lt;int\u0026gt;\u0026amp; nums) {  if(nums.empty()) {  return false;  }   vector\u0026lt;int\u0026gt; dp;  dp.resize(nums.size(), 0);  dp[nums.size() - 1] = 1;    // start at the second to last, we can always reach the last element  for(int i = nums.size() - 2; i \u0026gt;= 0; --i) {   int num_to_check = nums[i];  int cur_offset = 1;   while( ((cur_offset + i) \u0026lt; nums.size()) \u0026amp;\u0026amp; (num_to_check \u0026gt; 0) ) {  if(dp[i + cur_offset] == 1) {  dp[i] = 1;  break;  }  cur_offset += 1;  num_to_check -= 1;  }  }    return dp[0];  } }; Time\rO(N^2) time.\nMemory\rO(N) memory.\n",
     "ref": "/hugo/blog/jump_game/"
-  },{
-    "title": "226. Invert Binary Tree",
-    "date": "",
-    "description": "",
-    "body": "Problem Statement:\r Invert a binary tree.\nIdea:\r\rHere we just use a simple recursive solution. Just swap your children pointers, then call recursively on the children. Eventually everynode will swap the children pointers, and the tree will be inverted.\nSolution:\r\r\rclass Solution {\rpublic:\rTreeNode* invertTree(TreeNode* root) {\rswapNodes(root);\rreturn root;\r}\rvoid swapNodes(TreeNode *root) {\rif (!root) return;\rstd::swap(root-\u0026gt;left, root-\u0026gt;right);\rswapNodes(root-\u0026gt;left);\rswapNodes(root-\u0026gt;right);\r}\r}; Complexity Analysis:\r\rTime\rO(H) where H is the height of the tree.\nMemory\rO(H) where H is the height of the tree, memory used in the form of stack frames from recursive calls.\n",
-    "ref": "/hugo/blog/invert_tree/"
   },{
     "title": "191. Number of 1 Bits",
     "date": "",
@@ -100,12 +124,6 @@
     "description": "",
     "body": "Todo\n",
     "ref": "/hugo/about/"
-  },{
-    "title": "Emoji Support",
-    "date": "",
-    "description": "Guide to emoji usage in Hugo",
-    "body": "Emoji can be enabled in a Hugo project in a number of ways.\nThe emojify function can be called directly in templates or Inline Shortcodes.\nTo enable emoji globally, set enableEmoji to true in your site’s configuration and then you can type emoji shorthand codes directly in content files; e.g.\n🙈 :see_no_evil: 🙉 :hear_no_evil: 🙊 :speak_no_evil:\nThe Emoji cheat sheet is a useful reference for emoji shorthand codes.\n N.B. The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.\n.emoji { font-family: Apple Color Emoji,Segoe UI Emoji,NotoColorEmoji,Segoe UI Symbol,Android Emoji,EmojiSymbols; }",
-    "ref": "/hugo/blog/emoji-support/"
   },{
     "title": "Contact",
     "date": "",

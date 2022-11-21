@@ -1,6 +1,6 @@
 +++
 title = "226. Invert Binary Tree"
-date = 2020-12-22T22:36:56-05:00
+date = 2022-11-20T13:33:33-08:00
 tags = ["tree", "recursion", "easy"]
 categories = ["algorithms"]
 author = "Brendan Lichtler"

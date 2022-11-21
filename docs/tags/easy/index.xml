@@ -6,7 +6,66 @@
     <description>Recent content in easy on Brendan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 20 Nov 2022 12:22:11 -0800</lastBuildDate><atom:link href="https://blichtlealt.github.io/hugo/tags/easy/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Nov 2022 16:58:28 -0800</lastBuildDate><atom:link href="https://blichtlealt.github.io/hugo/tags/easy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>232. Implement Queue using Stacks</title>
+      <link>https://blichtlealt.github.io/hugo/blog/queue-with-stacks/</link>
+      <pubDate>Sun, 20 Nov 2022 16:58:28 -0800</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/blog/queue-with-stacks/</guid>
+      <description>https://leetcode.com/problems/implement-queue-using-stacks/
+Implement a first in first out (FIFO) queue using only two stacks. The implemented queue should support all the functions of a normal queue (push, peek, pop, and empty).
+Implement the MyQueue class:
+void push(int x) Pushes element x to the back of the queue. int pop() Removes the element from the front of the queue and returns it. int peek() Returns the element at the front of the queue.</description>
+    </item>
+    
+    <item>
+      <title>141. Linked List Cycle</title>
+      <link>https://blichtlealt.github.io/hugo/blog/linked-list-cycle/</link>
+      <pubDate>Sun, 20 Nov 2022 16:26:56 -0800</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/blog/linked-list-cycle/</guid>
+      <description>https://leetcode.com/problems/linked-list-cycle/
+Given head, the head of a linked list, determine if the linked list has a cycle in it.
+There is a cycle in a linked list if there is some node in the list that can be reached again by continuously following the next pointer. Internally, pos is used to denote the index of the node that tail&amp;rsquo;s next pointer is connected to. Note that pos is not passed as a parameter.</description>
+    </item>
+    
+    <item>
+      <title>242. Valid Anagram</title>
+      <link>https://blichtlealt.github.io/hugo/blog/valid-anagram/</link>
+      <pubDate>Sun, 20 Nov 2022 15:53:28 -0800</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/blog/valid-anagram/</guid>
+      <description>https://leetcode.com/problems/valid-anagram/
+Given two strings s and t, return true if t is an anagram of s, and false otherwise.
+An Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
+Example 1: Input: s = &amp;#34;anagram&amp;#34;, t = &amp;#34;nagaram&amp;#34; Output: true Example 2: Input: s = &amp;#34;rat&amp;#34;, t = &amp;#34;car&amp;#34; Output: false Constraints: 1 &amp;lt;= s.</description>
+    </item>
+    
+    <item>
+      <title>125. Valid Palindrome</title>
+      <link>https://blichtlealt.github.io/hugo/blog/valid-palindrome/</link>
+      <pubDate>Sun, 20 Nov 2022 15:28:07 -0800</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/blog/valid-palindrome/</guid>
+      <description>https://leetcode.com/problems/valid-palindrome/
+A phrase is a palindrome if, after converting all uppercase letters into lowercase letters and removing all non-alphanumeric characters, it reads the same forward and backward. Alphanumeric characters include letters and numbers.
+Given a string s, return true if it is a palindrome, or false otherwise.
+Idea: Two pointers
+Solution:  class Solution { public: bool isPalindrome(string &amp;amp;s) { for (int i = 0, j = s.size() - 1; i &amp;lt; j; ++i, --j) { nextLetter(s, i, j); if (tolower(s[i]) !</description>
+    </item>
+    
+    <item>
+      <title>226. Invert Binary Tree</title>
+      <link>https://blichtlealt.github.io/hugo/blog/invert_tree/</link>
+      <pubDate>Sun, 20 Nov 2022 13:33:33 -0800</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/blog/invert_tree/</guid>
+      <description>Problem Statement: Invert a binary tree.
+Idea:Here we just use a simple recursive solution. Just swap your children pointers, then call recursively on the children. Eventually everynode will swap the children pointers, and the tree will be inverted.
+Solution:class Solution {public:TreeNode* invertTree(TreeNode* root) {swapNodes(root);return root;}void swapNodes(TreeNode *root) {if (!root) return;std::swap(root-&amp;gt;left, root-&amp;gt;right);swapNodes(root-&amp;gt;left);swapNodes(root-&amp;gt;right);}}; Complexity Analysis:TimeO(H) where H is the height of the tree.</description>
+    </item>
+    
     <item>
       <title>21. Merge Two Sorted Lists</title>
       <link>https://blichtlealt.github.io/hugo/blog/merge-sorted-lists/</link>
@@ -45,17 +104,6 @@ Given an array of integers nums and an integer target, return indices of the two
 You may assume that each input would have exactly one solution, and you may not use the same element twice.
 You can return the answer in any order.
 Idea: Here we construct a lookup map where the key is the number and the value is the index.</description>
-    </item>
-    
-    <item>
-      <title>226. Invert Binary Tree</title>
-      <link>https://blichtlealt.github.io/hugo/blog/invert_tree/</link>
-      <pubDate>Tue, 22 Dec 2020 22:36:56 -0500</pubDate>
-      
-      <guid>https://blichtlealt.github.io/hugo/blog/invert_tree/</guid>
-      <description>Problem Statement: Invert a binary tree.
-Idea:Here we just use a simple recursive solution. Just swap your children pointers, then call recursively on the children. Eventually everynode will swap the children pointers, and the tree will be inverted.
-Solution:class Solution {public:TreeNode* invertTree(TreeNode* root) {swapNodes(root);return root;}void swapNodes(TreeNode *root) {if (!root) return;std::swap(root-&amp;gt;left, root-&amp;gt;right);swapNodes(root-&amp;gt;left);swapNodes(root-&amp;gt;right);}}; Complexity Analysis:TimeO(H) where H is the height of the tree.</description>
     </item>
     
     <item>

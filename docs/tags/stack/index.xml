@@ -6,7 +6,19 @@
     <description>Recent content in stack on Brendan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 20 Nov 2022 11:14:14 -0800</lastBuildDate><atom:link href="https://blichtlealt.github.io/hugo/tags/stack/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Nov 2022 16:58:28 -0800</lastBuildDate><atom:link href="https://blichtlealt.github.io/hugo/tags/stack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>232. Implement Queue using Stacks</title>
+      <link>https://blichtlealt.github.io/hugo/blog/queue-with-stacks/</link>
+      <pubDate>Sun, 20 Nov 2022 16:58:28 -0800</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/blog/queue-with-stacks/</guid>
+      <description>https://leetcode.com/problems/implement-queue-using-stacks/
+Implement a first in first out (FIFO) queue using only two stacks. The implemented queue should support all the functions of a normal queue (push, peek, pop, and empty).
+Implement the MyQueue class:
+void push(int x) Pushes element x to the back of the queue. int pop() Removes the element from the front of the queue and returns it. int peek() Returns the element at the front of the queue.</description>
+    </item>
+    
     <item>
       <title>20. Valid Parentheses</title>
       <link>https://blichtlealt.github.io/hugo/blog/valid-parentheses/</link>
