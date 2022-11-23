@@ -1,4 +1,22 @@
 [{
+    "title": "981. Time Based Key-Value Store",
+    "date": "",
+    "description": "",
+    "body": "https://leetcode.com/problems/time-based-key-value-store/\nDesign a time-based key-value data structure that can store multiple values for the same key at different time stamps and retrieve the key\u0026rsquo;s value at a certain timestamp.\nImplement the TimeMap class:\nTimeMap() Initializes the object of the data structure. void set(String key, String value, int timestamp) Stores the key key with the value value at the given time timestamp. String get(String key, int timestamp) Returns a value such that set was called previously, with timestamp_prev \u0026lt;= timestamp. If there are multiple such values, it returns the value associated with the largest timestamp_prev. If there are no values, it returns \u0026ldquo;\u0026rdquo;.\nIdea: Solution:  class TimeMap { public: unordered_map\u0026lt;string, map\u0026lt;int, string\u0026gt;\u0026gt; s; TimeMap() { } void set(string key, string value, int timestamp) { s[key][timestamp] = value; } string get(string key, int timestamp) { auto it = s[key].upper_bound(timestamp); if (it == s[key].begin()) { return \u0026#34;\u0026#34;; } return (--it)-\u0026gt;second; } }; Complexity Analysis:  Time Set is O(1) constant time. O(N) worst case if the map resizes, amortized O(1)\nGet is O(log(N)) for upper bound on map using binary search\nMemory O( N * T ) where N is number of keys and T is max number of timestamps for a key\n",
+    "ref": "/hugo/blog/time-based-key-value-store/"
+  },{
+    "title": "70. Climbing Stairs",
+    "date": "",
+    "description": "",
+    "body": "https://leetcode.com/problems/climbing-stairs/\nYou are climbing a staircase. It takes n steps to reach the top.\nEach time you can either climb 1 or 2 steps. In how many distinct ways can you climb to the top?\nIdea: Solution:  C = C(N - 2) + C(N - 1) C(1) = 1 C(2) = 2  class Solution { public: int climbStairs(int n) { if (n == 1) return 1; int first = 1, second = 2; for(int i = 3; i \u0026lt;= n; ++i) { int third = first + second; first = second, second = third; } return second; } }; Complexity Analysis:  Time O(N)\nMemory 1\n",
+    "ref": "/hugo/blog/climbing-stairs/"
+  },{
+    "title": "150. Evaluate Reverse Polish Notation",
+    "date": "",
+    "description": "",
+    "body": "https://leetcode.com/problems/evaluate-reverse-polish-notation/\nEvaluate the value of an arithmetic expression in Reverse Polish Notation.\nValid operators are +, -, *, and /. Each operand may be an integer or another expression.\nNote that division between two integers should truncate toward zero.\nIt is guaranteed that the given RPN expression is always valid. That means the expression would always evaluate to a result, and there will not be any division by zero operation.\nIdea: Solution:  class Solution { public: int evalRPN(vector\u0026lt;string\u0026gt;\u0026amp; tokens) { stack\u0026lt;long\u0026gt; s; for (auto \u0026amp;token: tokens) { if (isOperator(token)) { long a = s.top(); s.pop(); long b = s.top(); s.pop(); s.push(compute(a, b, token[0])); } else { s.push(stol(token)); } } return s.top(); } long compute(long a, long b, char op) { switch(op) { case \u0026#39;+\u0026#39;: return b + a; case \u0026#39;-\u0026#39;: return b - a; case \u0026#39;*\u0026#39;: return b * a; default: return b / a; } } bool isOperator(string \u0026amp;c) { return (c[0] == \u0026#39;+\u0026#39; || c[0] == \u0026#39;-\u0026#39; || c[0] == \u0026#39;*\u0026#39; || c[0] == \u0026#39;/\u0026#39;) \u0026amp;\u0026amp; (!isdigit(c[c.size() - 1])); } }; Complexity Analysis:  Time O(N)\nMemory O(N)\n",
+    "ref": "/hugo/blog/reverse-polish-notation/"
+  },{
     "title": "232. Implement Queue using Stacks",
     "date": "",
     "description": "",

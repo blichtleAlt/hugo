@@ -6,7 +6,70 @@
     <description>Recent content in Tags on Brendan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 20 Nov 2022 16:58:28 -0800</lastBuildDate><atom:link href="https://blichtlealt.github.io/hugo/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Nov 2022 19:50:39 -0800</lastBuildDate><atom:link href="https://blichtlealt.github.io/hugo/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>binary search</title>
+      <link>https://blichtlealt.github.io/hugo/tags/binary-search/</link>
+      <pubDate>Tue, 22 Nov 2022 19:50:39 -0800</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/tags/binary-search/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hash table</title>
+      <link>https://blichtlealt.github.io/hugo/tags/hash-table/</link>
+      <pubDate>Tue, 22 Nov 2022 19:50:39 -0800</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/tags/hash-table/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>medium</title>
+      <link>https://blichtlealt.github.io/hugo/tags/medium/</link>
+      <pubDate>Tue, 22 Nov 2022 19:50:39 -0800</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/tags/medium/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dynamic programming</title>
+      <link>https://blichtlealt.github.io/hugo/tags/dynamic-programming/</link>
+      <pubDate>Mon, 21 Nov 2022 20:39:44 -0800</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/tags/dynamic-programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>easy</title>
+      <link>https://blichtlealt.github.io/hugo/tags/easy/</link>
+      <pubDate>Mon, 21 Nov 2022 20:39:44 -0800</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/tags/easy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>math</title>
+      <link>https://blichtlealt.github.io/hugo/tags/math/</link>
+      <pubDate>Mon, 21 Nov 2022 20:39:44 -0800</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/tags/math/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>stack</title>
+      <link>https://blichtlealt.github.io/hugo/tags/stack/</link>
+      <pubDate>Mon, 21 Nov 2022 20:06:39 -0800</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/tags/stack/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>design</title>
       <link>https://blichtlealt.github.io/hugo/tags/design/</link>
@@ -17,38 +80,11 @@
     </item>
     
     <item>
-      <title>easy</title>
-      <link>https://blichtlealt.github.io/hugo/tags/easy/</link>
-      <pubDate>Sun, 20 Nov 2022 16:58:28 -0800</pubDate>
-      
-      <guid>https://blichtlealt.github.io/hugo/tags/easy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>queue</title>
       <link>https://blichtlealt.github.io/hugo/tags/queue/</link>
       <pubDate>Sun, 20 Nov 2022 16:58:28 -0800</pubDate>
       
       <guid>https://blichtlealt.github.io/hugo/tags/queue/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>stack</title>
-      <link>https://blichtlealt.github.io/hugo/tags/stack/</link>
-      <pubDate>Sun, 20 Nov 2022 16:58:28 -0800</pubDate>
-      
-      <guid>https://blichtlealt.github.io/hugo/tags/stack/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>hash table</title>
-      <link>https://blichtlealt.github.io/hugo/tags/hash-table/</link>
-      <pubDate>Sun, 20 Nov 2022 16:26:56 -0800</pubDate>
-      
-      <guid>https://blichtlealt.github.io/hugo/tags/hash-table/</guid>
       <description></description>
     </item>
     
@@ -112,24 +148,6 @@
       <pubDate>Sat, 21 Aug 2021 17:21:49 -0700</pubDate>
       
       <guid>https://blichtlealt.github.io/hugo/tags/backtracking/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>medium</title>
-      <link>https://blichtlealt.github.io/hugo/tags/medium/</link>
-      <pubDate>Sat, 21 Aug 2021 17:21:49 -0700</pubDate>
-      
-      <guid>https://blichtlealt.github.io/hugo/tags/medium/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>dynamic programming</title>
-      <link>https://blichtlealt.github.io/hugo/tags/dynamic-programming/</link>
-      <pubDate>Wed, 23 Dec 2020 04:05:17 -0500</pubDate>
-      
-      <guid>https://blichtlealt.github.io/hugo/tags/dynamic-programming/</guid>
       <description></description>
     </item>
     

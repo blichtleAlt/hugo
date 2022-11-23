@@ -1,0 +1,532 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+<title>981. Time Based Key-Value Store - Brendan&#39;s Blog</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="twitter:card" content="summary_large_image">
+
+<meta property="og:site_name" content="Brendan&#39;s Blog">
+<meta property="og:title" content="981. Time Based Key-Value Store">
+<meta property="og:description" content="">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://blichtlealt.github.io/hugo/blog/time-based-key-value-store/">
+    <meta property="og:image" content="https://blichtlealt.github.io/hugo/img/2019/03/pic26.jpg">
+    <meta property="og:image:alt" content="Desert Scene">
+
+
+  <link rel="manifest" href="/hugo/favicon/site.webmanifest?v=1">
+  <link rel="apple-touch-icon" sizes="180x180" href="/hugo/favicon/apple-touch-icon.png?v=1">
+  <link rel="icon" type="image/png" sizes="32x32" href="/hugo/favicon/favicon-32x32.png?v=1">
+  <link rel="icon" type="image/png" sizes="16x16" href="/hugo/favicon/favicon-16x16.png?v=1">
+  
+    <link rel="mask-icon" href="/hugo/favicon/safari-pinned-tab.svg?v=1" color="#ffffff">
+    <link rel="shortcut icon" href="/hugo/favicon/favicon.ico?v=1">
+    <meta name="msapplication-config" content="/hugo/favicon/browserconfig.xml?v=1">
+  
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+
+  <meta name="generator" content="Hugo 0.96.0" />
+  <link rel="stylesheet" href="/hugo/css/bundle.min.5233f2a4cd515395301b4154f6c1c621695e8cf53faa0935b76ac52fed7f4585.css" integrity="sha256-UjPypM1RU5UwG0FU9sHGIWlejPU/qgk1t2rFL&#43;1/RYU="><link rel="stylesheet" href="/hugo/css/add-on.css">
+</head>
+
+  <body>
+    
+
+<header id="site-header">
+  <nav id="site-nav">
+    <h1 class="nav-title">
+      <a href="/hugo/" class="nav">
+        
+          Blog
+        
+      </a>
+    </h1>
+    <menu id="site-nav-menu" class="flyout-menu menu">
+      
+        
+          
+          <a href="/hugo/" class="nav link"><i class='fa fa-home'></i> Home</a>
+        
+      
+        
+          
+          <a href="/hugo/about/" class="nav link"><i class='far fa-id-card'></i> About</a>
+        
+      
+        
+          
+          <a href="/hugo/blog/" class="nav link"><i class='far fa-newspaper'></i> Blog</a>
+        
+      
+        
+          
+          <a href="/hugo/categories/" class="nav link"><i class='fas fa-sitemap'></i> Categories</a>
+        
+      
+        
+          
+          <a href="/hugo/contact/" class="nav link"><i class='far fa-envelope'></i> Contact</a>
+        
+      
+        
+          
+          <a href="/hugo/tags/" class="nav link"><i class='fa fa-home'></i> Tags</a>
+        
+      
+      <a href="#share-menu" class="nav link share-toggle"><i class="fas fa-share-alt">&nbsp;</i>Share</a>
+      <a href="#search-input" class="nav link search-toggle"><i class="fas fa-search">&nbsp;</i>Search</a>
+    </menu>
+    <a href="#search-input" class="nav search-toggle"><i class="fas fa-search fa-2x">&nbsp;</i></a>
+    <a href="#share-menu" class="nav share-toggle"><i class="fas fa-share-alt fa-2x">&nbsp;</i></a>
+    <a href="#lang-menu" class="nav lang-toggle" lang="en">en</a>
+    <a href="#site-nav" class="nav nav-toggle"><i class="fas fa-bars fa-2x"></i></a>
+  </nav>
+  <menu id="search" class="menu"><input id="search-input" class="search-input menu"></input><div id="search-results" class="search-results menu"></div></menu>
+  <menu id="lang-menu" class="flyout-menu menu">
+  <a href="#" lang="en" class="nav link active">English (en)</a>
+  
+    
+      
+    
+      
+        <a href="/hugo/fr" lang="fr" class="nav no-lang link">Français (fr)</a>
+      
+    
+      
+        <a href="/hugo/pl" lang="pl" class="nav no-lang link">Polski (pl)</a>
+      
+    
+      
+        <a href="/hugo/pt" lang="pt" class="nav no-lang link">Português (pt)</a>
+      
+    
+      
+        <a href="/hugo/de" lang="de" class="nav no-lang link">Deutsche (de)</a>
+      
+    
+      
+        <a href="/hugo/es" lang="es" class="nav no-lang link">Española (es)</a>
+      
+    
+      
+        <a href="/hugo/zh-cn" lang="zh-cn" class="nav no-lang link">中文 (zh-cn)</a>
+      
+    
+      
+        <a href="/hugo/zh-tw" lang="zh-tw" class="nav no-lang link">中文 (zh-tw)</a>
+      
+    
+      
+        <a href="/hugo/ja" lang="ja" class="nav no-lang link">日本語 (ja)</a>
+      
+    
+      
+        <a href="/hugo/nl" lang="nl" class="nav no-lang link">Nederlands (nl)</a>
+      
+    
+  
+</menu>
+
+  
+    <menu id="share-menu" class="flyout-menu menu">
+      <h1>Share Post</h1>
+      
+
+
+
+
+
+    </menu>
+  
+</header>
+
+    <div id="wrapper">
+      <section id="site-intro" >
+  <a href="/hugo/"><img src="/hugo/img/main/logo.jpg" class="circle" width="100%" alt="Logo" /></a>
+  <header>
+    <h1>Brendan's Blog</h1>
+  </header>
+  <main>
+    <p>Come for computer science and tech related blog posts. </p>
+  </main>
+  
+    <footer>
+      <ul class="socnet-icons">
+        
+
+        <li><a href="//github.com/blichtleAlt" target="_blank" rel="noopener" title="GitHub" class="fab fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//www.linkedin.com/in/blichtle" target="_blank" rel="noopener" title="LinkedIn" class="fab fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="mailto:blichtle@umich.edu" target="_blank" title="Email" class="far fa-envelope"></a></li>
+
+      </ul>
+    </footer>
+  
+</section>
+
+      <main id="site-main">
+        
+  <article>
+    <div class="post">
+      <header>
+  <div class="title">
+    
+      <h2><a href="/hugo/blog/time-based-key-value-store/">981. Time Based Key-Value Store</a></h2>
+    
+    
+  </div>
+  <div class="meta">
+    <time datetime="2022-11-22 19:50:39 -0800 PST">November 22, 2022</time>
+    <p>Brendan Lichtler </p>
+    <p>1-Minute Read</p>
+  </div>
+</header>
+
+      <div id="socnet-share">
+        
+
+
+
+
+
+      </div>
+      <div class="content">
+        <a href="/hugo/blog/time-based-key-value-store/" class="image" style="--bg-image: url('/hugo/img/2019/03/pic26.jpg');">
+    <img class="" src="/hugo/img/2019/03/pic26.jpg" alt="Desert Scene">
+  </a>
+        
+        <p><a href="https://leetcode.com/problems/time-based-key-value-store/">https://leetcode.com/problems/time-based-key-value-store/</a></p>
+<p>Design a time-based key-value data structure that can store multiple values for the same key at different time stamps and retrieve the key&rsquo;s value at a certain timestamp.</p>
+<p>Implement the TimeMap class:</p>
+<p>TimeMap() Initializes the object of the data structure.
+void set(String key, String value, int timestamp) Stores the key key with the value value at the given time timestamp.
+String get(String key, int timestamp) Returns a value such that set was called previously, with timestamp_prev &lt;= timestamp. If there are multiple such values, it returns the value associated with the largest timestamp_prev. If there are no values, it returns &ldquo;&rdquo;.</p>
+<h3>Idea:</h3>
+<h3>Solution:</h3>
+<pre tabindex="0"><code>
+class TimeMap {
+public:
+    unordered_map&lt;string, map&lt;int, string&gt;&gt; s;
+
+    TimeMap() {
+
+    }
+    
+    void set(string key, string value, int timestamp) {
+        s[key][timestamp] = value;
+    }
+    
+    string get(string key, int timestamp) {
+        auto it = s[key].upper_bound(timestamp);
+
+        if (it == s[key].begin()) {
+            return &#34;&#34;;
+        } 
+        return (--it)-&gt;second;
+    }
+};
+</code></pre><h3>Complexity Analysis:</h3>
+<hr>
+<h5><b>Time</b></h5>
+<p>Set is O(1) constant time. O(N) worst case if the map resizes, amortized O(1)</p>
+<p>Get is O(log(N)) for upper bound on map using binary search</p>
+<h5><b>Memory</b></h5>
+<p>O( N * T ) where N is number of keys and T is max number of timestamps for a key</p>
+
+      </div>
+      <footer>
+        <div class="stats">
+  
+    <ul class="categories">
+      
+        
+          <li><a class="article-terms-link" href="/hugo/categories/design/">design</a></li>
+        
+      
+    </ul>
+  
+  
+    <ul class="tags">
+      
+        
+          <li><a class="article-terms-link" href="/hugo/tags/hash-table/">hash table</a></li>
+        
+          <li><a class="article-terms-link" href="/hugo/tags/medium/">medium</a></li>
+        
+          <li><a class="article-terms-link" href="/hugo/tags/binary-search/">binary search</a></li>
+        
+      
+    </ul>
+  
+</div>
+
+      </footer>
+    </div>
+    
+      
+  <div class='post'>
+    
+    <div>
+      <h2 id='say-something'>Say Something</h2>
+        <form id='comment-form' class='new-comment' method='POST'>
+          
+          <h3 class='reply-notice hidden'>
+            <span class='reply-name'></span>
+            <a class='reply-close-btn button'><i class='fas fa-times'></i></a>
+          </h3>
+
+          
+          <input type='hidden' name='options[entryId]' value='95bb46a8a09d1504a2327699b4585654'>
+          <input type='hidden' name='fields[replyThread]' value=''>
+          <input type='hidden' name='fields[replyID]' value=''>
+          <input type='hidden' name='fields[replyName]' value=''>
+
+          
+          <input required name='fields[name]' type='text' placeholder='Your Name'>
+          <input name='fields[website]' type='text' placeholder='Your Website'>
+          <input required name='fields[email]' type='email' placeholder='Your Email'>
+          <textarea required name='fields[body]' placeholder='Your Message' rows='10'></textarea>
+
+          
+          
+
+          
+          <div class='submit-notice'>
+            <strong class='submit-notice-text submit-success hidden'>Thanks for your comment! It will be shown on the site once it has been approved.</strong>
+            <strong class='submit-notice-text submit-failed hidden'>Sorry, there was an error with your submission. Please make sure all required fields have been completed and try again.</strong>
+          </div>
+
+          
+          <button type='button' id="comment-form-submit" class='button'>Submit</button>
+          <button type='button' id="comment-form-submitted" class='hidden button' disabled>Submitted</button>
+          <button type='reset' id="comment-form-reset" class='button'>Reset</button>
+        </form>
+    </div>
+
+    
+    <div class='comments-container'>
+      <h2>Comments</h2><p>Nothing yet.</p>
+      
+    </div>
+  </div>
+
+
+    
+  </article>
+  <div class="pagination">
+    
+    
+      <a href="/hugo/blog/climbing-stairs/" class="button right"><span>70. Climbing Stairs</span></a>
+    
+  </div>
+
+      </main>
+      <section id="site-sidebar">
+  
+    <section id="recent-posts">
+      <header>
+        <h1>Recent Posts</h1>
+      </header>
+      
+      <article class="mini-post">
+          <a href="/hugo/blog/time-based-key-value-store/" class="image" style="--bg-image: url('/hugo/img/2019/03/pic26.jpg');">
+    <img class="" src="/hugo/img/2019/03/pic26.jpg" alt="Desert Scene">
+  </a>
+        <header>
+          <h2><a href="/hugo/blog/time-based-key-value-store/">981. Time Based Key-Value Store</a></h2>
+          <time class="published" datetime="2022-11-22 19:50:39 -0800 PST">November 22, 2022</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+          <a href="/hugo/blog/climbing-stairs/" class="image" style="--bg-image: url('/hugo/img/2019/03/pic25.jpg');">
+    <img class="" src="/hugo/img/2019/03/pic25.jpg" alt="Desert Scene">
+  </a>
+        <header>
+          <h2><a href="/hugo/blog/climbing-stairs/">70. Climbing Stairs</a></h2>
+          <time class="published" datetime="2022-11-21 20:39:44 -0800 PST">November 21, 2022</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+          <a href="/hugo/blog/reverse-polish-notation/" class="image" style="--bg-image: url('/hugo/img/2019/03/pic24.jpg');">
+    <img class="" src="/hugo/img/2019/03/pic24.jpg" alt="Desert Scene">
+  </a>
+        <header>
+          <h2><a href="/hugo/blog/reverse-polish-notation/">150. Evaluate Reverse Polish Notation</a></h2>
+          <time class="published" datetime="2022-11-21 20:06:39 -0800 PST">November 21, 2022</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+          <a href="/hugo/blog/queue-with-stacks/" class="image" style="--bg-image: url('/hugo/img/2019/03/pic23.jpg');">
+    <img class="" src="/hugo/img/2019/03/pic23.jpg" alt="Desert Scene">
+  </a>
+        <header>
+          <h2><a href="/hugo/blog/queue-with-stacks/">232. Implement Queue using Stacks</a></h2>
+          <time class="published" datetime="2022-11-20 16:58:28 -0800 PST">November 20, 2022</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+          <a href="/hugo/blog/linked-list-cycle/" class="image" style="--bg-image: url('/hugo/img/2019/03/pic22.jpg');">
+    <img class="" src="/hugo/img/2019/03/pic22.jpg" alt="Desert Scene">
+  </a>
+        <header>
+          <h2><a href="/hugo/blog/linked-list-cycle/">141. Linked List Cycle</a></h2>
+          <time class="published" datetime="2022-11-20 16:26:56 -0800 PST">November 20, 2022</time>
+        </header>
+      </article>
+      
+      
+        <footer>
+          <a href="/hugo/hugo/blog/" class="button">See More</a>
+        </footer>
+      
+    </section>
+  
+
+  
+    
+
+      <section id="categories">
+        <header>
+          <h1><a href="/hugo/categories">Categories</a></h1>
+        </header>
+        <ul>
+          
+          
+          <li>
+              <a href="/hugo/categories/algorithms/">algorithms<span class="count">21</span></a>
+          
+          <li>
+              <a href="/hugo/categories/data-structures/">data-structures<span class="count">2</span></a>
+          
+          <li>
+              <a href="/hugo/categories/design/">design<span class="count">1</span></a>
+          
+          </li>
+        </ul>
+      </section>
+    
+  
+
+  
+    <section id="mini-bio">
+      <header>
+        <h1>About</h1>
+      </header>
+      <p>Blog designed for tech and computer science content.</p>
+      <footer>
+        <a href="/hugo/about" class="button">Learn More</a>
+      </footer>
+    </section>
+  
+</section>
+
+      <footer id="site-footer">
+  
+      <ul class="socnet-icons">
+        
+
+        <li><a href="//github.com/blichtleAlt" target="_blank" rel="noopener" title="GitHub" class="fab fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//www.linkedin.com/in/blichtle" target="_blank" rel="noopener" title="LinkedIn" class="fab fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="mailto:blichtle@umich.edu" target="_blank" title="Email" class="far fa-envelope"></a></li>
+
+      </ul>
+  
+  <p class="copyright">
+    © 2022 Brendan&#39;s Blog
+      <br>
+    Theme: <a href='https://github.com/pacollins/hugo-future-imperfect-slim' target='_blank' rel='noopener'>Hugo Future Imperfect Slim</a><br>A <a href='https://html5up.net/future-imperfect' target='_blank' rel='noopener'>HTML5 UP port</a> | Powered by <a href='https://gohugo.io/' title='0.96.0' target='_blank' rel='noopener'>Hugo</a>
+  </p>
+</footer>
+<a id="back-to-top" href="#" class="fas fa-arrow-up fa-2x"></a>
+
+      <script src="/hugo/js/highlight.js"></script>
+    
+    <script>hljs.highlightAll();</script><script src="/hugo/js/bundle.min.12d71f4b347de87ce4ceb79ca9c472b179f87487ee8385353a7c6e2c9bc61e14.js" integrity="sha256-EtcfSzR96HzkzrecqcRysXn4dIfug4U1OnxuLJvGHhQ="></script>
+    <script src="/hugo/js/add-on.js"></script>
+    </div>
+  </body>
+</html>

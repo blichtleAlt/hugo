@@ -6,7 +6,19 @@
     <description>Recent content in hash table on Brendan&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 20 Nov 2022 16:26:56 -0800</lastBuildDate><atom:link href="https://blichtlealt.github.io/hugo/tags/hash-table/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Nov 2022 19:50:39 -0800</lastBuildDate><atom:link href="https://blichtlealt.github.io/hugo/tags/hash-table/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>981. Time Based Key-Value Store</title>
+      <link>https://blichtlealt.github.io/hugo/blog/time-based-key-value-store/</link>
+      <pubDate>Tue, 22 Nov 2022 19:50:39 -0800</pubDate>
+      
+      <guid>https://blichtlealt.github.io/hugo/blog/time-based-key-value-store/</guid>
+      <description>https://leetcode.com/problems/time-based-key-value-store/
+Design a time-based key-value data structure that can store multiple values for the same key at different time stamps and retrieve the key&amp;rsquo;s value at a certain timestamp.
+Implement the TimeMap class:
+TimeMap() Initializes the object of the data structure. void set(String key, String value, int timestamp) Stores the key key with the value value at the given time timestamp. String get(String key, int timestamp) Returns a value such that set was called previously, with timestamp_prev &amp;lt;= timestamp.</description>
+    </item>
+    
     <item>
       <title>141. Linked List Cycle</title>
       <link>https://blichtlealt.github.io/hugo/blog/linked-list-cycle/</link>
